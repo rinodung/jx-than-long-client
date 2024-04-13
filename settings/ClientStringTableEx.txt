@@ -1,0 +1,34 @@
+enum_core	string
+MESSAGE_BROADCAST_ANNOUCE_HEAD	C«ng bè
+MESSAGE_SYSTEM_HEAD	HÖ thèng
+ACTION_TOO_FAST	Thao t¸c qu¸ nhanh! Thö l¹i sau %d mili gi©y!
+FUNCTION_NOT_ACTIVATED	Chøc n¨ng ®ang t¹m khãa!
+NOT_ENOUGH_MONEY	Kh«ng ®ñ ng©n l­îng!
+TRADE_INFO_TITLE	Th«ng tin giao dÞch
+TRADE_INFO_PLAYER_NAME	Nh©n vËt: 
+TRADE_INFO_PLAYER_LEVEL	§¼ng cÊp: 
+TRADE_INFO_PLAYER_TRANSLIFE	Trïng sinh: 
+TRADE_INFO_PLAYER_RANKTITLE	X­ng hiÖu: 
+TRADE_INFO_PLAYER_RANKTITLE_UNKNOWN	Ch­a cã
+TRADE_INFO_PLAYER_WORLD_RANK	H¹ng: 
+TRADE_INFO_PLAYER_TONG_NAME	Bang héi: 
+TRADE_INFO_PLAYER_TONG_NAME_UNKNOWN	Ch­a cã
+TRADE_INFO_WARNING	Chó ý: CÈn thËn lõa ®¶o! KiÓm tra th«ng tin ng­êi ®ang giao dÞch tr­íc khi x¸c nhËn vµ kÕt thóc giao dÞch! BQT sÏ kh«ng chÞu tr¸ch nhiÖm c¸c vÊn ®Ò vÒ giao dÞch trong game
+UI_LUCKY_TURN_TABLE_TIMES_AWARD_BUTTON_NAME	%d lÇn
+UI_LUCKY_TURN_TABLE_TIMES_AWARD_BUTTON_TIPS	Sö dông Vßng Quay May M¾n <color=yellow>%d<color> lÇn cã thÓ nhËn ®­îc
+UI_LUCKY_TURN_TABLE_TIMES_TIPS	C¸c h¹ ®· sö dông Vßng Quay %d lÇn.
+UI_CLOSE_BUTTON	§ãng
+UI_LUCKY_TURN_TABLE_CAN_NOT_CLOSE	Vßng quay ®ang quay, kh«ng thÓ t¾t!
+UI_LUCKY_TURN_TABLE_PLAY_ERROR_1	Vßng quay ®ang quay, vui lßng ®îi!
+UI_LUCKY_TURN_TABLE_PLAY_ERROR_2	Vui lßng nhËn th­ëng tr­íc khi thùc hiÖn quay vßng quay!
+UI_LUCKY_TURN_TABLE_PLAY_ERROR_3	§· cã lçi x¶y ra! Vui lßng liªn hÖ ban qu¶n trÞ!
+UI_LUCKY_TURN_TABLE_PLAY_ERROR_4	§ang quay vßng quay, kh«ng thÓ thao t¸c!
+UI_LUCKY_TURN_TABLE_PLAY_ERROR_5	§ang nhËn th­ëng, kh«ng thÓ thao t¸c!
+UI_LUCKY_TURN_TABLE_PLAY_ERROR_6	Kh«ng ®ñ ThÎ Quay Sè!
+UI_LUCKY_TURN_TABLE_PLAY_ERROR_7	Hµnh trang kh«ng ®ñ chæ trèng!
+UI_LUCKY_TURN_TABLE_PLAY_ERROR_8	Kh«ng thÓ khÊu trõ ThÎ Quay Sè!
+UI_LUCKY_TURN_TABLE_AWARD_ERROR_1	§· cã lçi x¶y ra! Vui lßng liªn hÖ Admin
+UI_LUCKY_TURN_TABLE_AWARD_ERROR_2	Kh«ng cã phÇn th­ëng
+UI_LUCKY_TURN_TABLE_AWARD_ERROR_3	Hµnh trang kh«ng ®ñ chæ trèng!
+UI_LUCKY_TURN_TABLE_AWARD_ERROR_4	Lçi phÇn th­ëng! Vui lßng liªn hÖ Admin
+UI_LUCKY_TURN_TABLE_AWARD_ERROR_5	NhËn th­ëng thÊt b¹i!

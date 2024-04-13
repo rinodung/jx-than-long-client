@@ -1,0 +1,39 @@
+×°±¸Ãû³Æ	µ¶¶ÜÕ¾Á¢1	¶Üµ¶Õ¾Á¢1	¿ÕÊÖÕ¾Á¢1	¿ÕÊÖÕ¾Á¢2	¿ÕÊÖÕ¾Á¢3	¶ÌÎäÆ÷Õ¾Á¢	³¤ÎäÆ÷Õ¾Á¢	Ë«ÎäÆ÷Õ¾Á¢	µ¶¶ÜÎäÆ÷Õ¾Á¢	¶Üµ¶ÎäÆ÷Õ¾Á¢	ÇÙÕ½¶·Õ¾Á¢	ÇÙ·ÇÕ½¶·Õ¾Á¢	¿ÕÊÖ×ßÂ·	ÆÕÍ¨×ßÂ·	¶ÌÎäÆ÷×ßÂ·	³¤ÎäÆ÷×ßÂ·	Ë«ÎäÆ÷×ßÂ·	µ¶¶ÜÎäÆ÷×ßÂ·	¶Üµ¶ÎäÆ÷×ßÂ·	ÇÙ×ßÂ·	¿ÕÊÖÅÜ²½	ÆÕÍ¨ÅÜ²½	¶ÌÎäÆ÷ÅÜ²½	³¤ÎäÆ÷ÅÜ²½	Ë«ÎäÆ÷ÅÜ²½	µ¶¶ÜÎäÆ÷ÅÜ²½	¶Üµ¶ÎäÆ÷ÅÜ²½	ÇÙÎäÆ÷ÅÜ²½	¿ÕÊÖÊÜÉË	¶ÌÎäÆ÷ÊÜÉË	³¤ÎäÆ÷ÊÜÉË	Ë«ÎäÆ÷ÊÜÉË	µ¶¶ÜÎäÆ÷ÊÜÉË	¶Üµ¶ÎäÆ÷ÊÜÉË	ÇÙÎäÆ÷ÊÜÉË	¿ÕÊÖËÀÍö	¶ÌÎäÆ÷ËÀÍö	³¤ÎäÆ÷ËÀÍö	Ë«ÎäÆ÷ËÀÍö	µ¶¶ÜÎäÆ÷ËÀÍö	¶Üµ¶ÎäÆ÷ËÀÍö	ÇÙÎäÆ÷ËÀÍö	¿ÕÊÖ¹¥»÷	¶ÌÎäÆ÷´Ì	¶ÌÎäÆ÷¿³	³¤ÎäÆ÷´Á	³¤ÎäÆ÷Åü	Ë«ÎäÆ÷»®	Ë«ÎäÆ÷ÔÒ	µ¶¶ÜÎäÆ÷»®	µ¶¶ÜÎäÆ÷¿³	¶Üµ¶ÎäÆ÷»®	¶Üµ¶ÎäÆ÷¿³	ÇÙÎäÆ÷¹¥»÷1	ÇÙÎäÆ÷¹¥»÷2	°µÆ÷Í¶ÖÀ	¿ÕÊÖÄ§·¨	¶ÌÎäÆ÷Ä§·¨	³¤ÎäÆ÷Ä§·¨	Ë«ÎäÆ÷Ä§·¨	µ¶¶ÜÎäÆ÷Ä§·¨	¶Üµ¶ÎäÆ÷Ä§·¨	ÇÙÎäÆ÷Ä§·¨	´ò×ø	ÌøÔ¾	ÆïÂíÕ¾Á¢	ÆïÂí×ß¶¯	ÆïÂíÅÜ²½	ÆïÂí¹¥»÷Åü	ÆïÂí¹¥»÷´Ì	ÆïÂíÄ§·¨	ÆïÂíÊÜÉË	ÆïÂíËÀÍö	ÆïÂíÕ¾Á¢1	ÆïÂíÕ¾Á¢2
+Ngùa 1																																																																											
+Ngùa 2																																																																											
+Ngùa 3																																																																											
+Ngùa 4																																																																											
+Ngùa 5																																																																											
+Ngùa 6																																																																											
+Ngùa 7																																																																											
+Ngùa 8																																																																											
+Ngùa 9																																																																											
+Ngùa 10																																																																											
+Ngùa 11																																																																											
+Ngùa 12																																																																											
+Ngùa sè 13																																																																											
+Ngùa 14																																																																											
+Ngùa 15																																																																											
+Ngùa 16																																																																											
+Ngùa 17																																																																											
+Ngùa 18																																																																											
+Ngùa 19																																																																											
+Ngùa 20																																																																											
+Ngùa 21																																																																											
+Ngùa 22																																																																											
+Ngùa 23																																																																		horse_effect_a.spr	horse_effect_a.spr	horse_effect_a.spr	horse_effect_a.spr	horse_effect_a.spr	horse_effect_a.spr	horse_effect_a.spr	horse_effect_a.spr	horse_effect_a.spr	horse_effect_a.spr
+Ngùa 24																																																																											
+Ngùa 25																																																																											
+Ngùa 26																																																																											
+Ngùa 27																																																																											
+Ngùa 28																																																																											
+Ngùa 29																																																																											
+Ngùa 30																																																																											
+Ngùa 31																																																																											
+Ngùa 32																																																																											
+Ngùa 33																																																																											
+Ngùa 34																																																																											
+Ngùa 35																																																																											
+Ngùa 36																																																																											
+Ngùa 37																																																																											
+Ngùa 38																																																																											
