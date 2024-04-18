@@ -1,20 +1,85 @@
---迭代函数，用于计算技能熟练度
---具体方法：
---根据1级熟练度，升级加速度，级数，重复伤害次数，范围，计算出相应等级熟练度
--- SkillExp(i) = Exp1*a^(i-1)*time*range
-function SkillExpFunc(Exp0,a,Level,Time,Range)
-	return floor(Exp0*(a^(Level-1))*Time*Range/2)
-end
-
 SKILLS={
-	chunyangwuji={
-		freezetimereduce_p={{{1,5},{10,30}},{{1,18*30},{10,18*90}}},
+	thieulam={
+		attackspeed_v={{{1,1},{30,10},{31,11}},{{1,-1},{2,-1}}},
+		addphysicsdamage_v={{{1,1},{30,30}},{{1,-1},{2,-1}}},
+		addphysicsdamage_p={{{1,2},{30,60}},{{1,-1},{2,-1}}},
+	},
+	thienvuong={
+		attackrating_v={{{1,4},{30,120}},{{1,-1},{2,-1}}},
+		ignoredefense_p={{{1,1},{30,1}},{{1,-1},{2,-1}}},
+		addphysicsdamage_v={{{1,1},{30,30}},{{1,-1},{2,-1}}},
+		addphysicsdamage_p={{{1,2},{30,60}},{{1,-1},{2,-1}}},
+	},
+	duongmon={
+		attackspeed_v={{{1,1},{30,10},{31,11}},{{1,-1},{2,-1}}},
+		addphysicsdamage_v={{{1,1},{30,30}},{{1,-1},{2,-1}}},
+		addphysicsdamage_p={{{1,2},{30,60}},{{1,-1},{2,-1}}},
+	},
+	ngudoc={
+		addpoisonmagic_v={{{1,1},{30,30}},{{1,-1},{2,-1}}},
+		addpoisondamage_v={{{1,1},{30,30}},{{1,-1},{2,-1}}},
+		castspeed_v={{{1,1},{30,10},{31,11}},{{1,-1},{2,-1}}},
+		attackspeed_v={{{1,1},{30,10},{31,11}},{{1,-1},{2,-1}}},
+		addphysicsdamage_v={{{1,1},{30,30}},{{1,-1},{2,-1}}},
+		addphysicsdamage_p={{{1,2},{30,60}},{{1,-1},{2,-1}}},
+	},
+	ngamy={
+		castspeed_v={{{1,1},{30,10},{31,11}},{{1,-1},{2,-1}}},
+		attackspeed_v={{{1,1},{30,10},{31,11}},{{1,-1},{2,-1}}},
+		addcoldmagic_v={{{1,5},{30,150}},{{1,-1},{2,-1}}},
+		addphysicsdamage_v={{{1,1},{30,30}},{{1,-1},{2,-1}}},
+		addphysicsdamage_p={{{1,2},{30,60}},{{1,-1},{2,-1}}},
+	},
+	thuyyen={
+		addphysicsmagic_v={{{1,7},{30,210}},{{1,-1},{2,-1}}},
+		castspeed_v={{{1,1},{30,10},{31,11}},{{1,-1},{2,-1}}},
+		attackspeed_v={{{1,1},{30,10},{31,11}},{{1,-1},{2,-1}}},
+		addphysicsdamage_v={{{1,1},{30,30}},{{1,-1},{2,-1}}},
+		addphysicsdamage_p={{{1,2},{30,60}},{{1,-1},{2,-1}}},
+	},
+	caibang={
+		addfiremagic_v={{{1,5},{30,150}},{{1,-1},{2,-1}}},
+		castspeed_v={{{1,1},{30,10},{31,11}},{{1,-1},{2,-1}}},
+		attackspeed_v={{{1,1},{30,10},{31,11}},{{1,-1},{2,-1}}},
+		addphysicsdamage_v={{{1,1},{30,30}},{{1,-1},{2,-1}}},
+		addphysicsdamage_p={{{1,2},{30,60}},{{1,-1},{2,-1}}},
+	},
+	thiennhan={
+		addfiremagic_v={{{1,5},{30,150}},{{1,-1},{2,-1}}},
+		castspeed_v={{{1,1},{30,10},{31,11}},{{1,-1},{2,-1}}},
+		attackspeed_v={{{1,1},{30,10},{31,11}},{{1,-1},{2,-1}}},
+		addphysicsdamage_v={{{1,1},{30,30}},{{1,-1},{2,-1}}},
+		addphysicsdamage_p={{{1,2},{30,60}},{{1,-1},{2,-1}}},
+	},
+	vodang={
+		addlightingmagic_v={{{1,5},{30,150}},{{1,-1},{2,-1}}},
+		castspeed_v={{{1,1},{30,10},{31,11}},{{1,-1},{2,-1}}},
+		attackspeed_v={{{1,1},{30,10},{31,11}},{{1,-1},{2,-1}}},
+		addphysicsdamage_v={{{1,1},{30,30}},{{1,-1},{2,-1}}},
+		addphysicsdamage_p={{{1,2},{30,60}},{{1,-1},{2,-1}}},
+	},
+	conlon={
+		addlightingmagic_v={{{1,7},{30,150}},{{1,-1},{2,-1}}},
+		castspeed_v={{{1,1},{30,10},{31,11}},{{1,-1},{2,-1}}},
+		attackspeed_v={{{1,1},{30,10},{31,11}},{{1,-1},{2,-1}}},
+		addphysicsdamage_v={{{1,1},{30,30}},{{1,-1},{2,-1}}},
+		addphysicsdamage_p={{{1,2},{30,60}},{{1,-1},{2,-1}}},
+	},
+	hoason={
+		castspeed_v={{{1,1},{30,10},{31,11}},{{1,-1},{2,-1}}},
+		attackspeed_v={{{1,1},{30,10},{31,11}},{{1,-1},{2,-1}}},
+		addcoldmagic_v={{{1,5},{30,150}},{{1,-1},{2,-1}}},
+		addphysicsdamage_v={{{1,1},{30,30}},{{1,-1},{2,-1}}},
+		addphysicsdamage_p={{{1,2},{30,60}},{{1,-1},{2,-1}}},
+	},
+	tieudao={
+		addlightingmagic_v={{{1,7},{30,150}},{{1,-1},{2,-1}}},
+		castspeed_v={{{1,1},{30,10},{31,11}},{{1,-1},{2,-1}}},
+		attackspeed_v={{{1,1},{30,10},{31,11}},{{1,-1},{2,-1}}},
+		addphysicsdamage_v={{{1,1},{30,30}},{{1,-1},{2,-1}}},
+		addphysicsdamage_p={{{1,2},{30,60}},{{1,-1},{2,-1}}},
 	},
 }
------------------------------------------------
---Create by yfeng 2004-05-20
------------------------------------------------
-
 -----------------------------------------------
 --根据2个点，求线形函数f(x)=k*x+b
 --y= (y2-y1)*(x-x1)/(x2-x1)+y1
@@ -164,6 +229,9 @@ function GetSkillLevelData(levelname, data, level)
 	end
 	if(SKILLS[data][levelname]==nil) then
 		return ""
+	end
+	if(type(SKILLS[data][levelname]) == "function") then
+		return SKILLS[data][levelname](level)
 	end
 	if(SKILLS[data][levelname][1]==nil) then
 		SKILLS[data][levelname][1]={{0,0},{20,0}}

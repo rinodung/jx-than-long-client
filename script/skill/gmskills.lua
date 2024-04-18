@@ -1,8 +1,9 @@
 
-Include("\\script\\skill\\head.lua")
+Include("\\script\\skill\\head.lua");
 function SkillExpFunc(Exp0,a,Level,Time,Range)
 	return floor(Exp0*(a^(Level-1))*Time*Range/2)
 end
+
 SKILLS={
 	gmhide={ --GMÒþÉí
 		hide = {
