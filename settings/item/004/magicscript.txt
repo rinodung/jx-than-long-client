@@ -1006,10 +1006,10 @@ Hép L«i ThÇn Ngäc	6	1	1001	\spr\item\script\item_chrismasbox.spr	377	1	1	Trong c
 Hép HuyÒn B¨ng Ngäc	6	1	1002	\spr\item\script\item_chrismasbox.spr	377	1	1	Trong chøa  10 HuyÒn B¨ng Ngäc		10000	1	0	\script\item\xinnianlibao\xinniangift.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
 Hép B¨ng S­¬ng HiÖu gi¸c 	6	1	1003	\spr\item\script\item_chrismasbox.spr	377	1	1	Trong chøa  10 B¨ng S­¬ng HiÖu gi¸c 		10000	1	0	\script\item\xinnianlibao\xinniangift.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
 Hép B¹o L«i HiÖu gi¸c	6	1	1004	\spr\item\script\item_chrismasbox.spr	377	1	1	Trong chøa 10 B¹o L«i HiÖu gi¸c		10000	1	0	\script\item\xinnianlibao\xinniangift.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
-H¹t May m¾n 	6	1	1005	\spr\item\questkey\seed_lucky.spr	380	1	1	"nhÊn chuét ph¶i ®Ó trång, nÕu thµnh c«ng sÏ nhËn ®­îc quµ Noel."		50	1	0	\script\item\seed_lucky.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
-H¹t Hoa Hång  	6	1	1006	\spr\item\questkey\seed_rose.spr	380	1	1	"nhÊn chuét ph¶i ®Ó trång, nÕu thµnh c«ng sÏ nhËn ®­îc quµ Noel."		50	1	0	\script\item\seed_rose.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
-H¹t Thñy Tinh	6	1	1007	\spr\item\questkey\seed_crystal.spr	380	1	1	"nhÊn chuét ph¶i ®Ó trång, nÕu thµnh c«ng sÏ nhËn ®­îc quµ Noel."		50	1	0	\script\item\seed_crystal.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
-H¹t Hoµng Kim	6	1	1008	\spr\item\questkey\seed_gold.spr	380	1	1	"nhÊn chuét ph¶i ®Ó trång, nÕu thµnh c«ng sÏ nhËn ®­îc quµ Noel."		50	1	0	\script\item\seed_gold.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
+H¹t May m¾n 	6	1	1005	\spr\item\questkey\seed_lucky.spr	380	1	1	"NhÊn chuét ph¶i ®Ó sö dông, ®¸nh c©y th«ng sÏ ®­îc nhiÒu kinh nghiÖm kü n¨ng."		50	1	0	\script\item\seed_lucky.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
+H¹t Hoa Hång  	6	1	1006	\spr\item\questkey\seed_rose.spr	380	1	1	"NhÊn chuét ph¶i ®Ó sö dông, ®¸nh c©y th«ng sÏ ®­îc nhiÒu kinh nghiÖm kü n¨ng."		50	1	0	\script\item\seed_rose.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
+H¹t Thñy Tinh	6	1	1007	\spr\item\questkey\seed_crystal.spr	380	1	1	"NhÊn chuét ph¶i ®Ó sö dông, ®¸nh c©y th«ng sÏ ®­îc nhiÒu kinh nghiÖm kü n¨ng."		50	1	0	\script\item\seed_crystal.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
+H¹t Hoµng Kim	6	1	1008	\spr\item\questkey\seed_gold.spr	380	1	1	"NhÊn chuét ph¶i ®Ó sö dông, ®¸nh c©y th«ng sÏ ®­îc nhiÒu kinh nghiÖm kü n¨ng."		50	1	0	\script\item\seed_gold.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
 Ma Tóy HiÖu gi¸c	6	1	1009	\spr\item\songjin\clarion.spr	386	1	1	Sö dông khiÕn ®èi ph­¬ng bŞ cho¸ng trong 5 gi©y		10000	1	1	\script\item\chrismas\xuantianzhen.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
 CÊp §«ng HiÖu gi¸c	6	1	1010	\spr\item\songjin\clarion.spr	386	1	1	Sö dông khiÕn ®èi ph­¬ng gi¶m tèc ®é trong 10 gi©y		10000	1	1	\script\item\chrismas\xuanyunzhen.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
 ChiÕu th­ Vâ L©m Minh Chñ 	6	1	1011	\spr\item\questkey\taskobj022.spr	41	1	1	ChiÕu th­ cña Vâ L©m minh chñ ph¸t tÆng cho c¸c hiÖp kh¸ch nh©n ngµy tÕt Nguyªn ®¸n		1	1	0	\script\item\newyear2006_item.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
