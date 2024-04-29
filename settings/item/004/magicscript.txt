@@ -5027,3 +5027,6 @@ Tói y tÕ 24h	6	1	5027	\spr\item\script\yunyoulihe.spr	41	1	1	Sö dông nhËn kü n¨n
 Tói y tÕ 7 ngµy(tiÓu)	6	1	5028	\spr\item\script\xianwulihe.spr	41	1	1	Sö dông nhËn kü n¨ng håi phôc 10 néi lùc mçi 0.5 gi©y		0	1	0	\script\item\tui_y_te_7_ngay_tieu.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
 Tói y tÕ 7 ngµy(trung)	6	1	5029	\spr\item\script\xianwulihe.spr	41	1	1	Sö dông nhËn kü n¨ng håi phôc 20 néi lùc mçi 0.5 gi©y		0	1	0	\script\item\tui_y_te_7_ngay_trung.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
 Tói y tÕ 7 ngµy(®¹i)	6	1	5030	\spr\item\script\xianwulihe.spr	41	1	1	Sö dông nhËn kü n¨ng håi phôc 30 néi lùc mçi 0.5 gi©y		0	1	0	\script\item\tui_y_te_7_ngay_dai.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
+Hép quµ ThÇn Long	6	1	5031	\spr\item\script\item_chrismasbox.spr	377	1	1	Hép quµ may m¾n më ra ®­îc nhiÒu vËt phÈm gi¸ trŞ		100	1	0	\script\item\adev\hopquathanlong.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
+Tói tiÒn v¹n	6	1	5032	\spr\item\script\wuhuayulujinnang.spr	41	1	1	BÊm chuét ph¶i ®Ó cã thÓ thu ®­îc ngÉu nhiªn 1-3 v¹n l­îng.		0	1	0	\script\item\goldbag13.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
+M¶nh Hoµng Kim ThÇn Long 	6	1	5033	\spr\item\script\tenglongling.spr	430	1	1	VËt phÈm trong c¸c ho¹t ®éng cã thÓ ghĞp thµnh trang bŞ t¹i lÔ quan		100	1	0	\script\item\manh_hoang_kim_than_long.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
