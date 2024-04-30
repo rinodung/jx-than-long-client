@@ -13,6 +13,6 @@ return Param1..","..Param2..","..Param3
 end;
 
 function Getallres_p(level)
-result=15+level
+result=35+level
 return Param2String(result,12,0)
 end;
