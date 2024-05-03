@@ -319,15 +319,15 @@ G_STR_BATTLE_LEVEL	ßºng c p: %s
 G_STR_BATTLE_PRIMARY	S¨ c p
 G_STR_BATTLE_INTERMEDIATE	Trung c p
 G_STR_BATTLE_ADVANCED	Cao c p
-G_STR_SONG	T
-G_STR_JIN	K
+G_STR_SONG	T: 
+G_STR_JIN	K: 
 G_STR_REN	 
 
 G_STR_KILL_ENEMY_NPC	NPC:
 G_STR_KILL_ENEMY_NUM	Ng≠Íi ch¨i:
 G_STR_SERIES_KILL	Li™n tr∂m hi÷n tπi
 G_STR_WIN_1VS1	Chi’n thæng Æ¨n Æ u 
-G_STR_GET_JEWELLERY	B∏u vÀt:
+G_STR_GET_JEWELLERY	B∏u vÀt:`
 G_STR_GET_FLAG	ßoπt cÍ 
 
 G_STR_BATTLEWAR_START	Tin t¯c quy tæc chi ti’t xin h·i Qu©n Nhu quan hÀu doanh
