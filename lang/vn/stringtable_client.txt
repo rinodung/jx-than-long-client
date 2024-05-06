@@ -523,8 +523,8 @@ G_STR_NW_PIONEER	Tiªn Phong
 
 G_STR_YinYan_TIPS	Yin:%d,Yan:%d
 
-G_STR_MARKET_ORIGINAL	Gi¸ Gèc:         KNB
-G_STR_MARKET_PRICE	Gi¸ Thùc:        KNB
+G_STR_MARKET_ORIGINAL	Gi¸ Gèc:          Xu
+G_STR_MARKET_PRICE	Gi¸ Thùc:         Xu
 G_STR_MARKET_DISCOUNT_PIC	\\spr\\Ui3\\ÂòÂô\\ÐÂÆæÕä¸ó½çÃæ\\%d_vn.spr
 G_STR_TODAY	H«m nay
 G_STR_SOME_DAYS_AGO	Ngµy tr­íc
