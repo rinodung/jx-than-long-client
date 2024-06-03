@@ -4,9 +4,9 @@ B¶o r­¬ng	6	1	0	\spr\item\script\item_goldenbox.spr	367	2	2	Bªn trong chøa 1 b¶o
 Tr­êng MÖnh hoµn	6	0	1	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi 5 phót, sinh lùc t¨ng tèi ®a: 500 ®iÓm"		50	1	0	0	256	1	1	0	1		999	0	0	0	0	0	0	0	0	0
 Gia Bµo hoµn	6	0	2	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi 5 phót, tèc ®é di chuyÓn t¨ng: 20%"		50	1	0	0	257	1	1	0	1		999	0	0	0	0	0	0	0	0	0
 §¹i Lùc hoµn	6	0	3	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi 5 phót, c«ng kÝch vËt lý t¨ng: 100 ®iÓm"		50	1	0	0	258	1	1	0	1		999	0	0	0	0	0	0	0	0	0
-Cao ThiÓm hoµn	6	0	4	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi 5 phót, t¨ng ®é c«ng kÝch chÝnh x¸c: 500 ®iÓm"		50	1	0	0	259	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+Cao ThiÓm hoµn	6	0	4	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi 5 phót, t¨ng ®é nÐ tr¸nh: 500 ®iÓm"		50	1	0	0	259	1	1	0	1		999	0	0	0	0	0	0	0	0	0
 Cao Trung hoµn	6	0	5	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi 5 phót, t¨ng ®é c«ng kÝch chÝnh x¸c: 500 ®iÓm"		50	1	0	0	260	1	1	0	1		999	0	0	0	0	0	0	0	0	0
-Phi Tèc hoµn	6	0	6	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi 5 phót, t¨ng tèc ®éc c«ng kÝch: 50%"		50	1	0	0	261	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+Phi Tèc hoµn	6	0	6	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi 5 phót, t¨ng tèc ®é c«ng kÝch: 50%"		50	1	0	0	261	1	1	0	1		999	0	0	0	0	0	0	0	0	0
 B¨ng Phßng hoµn	6	0	7	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi 5 phót, t¨ng phßng B¨ng: 50%"		50	1	0	0	262	1	1	0	1		999	0	0	0	0	0	0	0	0	0
 L«i Phßng hoµn	6	0	8	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi 5 phót, t¨ng phßng L«i: 50%"		50	1	0	0	263	1	1	0	1		999	0	0	0	0	0	0	0	0	0
 Háa Phßng hoµn	6	0	9	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi 5 phót, t¨ng phßng Háa: 50%"		50	1	0	0	264	1	1	0	1		999	0	0	0	0	0	0	0	0	0
@@ -187,8 +187,8 @@ Phong V©n Néi Háa hoµn	6	1	184	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi t
 Phong V©n Néi L«i hoµn	6	1	185	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 3 phót, L«i s¸t hÖ Néi c«ng t¨ng 100 ®iÓm."		100	1	1	\script\item\battles\sj_neidianwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
 Phong V©n Tr­êng MÖnh hoµn	6	1	186	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 3 phót, sinh mÖnh t¨ng 500 ®iÓm."		100	1	1	\script\item\battles\sj_changmingwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
 Phong V©n Gia Bµo hoµn	6	1	187	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 3 phót, tèc ®é di chuyÓn t¨ng 20%"		100	1	1	\script\item\battles\sj_jiapaowan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
-Phong V©n Cao ThiÓm hoµn	6	1	188	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 3 phót, nÐ tr¸ch t¨ng 500 ®iÓm."		100	1	1	\script\item\battles\sj_gaoshanwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
-Phong V©n Cao Trung hoµn	6	1	189	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 3 phót, nÐ tr¸ch t¨ng 500 ®iÓm."		100	1	1	\script\item\battles\sj_gaozhongwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+Phong V©n Cao ThiÓm hoµn	6	1	188	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 3 phót, nÐ tr¸cn t¨ng 500 ®iÓm."		100	1	1	\script\item\battles\sj_gaoshanwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+Phong V©n Cao Trung hoµn	6	1	189	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 3 phót, chÝnh x¸c t¨ng 500 ®iÓm."		100	1	1	\script\item\battles\sj_gaozhongwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
 Phong V©n Phi Tèc hoµn	6	1	190	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 3 phót, tèc ®é c«ng kÝch t¨ng 50%."		100	1	1	\script\item\battles\sj_feisuwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
 Phong V©n Phæ Phßng hoµn	6	1	191	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 3 phót, phßng Ngù t¨ng 50%."		100	1	1	\script\item\battles\sj_pufangwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
 Phong V©n B¨ng Phßng hoµn	6	1	192	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 3 phót, phßng B¨ng t¨ng 50%."		100	1	1	\script\item\battles\sj_bingfangwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
@@ -5005,16 +5005,16 @@ Háa Liªn Hoa	6	1	5004	\spr\item\yulanpenjie\huolianhua.spr	41	1	1	VËt phÈm bÝ tr
 Thæ Liªn Hoa	6	1	5005	\spr\item\yulanpenjie\tulianhua.spr	41	1	1	VËt phÈm bÝ truyÒn sö dông ®Ó ®æi thuéc tÝnh trang bÞ.		0	1	1	\script\item\noscript.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
 Hoµng Kim M¶nh Trang BÞ B¶o R­¬ng	6	1	5006	\spr\item\script\item_baibaoxiang.spr	41	1	1	Më ra ngÉu nhiªn m¶nh trang bÞ hoµng kim<enter><color=yellow>(NhiÒu ®iÒu bÊt ngê Èn chøa bªn trong)<color>  		100	1	0	\script\item\adev\hoangkimbaoruong.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
 Hoµng Kim Trang BÞ B¶o R­¬ng	6	1	5007	\spr\item\script\item_baibaoxiang.spr	41	1	1	Më ra ngÉu nhiªn mét trang bÞ <enter><color=gold>Hoµng Kim M«n Ph¸i<color>  		100	1	0	\script\item\adev\hoangkimtrangbibaoruong.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
-Tr­êng MÖnh hoµn	6	1	5008	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 5 phót, sinh lùc t¨ng tèi ®a: 500 ®iÓm."		100	1	1	\script\item\battles\sj_changmingwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
-Gia Bµo hoµn	6	1	5009	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 5 phót, t¨ng tèc ®é di chuyÓn: 20%"		100	1	1	\script\item\battles\sj_jiapaowan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
-§¹i lùc hoµn	6	1	5010	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 5 phót, c«ng kÝch vËt lý t¨ng: 100 ®iÓm."		100	1	1	\script\item\battles\sj_feisuwan_7thanh1.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
-Cao ThiÓm hoµn	6	1	5011	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 5 phót, t¨ng ®é c«ng kÝch chÝnh x¸c: 500 ®iÓm."		100	1	1	\script\item\battles\sj_gaoshanwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
-Cao Trung hoµn	6	1	5012	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 5 phót, t¨ng ®é c«ng kÝch chÝnh x¸c: 500 ®iÓm."		100	1	1	\script\item\battles\sj_gaozhongwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
-Phi Tèc hoµn	6	1	5013	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 5 phót, t¨ng tèc ®é c«ng kÝch  50%."		100	1	1	\script\item\battles\sj_feisuwan_7thanh.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
-B¨ng Phßng hoµn	6	1	5014	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 5 phót, t¨ng phßng B¨ng: 50%."		100	1	1	\script\item\battles\sj_bingfangwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
-L«i Phßng hoµn	6	1	5015	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 5 phót, t¨ng phßng L«i: 50%."		100	1	1	\script\item\battles\sj_leifangwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
-Háa Phßng hoµn	6	1	5016	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 5 phót, t¨ng phßng Háa: 50%."		100	1	1	\script\item\battles\sj_huofangwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
-§éc Phßng hoµn	6	1	5017	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 5 phót, t¨ng phßng §éc: 50%."		100	1	1	\script\item\battles\sj_dufangwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+Tr­êng MÖnh hoµn	6	1	5008	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 5 phót, sinh lùc t¨ng tèi ®a: 500 ®iÓm."		100	1	1	\script\item\medicament\sj_changmingwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+Gia Bµo hoµn	6	1	5009	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 5 phót, t¨ng tèc ®é di chuyÓn: 20%"		100	1	1	\script\item\medicament\sj_jiapaowan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+§¹i lùc hoµn	6	1	5010	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 5 phót, c«ng kÝch vËt lý t¨ng: 100 ®iÓm."		100	1	1	\script\item\medicament\sj_feisuwan_7thanh1.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+Cao ThiÓm hoµn	6	1	5011	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 5 phót, t¨ng nÐ tr¸nh : 500 ®iÓm."		100	1	1	\script\item\medicament\sj_gaoshanwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+Cao Trung hoµn	6	1	5012	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 5 phót, t¨ng ®é c«ng kÝch chÝnh x¸c: 500 ®iÓm."		100	1	1	\script\item\medicament\sj_gaozhongwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+Phi Tèc hoµn	6	1	5013	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 5 phót, t¨ng tèc ®é c«ng kÝch  50%."		100	1	1	\script\item\medicament\sj_feisuwan_7thanh.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+B¨ng Phßng hoµn	6	1	5014	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 5 phót, t¨ng phßng B¨ng: 50%."		100	1	1	\script\item\medicament\sj_bingfangwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+L«i Phßng hoµn	6	1	5015	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 5 phót, t¨ng phßng L«i: 50%."		100	1	1	\script\item\medicament\sj_leifangwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+Háa Phßng hoµn	6	1	5016	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 5 phót, t¨ng phßng Háa: 50%."		100	1	1	\script\item\medicament\sj_huofangwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+§éc Phßng hoµn	6	1	5017	\spr\item\medecine\obj-potion15.spr	19	1	1	"Néi trong 5 phót, t¨ng phßng §éc: 50%."		100	1	1	\script\item\medicament\sj_dufangwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
 VÐ Sè May M¾n	6	1	4654	\spr\obj\item\caipiao.spr	41	1	1	"May m¾n sÏ mØm c­êi víi b¹n,kÕt qu¶ ®­îc sæ vµo lóc 22h10.Tr¶ th­ëng t¹i thÇn tµi T­¬ng D­¬ng "		0	1	0	\script\event\expansion\201006\fuguijinhe\fuguijinhe_item.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
 §¹i Thµnh BÝ KÝp 90(CÊp 21)	6	1	4655	\spr\item\script\other\23miji.spr	41	1	1	NhÊp vµo sö dông cã thÓ n©ng kÜ n¨ng cÊp 90 cña b«n ph¸i lªn cÊp 21.		0	1	1	\script\item\daithanh90_21.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
 Thiªn H¹ BÝ KÝp	6	1	4656	\spr\item\script\other\22miji.spr	41	1	1	NhÊp vµo sö dông cã thÓ linh ngé bÝ kÝp thiªn h¹ cña bæn ph¸i.		0	1	1	\script\item\thienhabikip.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0

@@ -1,6 +1,7 @@
---迭代函数，用于计算技能熟练度
---具体方法：
---根据1级熟练度，升级加速度，级数，重复伤害次数，范围，计算出相应等级熟练度
+szVMDTScript = "\\script\\skill\\cuiyan_fix.lua";
+nVMDTScriptId = FileName2Id(szVMDTScript);
+szVMDTScript2 = "\\script\\skill\\cuiyan_fix2.lua";
+nVMDTScriptId2 = FileName2Id(szVMDTScript2);
 -- SkillExp(i) = Exp1*a^(i-1)*time*range
 function SkillExpFunc(Exp0,a,Level,Time,Range)
 	return floor(Exp0*(a^(Level-1))*Time*Range/10)
@@ -96,7 +97,13 @@ SKILLS={
 		skill_attackradius={{{1,384},{20,448}}},
 		skill_cost_v={{{1,20},{20,30}}}
 	},
-	xueying={ --雪影
+	xueying={--tuyet anh
+		execscript=
+		{
+			[1]={{1,nVMDTScriptId},{20,nVMDTScriptId}},
+			[2]={{1,1},{20,1}},
+			[3]={{1,1},{20,20}}
+		},
 		attackspeed_v={{{1,12},{20,86},{23,93},{25,110},{28,119},{42,131},{43,139},{44,142}},{{1,18*120},{20,18*180}}},
 		castspeed_v={{{1,12},{20,86},{23,93},{25,110},{28,119},{42,131},{43,139},{44,142}},{{1,18*120},{20,18*180}}},
 		fastwalkrun_p={{{1,17},{20,55}},{{1,18*120},{20,18*180}}},
@@ -440,6 +447,12 @@ SKILLS={
 		},
 	},
 	cuiyan120={ --翠烟120级技能
+		execscript=
+		{
+			[1]={{1,nVMDTScriptId2},{20,nVMDTScriptId2}},
+			[2]={{1,1},{20,1}},
+			[3]={{1,1},{20,20}}
+		},
 		skill_cost_v={{{1,35},{20,80},{21,80}}},
 		hide={{{1,1},{20,1}},{{1,5*18},{15,25*18},{20,30*18},{21,30*18}}},
 		skill_mintimepercast_v={{{1,60*18},{15,45*18},{20,40*18},{21,40*18}}},
