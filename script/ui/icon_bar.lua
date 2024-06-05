@@ -13,9 +13,9 @@ function OnClickIcon_1()
 end
 
 function OnClickIcon_2()
-	--local szScript = "\\script\\event\\bingo_machine\\bingo_machine_c.lua"
-	--Require(szScript);
-	--DynamicExecute(szScript, "BingoMachine:ApplyOpenShop")
+	local szScript = "\\script\\event\\bingo_machine\\bingo_machine_c.lua"
+	Require(szScript);
+	DynamicExecute(szScript, "BingoMachine:ApplyOpenShop")
 end
 
 function OnClickIcon_3()

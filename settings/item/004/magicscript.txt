@@ -1885,7 +1885,7 @@ empty_item	6	1	1872	\spr\item\christmas2006\snowman_normal.spr	41	1	1	empty_item
 empty_item	6	1	1873	\spr\item\christmas2006\pumpkinpie.spr	458	1	1	empty_item		0	1	1	\script\item\shengdan_jieri\200811\nanguaxianbing.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
 empty_item	6	1	1874	\spr\item\christmas2006\xmascake.spr	459	1	1	empty_item		0	1	1	\script\item\shengdan_jieri\200811\meiweidangao.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
 empty_item	6	1	1875	\spr\item\christmas2006\turkey.spr	460	1	1	empty_item		0	1	1	\script\item\shengdan_jieri\200811\shengdanhuoji.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
-Hép quµ gi¸ng sinh	6	1	1876	\spr\item\obj_item_gifts.spr	345	1	1	empty_item		0	1	1	\script\item\shengdan_jieri\200811\shengdanlihe.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
+Hép Quµ T©n Thñ ThÇn Long	6	1	1876	\spr\item\obj_item_gifts.spr	345	1	1	Hép quµ hç trî t©n thñ ThÇn Long më ra nhËn <color=gold>level 80<color> vµ nhiÒu vËt phÈm gi¸ trÞ		0	1	1	\script\item\adev\hopquatanthuthanlong.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
 Hoµng Kim Nguyªn B¶o	6	1	1877	\spr\item\questkey\obj_item_cardg.spr	41	1	1	"Kim nguyªn b¶o lÊp l¸nh ¸nh vµng, bÊm chuét ph¶i sö dông cã thÓ nhËn ®­îc sè l­îng lín ng©n l­îng."		0	1	0	\script\item\huangjinyuanbao.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
 empty_item	6	1	1878	\spr\item\xuehuashalou.spr	41	1	1	empty_item		0	1	0	\script\item\shengdan_jieri\200811\xuehuashalou.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
 empty_item	6	1	1879	\spr\item\script\jiaoshi_jieri\200810\fuyuanjinshi.spr	41	1	1	empty_item		0	1	0	\script\item\noscript.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0

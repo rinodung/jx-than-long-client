@@ -32,3 +32,107 @@ UI_LUCKY_TURN_TABLE_AWARD_ERROR_2	Kh«ng cã phÇn th­ëng
 UI_LUCKY_TURN_TABLE_AWARD_ERROR_3	Hµnh trang kh«ng ®ñ chæ trèng!
 UI_LUCKY_TURN_TABLE_AWARD_ERROR_4	Lçi phÇn th­ëng! Vui lßng liªn hÖ Admin
 UI_LUCKY_TURN_TABLE_AWARD_ERROR_5	NhËn th­ëng thÊt b¹i!
+MSG_PLAYER_CHECK_TRADING_ERROR1	B¹n ®ang trong tr¹ng th¸i giao dÞch, kh«ng thÓ thùc hiÖn thao t¸c nµy
+MSG_PLAYER_CHECK_TRADING_ERROR2	%s ®ang trong tr¹ng th¸i giao dÞch, kh«ng thÓ thùc hiÖn thao t¸c nµy
+MSG_PLAYER_STALL_STATE_ERROR1	B¹n ®ang trong tr¹ng th¸i më cöa hµng, kh«ng thÓ thùc hiÖn thao t¸c nµy
+MSG_PLAYER_STALL_STATE_ERROR2	%s ®ang trong tr¹ng th¸i më cöa hµng, kh«ng thÓ thùc hiÖn thao t¸c nµy
+MSG_PLAYER_IS_OFFLINE_LIVE_ERROR1	B¹n ®ang trong tr¹ng th¸i ñy th¸c, kh«ng thÓ thùc hiÖn thao t¸c nµy
+MSG_PLAYER_IS_OFFLINE_LIVE_ERROR2	%s ®ang trong tr¹ng th¸i ñy th¸c, kh«ng thÓ thùc hiÖn thao t¸c nµy
+MSG_PLAYER_IS_EXCHANGE_SERVER_ERROR1	B¹n ®ang trong tr¹ng th¸i chuyÓn m¸y chñ, kh«ng thÓ thùc hiÖn thao t¸c nµy
+MSG_PLAYER_IS_EXCHANGE_SERVER_ERROR2	%s ®ang trong tr¹ng th¸i chuyÓn m¸y chñ, kh«ng thÓ thùc hiÖn thao t¸c nµy
+MSG_PLAYER_FOUND_AROUND_PLAYER_ERROR	Kh«ng t×m thÊy ng­êi ch¬i %s ë gÇn
+MSG_FIGHT_MODE_ERROR1	§ang trong tr¹ng th¸i chiÕn ®Êu, kh«ng thÓ thùc hiÖn
+MSG_FIGHT_MODE_ERROR2	B¹n ®ang trong tr¹ng th¸i chiÕn ®Êu, kh«ng thÓ thùc hiÖn
+MSG_FIGHT_MODE_ERROR3	%s ®ang trong tr¹ng th¸i chiÕn ®Êu, kh«ng thÓ thùc hiÖn
+MSG_FIGHT_MODE_ERROR4	§ang trong tr¹ng th¸i phi chiÕn ®Êu, kh«ng thÓ thùc hiÖn
+MSG_FIGHT_MODE_ERROR5	B¹n ®ang trong tr¹ng th¸i phi chiÕn ®Êu, kh«ng thÓ thùc hiÖn
+MSG_FIGHT_MODE_ERROR6	%s ®ang trong tr¹ng th¸i phi chiÕn ®Êu, kh«ng thÓ thùc hiÖn
+MSG_PLAYER_OANTUTI_ERROR1	B¹n ®ang ch¬i O¼n Tï T× cïng ng­êi kh¸c, kh«ng thÓ thùc hiÖn thao t¸c nµy
+MSG_PLAYER_OANTUTI_ERROR2	%s ®ang ch¬i O¼n Tï T× cïng ng­êi kh¸c, kh«ng thÓ thùc hiÖn thao t¸c nµy
+MSG_PLAYER_OANTUTI_ERROR3	%s tõ chèi ch¬i O¼n Tï T×
+MSG_PLAYER_OANTUTI_ACCEPT_INVITE	%s ®ång ý ch¬i O¼n Tï T×
+MSG_OANTUTI_SEND_APPLY	B¹n mêi %s ch¬i O¼n Tï T×
+MSG_OANTUTI_GET_APPLY	%s mêi b¹n ch¬i O¶n Tï T×
+MSG_OANTUTI_REFUSE_APPLY	%s cù tuyÖt lêi mêi ch¬i O¼n Tï T× víi b¹n
+UI_OANTUTI_MSG1	Mêi ®Æt c­îc
+UI_OANTUTI_MSG2	Ch­a ®Æt c­îc kh«ng thÓ khãa!
+UI_OANTUTI_MSG3	Sè tiÒn ®Æt c­îc v­ît qu¸ sè tiÒn ®ang cã!
+UI_OANTUTI_MSG4	Vui lßng chän KÐo, Bóa hoÆc Bao tr­íc khi khãa!
+UI_OANTUTI_MSG5	Ch­a khãa, kh«ng thÓ x¸c nhËn!
+UI_OANTUTI_MSG6	B¹n chän Bóa
+UI_OANTUTI_MSG7	B¹n chän KÐo
+UI_OANTUTI_MSG8	B¹n chän Bao
+UI_OANTUTI_MSG9	Sè tiÒn ®Æt c­îc ph¶i lín h¬n 0
+UI_OANTUTI_MSG10	Sè tiÒn ®Æt c­îc v­ît qu¸ sè tiÒn ®ang cã
+UI_OANTUTI_MSG11	B¹n ®· ®Æt c­îc %s
+UI_OANTUTI_MSG12	Sè xu ®Æt c­îc ph¶i lín h¬n 0
+UI_OANTUTI_MSG13	B¹n ®· ®Æt c­îc %d xu
+MSG_OANTUTI_SUCCESS	B¹n cïng víi %s võa ch¬i O¼n Tï T×
+MSG_OANTUTI_FAIL	B¹n cïng víi %s ch¬i O¼n Tï T× thÊt b¹i
+MSG_OANTUTI_WAIT_CONFIRM	Chê x¸c nhËn
+MSG_OANTUTI_OTHER_LOCKED	§èi ph­¬ng ®· khãa
+MSG_OANTUTI_WAIT_OTHER_LOCKED	Chê ®èi ph­¬ng khãa
+MSG_OANTUTI_OTHER_CONFIRM	§èi ph­¬ng ®· x¸c nhËn
+MSG_OANTUTI_SELF_LOCK	B¹n ®· khãa chøc n¨ng o¼n tï t×, chê ®èi ph­¬ng tr¶ lêi
+MSG_OANTUTI_DEST_LOCK	Ng­¬i ch¬i %s ®· khãa chøc n¨ng o¼n tï t×
+MSG_OANTUTI_INPUT_MONEY	§èi ph­¬ng ®· ®Æt c­îc %s
+MSG_OANTUTI_RESULT_WIN	V¸n nµy b¹n ®· th¾ng
+MSG_OANTUTI_RESULT_LOSE	V¸n nµy b¹n ®· thua
+MSG_OANTUTI_RESULT_NO_WINNER	V¸n nµy hßa
+MSG_OANTUTI_PLAY_AGAIN	§èi ph­¬ng muèn mêi b¹n ch¬i tiÕp
+MSG_OANTUTI_LOCK_ERROR1	§èi ph­¬ng ch­a ®Æt c­îc, kh«ng thÓ khãa!
+MSG_OANTUTI_LOCK_ERROR2	Sè tiÒn ®Æt c­îc 2 bªn chªnh lÖch, kh«ng thÓ khãa!
+MSG_OANTUTI_SELF_CHANGE_MONEY	B¹n ®· ®æi tiÒn c­îc thµnh %s
+MSG_OANTUTI_OTHER_CHANGE_MONEY	§èi ph­¬ng ®· ®æi tiÒn c­îc thµnh %s
+MSG_OANTUTI_PLAY_AGAIN_WAIT	§îi ®èi ph­¬ng x¸c nhËn
+MSG_PLAYER_OANTUTI_LEVEL_ERROR1	§¼ng cÊp yªu cÇu tèi thiÓu %d cÊp
+MSG_PLAYER_OANTUTI_LEVEL_ERROR2	§¼ng cÊp ®èi ph­¬ng kh«ng ®ñ %d cÊp
+MSG_PLAYER_OANTUTI_MONEY_ERROR1	Sè tiÒn ®Æt c­îc kh«ng ®­îc nhá h¬n %s
+MSG_PLAYER_OANTUTI_MONEY_ERROR2	Sè tiÒn ®Æt c­îc kh«ng ®­îc v­ît qu¸ %s
+MSG_OANTUTI_SELF_INPUT_COIN_ERROR1	Sè xu ®Æt c­îc v­ît qu¸ sè xu ®ang cã
+MSG_PLAYER_OANTUTI_COIN_ERROR1	Sè xu ®Æt c­îc kh«ng ®­îc nhá h¬n %s xu
+MSG_PLAYER_OANTUTI_COIN_ERROR2	Sè xu ®Æt c­îc kh«ng ®­îc v­ît qu¸ %s xu
+MSG_PLAYER_OANTUTI_COIN_RESULT	B¹n ®· ®Æt c­îc %s xu
+MSG_OANTUTI_SELF_CHANGE_COIN	B¹n ®· ®æi xu c­îc thµnh %s xu
+MSG_OANTUTI_OTHER_INPUT_COIN	§èi ph­¬ng ®· ®Æt c­îc %s xu
+MSG_OANTUTI_OTHER_CHANGE_COIN	§èi ph­¬ng ®· ®æi xu c­îc thµnh %s xu
+MSG_OANTUTI_LOCK_ERROR4	Sè xu ®Æt c­îc v­ît qu¸ sè xu ®ang cã
+MSG_OANTUTI_LOCK_ERROR3	Sè xu ®Æt c­îc 2 bªn chªnh lÖch, kh«ng thÓ khãa!
+MSG_OANTUTI_CONFIRM_ERROR1	B¹n ch­a ®Æt c­îc!
+MSG_OANTUTI_CONFIRM_ERROR2	§èi ph­¬ng ch­a ®Æt c­îc!
+MSG_OANTUTI_CONFIRM_ERROR3	Sè tiÒn ®Æt c­îc v­ît qu¸ sè tiÒn ®ang cã
+MSG_OANTUTI_CONFIRM_ERROR4	Sè tiÒn ®Æt c­îc cña ®èi ph­¬ng v­ît qu¸ sè tiÒn ®ang cã
+MSG_OANTUTI_CONFIRM_ERROR5	Sè tiÒn ®Æt c­îc 2 bªn chªnh lÖch
+MSG_OANTUTI_CONFIRM_ERROR6	Sè xu ®Æt c­îc v­ît qu¸ sè xu ®ang cã
+MSG_OANTUTI_CONFIRM_ERROR7	Sè xu ®Æt c­îc cña ®èi ph­¬ng v­ît qu¸ sè xu ®ang cã
+MSG_OANTUTI_CONFIRM_ERROR8	Sè xu ®Æt c­îc 2 bªn chªnh lÖch
+MSG_OANTUTI_SEND_INVITE	%s hy väng cïng víi b¹n ch¬i o¼n tï t×
+G_MERIDIAN_PUNCH_NOTICE	X¸c ®Þnh xung huyÖt chø?
+G_MERIDIAN_CUR_ZHENYUAN	Ch©n Nguyªn hiÖn t¹i: %d ®iÓm
+G_MERIDIAN_CUR_XUANYUAN	HuyÒn Nguyªn hiÖn t¹i: %d ®iÓm
+G_MERIDIAN_SUC_RATE	TØ LÖ thµnh c«ng: %d%%
+G_MERIDIAN_COST_ZY	Tiªu hao Ch©n Nguyªn: %d ®iÓm
+G_MERIDIAN_COST_HMD	Tiªu hao Hé M¹ch §¬n: %d c¸i
+G_MERIDIAN_NOTICE_COST_ZY	LÇn xung huyÖt nµy c¸c h¹ cÇn tiªu hao Ch©n Nguyªn: %d ®iÓm
+G_MERIDIAN_NOTICE_COST_HMD	LÇn xung huyÖt nµy c¸c h¹ cÇn tiªu hao Hé M¹ch §¬n: %d c¸i
+G_MERIDIAN_NOTICE_SUC_RATE	TØ lÖ thµnh c«ng lÇn xung huyÖt nµy lµ: %d%%
+G_MERIDIAN_NOTICE_FAILED_PUNISH	LÇn xung huyÖt nµy cña c¸c h¹ thÊt b¹i lµ: %s
+G_MERIDIAN_NOTICE_FAILED_PROTECTION	Duy tr× huyÖt vÞ hiÖn t¹i.
+G_MERIDIAN_ERROR_1	HuyÖt vÞ nµy ®· ®­îc xung råi!
+G_MERIDIAN_ERROR_2	Xin h·y xung huyÖt theo tuÇn tù!
+G_STR_FULL_BREATH_INFO	NÕu 8 kinh m¹ch ®Òu ®¹t tÇng %d, cã thÓ tiÕn hµnh KhÝ Doanh §an §iÒn ®Ó t¨ng kh¶ n¨ng Ngò Hµnh t­¬ng kh¾c \n Ch©n Nguyªn tiªu hao trong KhÝ Doanh §an §iÒn lÇn nµy : %d ®iÓm\n §¹i Hé M¹ch §¬n tiªu hao trong KhÝ Doanh §an §iÒn lÇn nµy: %d viªn\n KhÝ Doanh §an §iÒn lÇn nµy sÏ duy tr×: %d ngµy\n S¸t th­¬ng lªn hÖ %s t¨ng %d%%\n S¸t th­¬ng g©y ra bëi hÖ %s gi¶m %d%%
+G_STR_MERIDIAN_DU	§èc m¹ch
+G_STR_MERIDIAN_REN	NhiÖm m¹ch
+G_STR_MERIDIAN_CHONG	Xung m¹ch
+G_STR_MERIDIAN_DAI	§íi m¹ch
+G_STR_MERIDIAN_YINGWEI	¢m duy m¹ch
+G_STR_MERIDIAN_YANGWEI	D­¬ng duy m¹ch
+G_STR_MERIDIAN_YINGQIAO	¢m khiªu m¹ch
+G_STR_MERIDIAN_YANGQIAO	D­¬ng khiªu m¹ch
+G_STR_FULL_BREATH_FAIL	%s ch­a ®¹t tÇng %d
+G_STR_FULL_BREATH_BUFFINFO1	KhÝ Doanh §an §iÒn duy tr×: Kh«ng\n\nS¸t th­¬ng lªn hÖ %s t¨ng: Kh«ng\n\nS¸t th­¬ng g©y ra bëi hÖ %s gi¶m: Kh«ng
+G_STR_FULL_BREATH_BUFFINFO2	KhÝ Doanh §an §iÒn duy tr×: %d giê\n\nS¸t th­¬ng lªn hÖ %s t¨ng: %d%%\n\nS¸t th­¬ng g©y ra bëi hÖ %s gi¶m: %d%%
+G_STR_FULL_BREATH_BUFFINFO3	KhÝ Doanh §an §iÒn duy tr×: %d ngµy\n\nS¸t th­¬ng lªn hÖ %s t¨ng: %d%%\n\nS¸t th­¬ng g©y ra bëi hÖ %s gi¶m: %d%%
+G_STR_FULL_BREATH_BUFFINFO4	KhÝ Doanh §an §iÒn duy tr×: %2d phót\n\nS¸t th­¬ng lªn hÖ %s t¨ng: %d%%\n\nS¸t th­¬ng g©y ra bëi hÖ %s gi¶m: %d%%
+G_STR_FULL_BREATH_TITLE	KhÝ Doanh §an §iÒn
+G_STR_PLAYER_RANKING	H¹ng %d

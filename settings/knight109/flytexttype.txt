@@ -1,0 +1,5 @@
+FlyTypeId	Desc	Color	BorderColor	FontSize	Group	MinDTime	MaxDTime	StartHeightPercent	MsgFormat	MsgType	FlashTime	FlyTime	FlyHeight	FlyLeft	FlyTop
+1	PK 1	255,255,0	0,0,0	16	1	500	2000	1	B¹n ®· h¹ gôc <color=red>%s<color>	1	0	1500	50	0	0
+2	PK 2	255,255,0	0,0,0	16	1	500	2000	1	B¹n ®· h¹ gôc <color=red>%s<color> Tæng PK <color=red>%d<color>	2	0	1500	50	0	0
+3	PK 3	255,255,0	0,0,0	16	1	500	2000	1	<color=red>%s<color> ®· h¹ gôc b¹n	1	0	1500	50	0	0
+4	EXP	255,255,255	0,0,0	16	2	500	2000	1	B¹n nhËn ®­îc <color=yellow>%d<color> kinh nghiÖm	0	0	1500	50	0	300

@@ -22,13 +22,11 @@ ScriptProtocol.KE_SCRIPT_PROTOCOL =
 	"emSCRIPT_PROTOCOL_OPEN_CREDITS_SHOP",
 	"emSCRIPT_PROTOCOL_SIGNUP_AREAN",
 	"emSCRIPT_PROTOCOL_QIANCHONGLOU",
+	
 	-- Begin custom protocol
 	"emSCRIPT_PROTOCOL_LUCKY_TURNTABLE",
+	"emSCRIPT_PROTOCOL_UPDATE_SONG_JIN_PLAYER",
 	-- End custom protocol
-	"emSCRIPT_PROTOCOL_KICHCLIENT",
-	--"emSCRIPT_PROTOCOL_VERIFY_CLIENT",
-	--"emSCRIPT_PROTOCOL_AUTO_CHAT",
-	--"emSCRIPT_PROTOCOL_CLIENT_IP",
 }
 
 function ScriptProtocol:_InitProtocolEnum()
@@ -73,10 +71,9 @@ function ScriptProtocol:HandleProcess(nHandle, tbParamFormat)
 end
 
 
-
-function ScriptProtocol:ProtocolProcess(nProtolId, nHandle)	
+--服务器收到的协议, 服务器处理
+function ScriptProtocol:ProtocolProcess(nProtolId, nHandle)
 	if type(nProtolId) == "number" and type(self.tbProtocolDef[nProtolId]) == "table" then
-		
 		local szFile = self.tbProtocolDef[nProtolId][1]
 		local szFun = self.tbProtocolDef[nProtolId][2]
 		local tbParamFormat = self.tbProtocolDef[nProtolId][3]
@@ -111,7 +108,7 @@ end
 ScriptProtocol:_InitProtocolEnum()
 
 
-
+--临时解决方案
 if MODEL_GAMECLIENT == 1 then
 	local Def = 
 	{
@@ -168,26 +165,13 @@ if MODEL_GAMECLIENT == 1 then
 			"LuckyTurntable:ProtocolProcess",
 			{OBJTYPE_NUMBER, OBJTYPE_TABLE},
 		},
+		{
+			"emSCRIPT_PROTOCOL_UPDATE_SONG_JIN_PLAYER",
+			"\\script\\ui\\battles\\battle_report_manager_c.lua",
+			"BattleReportManager:UpdateSongJinPlayer",
+			{OBJTYPE_NUMBER, OBJTYPE_NUMBER},
+		},
 		-- End custom protocol
-		--{
-		--	"emSCRIPT_PROTOCOL_VERIFY_CLIENT",
-		--	"\\script\\global\\_verify_client.lua",
-		--	"VerifyClient:CallFunc",
-		--	{OBJTYPE_STRING, OBJTYPE_STRING},		
-		--},		
-		--{
-		--	"emSCRIPT_PROTOCOL_CLIENT_IP",
-		--	"\\script\\global\\_client_ip.lua",
-		--	"ClientIP:CallFunc",
-		--	{OBJTYPE_STRING, OBJTYPE_STRING},		
-		--},
-	--{
-		--	"emSCRIPT_PROTOCOL_AUTO_CHAT",
-		--	"\\script\\global\\_player_auto_chat.lua",
-		--	"PlayerAutoChat:CallFunc",
-		--	{OBJTYPE_STRING, OBJTYPE_STRING},		
-	--},
-		
 	}
 	ScriptProtocol:RegProtocolSet(Def)
 end
