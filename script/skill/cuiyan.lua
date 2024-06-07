@@ -1,3 +1,10 @@
+
+-------------------------------------------------------------------------
+-- FileName		:	cuiyan.lua - Thóy Yªn
+-- Author		:	jxdocs.com
+-- CreateTime	:	2005-04-06 23:17:18
+-- Desc			:	/jxser/server1/script/skill/cuiyan.lua
+-------------------------------------------------------------------------
 szVMDTScript = "\\script\\skill\\cuiyan_fix.lua";
 nVMDTScriptId = FileName2Id(szVMDTScript);
 szVMDTScript2 = "\\script\\skill\\cuiyan_fix2.lua";
@@ -8,9 +15,9 @@ function SkillExpFunc(Exp0,a,Level,Time,Range)
 end
 
 
-SKILLS={
-	--´äÑÌ
-	fenghua_xueyue={ --·ç»¨Ñ©ÔÂ
+SKILLS={--Thóy yªn
+	
+	fenghua_xueyue={ --Phong Hoa TuyÕt NguyÖt
 		physicsenhance_p={{{1,5},{20,85}}},
 		seriesdamage_p={{{1,1},{20,10}}},
 		addskilldamage1={
@@ -37,19 +44,19 @@ SKILLS={
 		skill_attackradius={{{1,320},{20,384}}},
 		skill_cost_v={{{1,10},{20,10}}}
 	},
-	cuiyan_daofa={ --´äÑÌµ¶·¨
+	cuiyan_daofa={ --Thóy Yªn §ao ph¸p Hç trî bÞ ®éng
 		addphysicsdamage_p={{{1,45},{20,215}},{{1,-1},{2,-1}},{{1,1},{2,1}}},
 		deadlystrikeenhance_p={{{1,6},{20,35,Conic}},{{1,-1},{2,-1}}}
 	},
-	cuiyan_shuangdao={ --´äÑÌË«µ¶
+	cuiyan_shuangdao={ --Thóy Yªn Song ®ao	Hç trî bÞ ®éng
 		addcoldmagic_v={{{1,20},{20,215}},{{1,-1},{2,-1}}}
 	},
-	huti_hanbing={ --»¤Ìåº®±ù
+	huti_hanbing={ --Hé ThÓ Hµn B¨ng
 		meleedamagereturn_p={{{1,5},{20,20}},{{1,18*120},{20,18*120}}},
 		rangedamagereturn_p={{{1,5},{20,20}},{{1,18*120},{20,18*120}}},
 		skill_cost_v={{{1,40},{20,60}}}
 	},
-	fengjuan_canxue={ --·ç¾í²ÐÑ©
+	fengjuan_canxue={ --Phong QuyÓn Tµn TuyÕt	C«ng kÝch néi c«ng
 		seriesdamage_p={{{1,1},{20,10}}},
 		physicsdamage_v={
 			[1]={{1,25},{20,235}},
@@ -75,11 +82,11 @@ SKILLS={
 		skill_attackradius={{{1,320},{20,384}}},
 		skill_cost_v={{{1,20},{20,20}}}
 	},
-	bingxin_qianying={ --±ùÐÄÙ»Ó°
+	bingxin_qianying={ --B¨ng T©m Tr¸i ¶nh
 		lifereplenish_v={{{1,130},{20,700}},{{1,8},{2,8}}},
 		skill_cost_v={{{1,21},{20,40}}}
 	},
-	yuda_lihua={ --Óê´òÀæ»¨
+	yuda_lihua={ --Vò §¶ Lª Hoa
 		physicsenhance_p={{{1,10},{20,140}}},
 		seriesdamage_p={{{1,5},{20,30}}},
 		addskilldamage1={
@@ -97,7 +104,7 @@ SKILLS={
 		skill_attackradius={{{1,384},{20,448}}},
 		skill_cost_v={{{1,20},{20,30}}}
 	},
-	xueying={--tuyet anh
+	xueying={--TuyÕt ¶nh
 		execscript=
 		{
 			[1]={{1,nVMDTScriptId},{20,nVMDTScriptId}},
@@ -109,11 +116,11 @@ SKILLS={
 		fastwalkrun_p={{{1,17},{20,55}},{{1,18*120},{20,18*180}}},
 		skill_cost_v={{{1,40},{20,140}}}
 	},
-	taxue_wuhen={ --Ì¤Ñ©ÎÞºÛ
+	taxue_wuhen={ --§¹p TuyÕt V« Ng©n 
 --		fastwalkrun_p={{{1,17},{20,55}},{{1,18*120},{20,18*180}}},
 --		skill_cost_v={{{1,24},{20,100}}}
 	},
-	muye_liuxing={ --ÄÁÒ°Á÷ÐÇ
+	muye_liuxing={ --Môc D· L­u Tinh	C«ng kÝch ngo¹i c«ng
 		seriesdamage_p={{{1,10},{20,50},{21,52}}},
 		physicsenhance_p={{{1,30},{20,271}}},
 		colddamage_v={
@@ -135,7 +142,7 @@ SKILLS={
 		skill_attackradius={{{1,448},{20,480},{21,480}}},
 		skill_cost_v={{{1,30},{20,40}}}
 	},
-	fuyun_sanxue={ --¸¡ÔÆÉ¢Ñ©
+	fuyun_sanxue={ --Phï V©n T¸n TuyÕt
 		colddamage_v={
 			[1]={{1,40},{20,375}},
 			[3]={{1,40},{20,575}}
@@ -156,7 +163,7 @@ SKILLS={
 		skill_attackradius={{{1,384},{20,416}}},
 		skill_cost_v={{{1,50},{20,50}}}
 	},
-	bihai_chaosheng={ --±Ìº£³±Éú
+	bihai_chaosheng={ --BÝch H¶i TriÒu Sinh
 		seriesdamage_p={{{1,10},{20,50},{21,52}}},
 		physicsdamage_v={
 			[1]={{1,20},{20,200}},
@@ -184,7 +191,7 @@ SKILLS={
 		},
 		skill_cost_v={{{1,65},{20,65}}}
 	},
-	binggu_xuexin={ --±ù¹ÇÑ©ÐÄ
+	binggu_xuexin={ --B¨ng Cèt TuyÕt T©m
 		addcoldmagic_v=
 		{
 			{
@@ -260,7 +267,7 @@ SKILLS={
 							{20,SkillExpFunc(8000,1.15,20,1,4)},
 							}},
 	},
-	bingxin_yuling={ --±ùÐÄÓñÁè
+	bingxin_yuling={ --B¨ng T©m Ngäc L¨ng 	C«ng kÝch néi c«ng
 		seriesdamage_p={{{1,20},{20,60},{21,62}}},
 		physicsenhance_p={{{1,15},{20,115}}},
 		colddamage_v={
@@ -274,7 +281,7 @@ SKILLS={
 		},
 		skill_showevent={{{1,0},{15,0},{15,4},{20,4}}},
 	},
-	daocuiyan150={ --µ¶´äÑÌ150
+	daocuiyan150={ --B¨ng Vò L¹c Tinh
 		physicsenhance_p={{{1,90},{15,600},{20,900},{23,1260},{26,1440}}},
 		seriesdamage_p={{{1,40},{15,40},{20,80},{21,82}}},
 		colddamage_v={
@@ -312,7 +319,7 @@ SKILLS={
 												{20,21000},
 												}},	
 	},
-	daocuiyan150_2={ --µ¶´äÑÌ150µÚ2Ê½
+	daocuiyan150_2={ --B¨ng Ng­ng Hµn Yªn
 		physicsenhance_p={{{1,18},{15,120},{20,175},{23,241},{26,274}}},
 		seriesdamage_p={{{1,40},{15,40},{20,80},{21,82}}},
 		colddamage_v={
@@ -322,7 +329,7 @@ SKILLS={
 		missle_speed_v={{{1,28},{20,32},{21,32}}},
 		skill_misslenum_v={{{1,1},{5,1},{20,5},{21,5}}},
 	},
-	bingxin_xuelian={ --±ùÐÄÑ©Á« TYD tang 2
+	bingxin_xuelian={ --B¨ng T©m TuyÕt Liªn TYD tang 2
 		seriesdamage_p={{{1,20},{20,60},{21,62}}},
 		-- physicsenhance_p={{{1,15},{20,115}}}, fix dame 1.7 > 2.0
 		physicsenhance_p={{{1,30},{20,230}}},
@@ -397,7 +404,7 @@ SKILLS={
 			[3]={{1,45},{20,1000}}
 		},
 	},
-	neicuiyan150={ --ÄÚ´äÑÌ150
+	neicuiyan150={ --Thñy Anh Man Tó	C«ng kÝch néi c«ng
 		seriesdamage_p={{{1,40},{15,40},{20,80},{21,82}}},
 		physicsdamage_v={
 			[1]={{1,6},{15,120},{20,430},{23,802},{26,988}},
@@ -439,14 +446,14 @@ SKILLS={
 												{20,21000},
 												}},	
 	},
-	neicuiyan150_2={ --ÄÚ´äÑÌ150µÚ2Ê½
+	neicuiyan150_2={ --Khinh Sa Phï Thñy
 		seriesdamage_p={{{1,40},{20,80},{21,82}}},
 		colddamage_v={
 			[1]={{1,55},{20,720},{23,930},{26,1035}},
 			[3]={{1,55},{20,720},{23,930},{26,1035}}
 		},
 	},
-	cuiyan120={ --´äÑÌ120¼¶¼¼ÄÜ
+	cuiyan120={ --Ngù TuyÕt Èn	Hç trî chñ ®éng	713
 		execscript=
 		{
 			[1]={{1,nVMDTScriptId2},{20,nVMDTScriptId2}},
@@ -484,17 +491,7 @@ SKILLS={
 							}},	
 	},
 }
------------------------------------------------
---Create by yfeng 2004-05-20
------------------------------------------------
 
------------------------------------------------
---¸ù¾Ý2¸öµã£¬ÇóÏßÐÎº¯Êýf(x)=k*x+b
---y= (y2-y1)*(x-x1)/(x2-x1)+y1
---µ±x2=x1, ÓÐx=c,¸ÃÖ±ÏßÊÇÒ»Ìõ´¹Ö±ÓÚxÖáµÄÖ±Ïß
---ÕâÊÇ¿ÉÒÔÈ¡µÃy=ÈÎÒâÖµ
---Òò´Ë£¬Èç¹ûÒÑÖªÁ½µã(x1,y1),(x2,y2)¿ÉÇóµÃ¹ý´Ë2µãµÄ
---º¯ÊýÎª£º
 function Line(x,x1,y1,x2,y2)
 	if(x2==x1) then
 		return y2
@@ -502,14 +499,6 @@ function Line(x,x1,y1,x2,y2)
 	return (y2-y1)*(x-x1)/(x2-x1)+y1
 end
 
------------------------------------------------
---¸ù¾Ý2¸öµã£¬Çó2´ÎÐÎº¯Êýf(x)=a*x2+c
---y= (y2-y1)*x*x/(x2*x2-x1*x1)-(y2-y1)*x1*x1/(x2*x2-x1*x1)+y1
---µ±x1»òÕßx2 < 0 ,y =0
---µ±x2=x1, ÓÐx=c,ÊÇÒ»Ìõ´¹Ö±ÓÚxÖáµÄÖ±Ïß
---ÕâÊÇ¿ÉÒÔÈ¡µÃy=ÈÎÒâÖµ
---Òò´Ë£¬Èç¹ûÒÑÖªÁ½µã(x1,y1),(x2,y2)¿ÉÇóµÃ¹ý´Ë2µãµÄ
---º¯ÊýÎª£ºextrac
 function Conic(x,x1,y1,x2,y2)
 	if((x1 < 0) or (x2<0))then 
 		return 0
@@ -520,14 +509,6 @@ function Conic(x,x1,y1,x2,y2)
 	return (y2-y1)*x*x/(x2*x2-x1*x1)-(y2-y1)*x1*x1/(x2*x2-x1*x1)+y1
 end
 
------------------------------------------------
---¸ù¾Ý2¸öµã£¬Çó-2´ÎÐÎº¯Êýf(x)=a*sqrt(x2)+c
---y=(y2-y1)*x/(sqrt(x2)-sqrt(x1))+y1-(y2-y1)/((sqrt(x2)-sqrt(x1))
---µ±x2»òÕßx1<0, y=0,
---µ±x1=x2,ÓÐx=c,ÊÇÒ»Ìõ´¹Ö±ÓÚxÖáµÄÖ±Ïß
---ÕâÊÇ¿ÉÒÔÈ¡µÃy=ÈÎÒâÖµ
---Òò´Ë£¬Èç¹ûÒÑÖªÁ½µã(x1,y1),(x2,y2)¿ÉÇóµÃ¹ý´Ë2µãµÄ
---º¯ÊýÎª£ºextrac
 function Extrac(x,x1,y1,x2,y2)
 	if((x1 < 0) or (x2<0))then 
 		return 0
@@ -538,13 +519,6 @@ function Extrac(x,x1,y1,x2,y2)
 	return (y2-y1)*(x-x1)/(x2-x1)+y1
 end
 
------------------------------------------------
---Ãè»æÁ¬½ÓÏß:Link(x,points)
---¸ù¾ÝpointsÌá¹©µÄÒ»ÏµÁÐµã£¬ÓÃÏàÁÚµÄÁ½¸öµãÃè»æÇúÏß
---return yÖµ
---x ÊäÈëÖµ
---points µã¼¯ºÏ
---ÐÎÈç£ºpointsÊÇÐÎÈç{{x1,y1,func=xxx},{x2,y2,func=xxx},...{xn,yn,func=xxx}}µÄÓ³Éä
 function Link(x,points)
 	num = getn(points)
 	if(num<2) then
@@ -572,59 +546,6 @@ function Link(x,points)
 	return points[c][3](x,points[c-1][1],points[c-1][2],points[c][1],points[c][2])
 end
 
-------------------------------------------------------
---¼¼ÄÜÉè¶¨¸ñÊ½ÈçÏÂ£º
---SKILLS={
---	¼¼ÄÜÃû³Æ=	{
---		Ä§·¨ÊôÐÔ=	{
---			[1]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬
---			[2]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬
---			[3]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬	
---		}£¬
---		Ä§·¨ÊôÐÔ=	{
---			[1]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬
---			[2]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬
---			[3]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬	
---		}£¬
---		¡£¡£¡£¡£¡£
---	}£¬
---	¼¼ÄÜÃû³Æ=	{
---		Ä§·¨ÊôÐÔ=	{
---			[1]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬
---			[2]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬
---			[3]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬	
---		}£¬
---		Ä§·¨ÊôÐÔ=	{
---			[1]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬
---			[2]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬
---			[3]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬	
---		}£¬
---		¡£¡£¡£¡£¡£
---	}£¬
---	¡£¡£¡£¡£¡£
---}
---Èç£º
---SKILLS={
---	Sanhuan-taoyue={
---		physicsenhance_p={
---			[1]={{1,50},{20,335}},--Ä§·¨ÊôÐÔphysicsenhance_p²ÎÊý1£¬1¼¶Ê±Îª35£¬20¼¶Ê±Îª335£¬ÇúÏß²»Ìî£¬Ä¬ÈÏÏßÐÎ
---			[2]={{1,0},{20,0}},
---		},--Ã»ÓÐ[3]£¬±íÊ¾Ä§·¨ÊôÐÔphysicsenhance_p²ÎÊý2£¬Ä¬ÈÏÎªÈÎºÎÊ±ºò¶¼ÊÇ0
---		lightingdamage_v={
---			[1]={{1,65},{20,350}},
---			[3]={{1,65},{20,350}},
---		}
---	}
---}
---ÒÔÉÏÃèÊö¼¼ÄÜ¡°Èý»·Ì×ÔÂ¡±µÄÄ§·¨ÊôÐÔºÍÊýÖµ
------------------------------------------------------------
---º¯ÊýGetSkillLevelData(levelname, data, level)
---levelname£ºÄ§·¨ÊôÐÔÃû³Æ
---data£º¼¼ÄÜÃû³Æ
---level£º¼¼ÄÜµÈ¼¶
---return£ºµ±¼¼ÄÜÃû³ÆÎªdata£¬¼¼ÄÜµÈ¼¶Îªlevel
---			Ê±µÄÄ§·¨ÊôÐÔlevelnameËùÐèÇóµÄÈý¸ö²ÎÊýµÄ¾ßÌåÖµ
------------------------------------------------------------
 function GetSkillLevelData(levelname, data, level)
 	if(data==nil) then
 		return ""
@@ -658,6 +579,6 @@ end;
 
 
 function Param2String(Param1, Param2, Param3)
-return Param1..","..Param2..","..Param3
+	return Param1..","..Param2..","..Param3
 end;
 
