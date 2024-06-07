@@ -193,8 +193,8 @@ SKILLS={
 			[1]={{1,1075},{2,1075}},
 			[3]={{1,1},{20,30}}
 		},
-		steallife_p={{{1,1},{20,16}}},
-		stealmana_p={{{1,1},{20,16}}},
+		steallife_p={{{1,1},{20,4}}},
+		stealmana_p={{{1,1},{20,4}}},
 		missle_speed_v={{{1,30},{20,30}}},
 		missle_lifetime_v={{{1,5},{2,5}}},
 		skill_attackradius={{{1,90},{20,90}}},
