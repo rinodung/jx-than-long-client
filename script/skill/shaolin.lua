@@ -1,7 +1,9 @@
---µü´úº¯Êı£¬ÓÃÓÚ¼ÆËã¼¼ÄÜÊìÁ·¶È
---¾ßÌå·½·¨£º
---¸ù¾İ1¼¶ÊìÁ·¶È£¬Éı¼¶¼ÓËÙ¶È£¬¼¶Êı£¬ÖØ¸´ÉËº¦´ÎÊı£¬·¶Î§£¬¼ÆËã³öÏàÓ¦µÈ¼¶ÊìÁ·¶È
--- SkillExp(i) = Exp1*a^(i-1)*time*range
+-------------------------------------------------------------------------
+-- FileName		:	shaolin.lua - ThiÕu L©m
+-- Author		:	jxdocs.com
+-- CreateTime	:	2005-04-06 23:17:18
+-- Desc			:	/jxser/server1/script/skill/cuiyan.lua
+-------------------------------------------------------------------------
 function SkillExpFunc(Exp0,a,Level,Time,Range)
 	return floor(Exp0*(a^(Level-1))*Time*Range/10)
 end
@@ -55,7 +57,7 @@ SKILLS={
 		attackratingenhance_p={{{1,35},{20,272}},{{1,-1},{2,-1}}},
 		deadlystrikeenhance_p={{{1,6},{20,45,Conic}},{{1,-1},{2,-1}}}
 	},
-	xinglong_buyu={ --ĞĞÁú²»Óê
+	xinglong_buyu={ --Hµng Long B¸t Vò
 		physicsenhance_p={{{1,60},{20,445}}},
 		physicsdamage_v={
 			[1]={{1,20},{20,220}},
@@ -87,7 +89,7 @@ SKILLS={
 			[1]={{1,1055},{2,1055}},
 			[3]={{1,1},{20,125}}
 		},
-		skill_cost_v={{{1,2},{20,10}}}
+		skill_cost_v={{{1,120},{20,300}}}
 	},
 	longzhao_huzhua={ --Áú×¦»¢×¥
 		physicsenhance_p={{{1,120},{20,1242}}},
