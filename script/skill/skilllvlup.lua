@@ -5,7 +5,6 @@ MESSAGES={
 	" [%s] cña b¹n ®· ®Õn tèi ®a, kh«ng thÓ tiÕp tôc th¨ng cÊp ®­îc!"
 }
 
---¶ëáÒÆÕ¶ÉÖÚÉúÉı¼¶ÏŞÖÆ
 function SOSkillLevelUp.Pudu_zhongsheng()
 	local perSkills={{93,"Tõ Hµng Phæ D"},{89,"Méng §iÖp "},{86,"L­u Thñy "},{92,"PhËt T©m Tõ H÷u"},{282,"Thanh ¢m Ph¹n X­íng"}}
 	local mainSkill = {332,"Phæ §é Chóng Sinh "}

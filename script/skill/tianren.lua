@@ -1,7 +1,9 @@
-
---µü´úº¯Êý£¬ÓÃÓÚ¼ÆËã¼¼ÄÜÊìÁ·¶È
---¾ßÌå·½·¨£º
---¸ù¾Ý1¼¶ÊìÁ·¶È£¬Éý¼¶¼ÓËÙ¶È£¬¼¶Êý£¬ÖØ¸´ÉËº¦´ÎÊý£¬·¶Î§£¬¼ÆËã³öÏàÓ¦µÈ¼¶ÊìÁ·¶È
+-------------------------------------------------------------------------
+-- FileName		:	tianren.lua - Thiªn NhÉn
+-- Author		:	jxdocs.com
+-- CreateTime	:	2005-04-06 23:17:18
+-- Desc			:	/jxser/server1/script/skill/tianren.lua
+-------------------------------------------------------------------------
 -- SkillExp(i) = Exp1*a^(i-1)*time*range
 function SkillExpFunc(Exp0,a,Level,Time,Range)
 	return floor(Exp0*(a^(Level-1))*Time*Range/10)
@@ -9,8 +11,7 @@ end
 
 
 SKILLS={
-	--ÌìÈÌ
-	canyang_ruxue={ --²ÐÑôÈçÑª
+	canyang_ruxue={ --Tµn D­¬ng Nh­ HuyÕt	C«ng kÝch néi c«ng 	135
 		seriesdamage_p={{{1,1},{20,10}}},
 		physicsenhance_p={{{1,5},{20,55}}},
 		firedamage_v={
@@ -33,23 +34,23 @@ SKILLS={
 		skill_attackradius={{{1,320},{20,384}}},
 		skill_cost_v={{{1,8},{20,8}}}
 	},
-	tianren_daofa={ --ÌìÈÌµ¶·¨
+	tianren_daofa={ --Thiªn NhÉn  §ao ph¸p	Hç trî bÞ ®éng	131
 		addfiremagic_v={{{1,15},{20,215}},{{1,-1},{2,-1}}}
 	},
-	tianren_maofa={ --ÌìÈÌÃ¬·¨
+	tianren_maofa={ --Thiªn NhÉn  M©u ph¸p	Hç trî bÞ ®éng	132
 		addphysicsdamage_p={{{1,15},{20,215}},{{1,-1},{2,-1}},{{1,3},{2,3}}},
 		attackratingenhance_p={{{1,35},{20,272}},{{1,-1},{2,-1}}},
 		deadlystrikeenhance_p={{{1,6},{20,35}},{{1,-1},{2,-1}}}
 	},
-	huolian_fenhua={ --»ðÁ«·Ù»ª
+	huolian_fenhua={ --Háa Liªn PhÇn Hoa	Chñ ®éng hç trî chiÕn ®Êu	136
 		meleedamagereturn_p={{{1,-5},{20,-35}},{{1,18*40},{20,18*120}}},
 		skill_cost_v={{{1,12},{20,12}}}
 	},
-	huanying_feihu={ --»ÃÓ°·Éºü
+	huanying_feihu={ --¶o ¶nh Phi Hå 	Hç trî phßng ngù - chñ ®éng	137
 		attackratingenhance_p={{{1,-15},{20,-132}},{{1,18*40},{20,18*120}}},
 		skill_cost_v={{{1,20},{20,20}}}
 	},
-	tuishan_tianhai={ --ÍÆÉ½Ìîº£
+	tuishan_tianhai={ --Th«i s¬n  §iÒn H¶i	C«ng kÝch néi c«ng 	138
 		seriesdamage_p={{{1,5},{20,30}}},
 		firedamage_v={
 			[1]={{1,5},{20,45}},
@@ -65,11 +66,11 @@ SKILLS={
 		},
 		skill_cost_v={{{1,32},{20,50}}}
 	},
-	feihong_wuji={ --·ÉºèÎÞ¼£
+	feihong_wuji={ --Phi Hång V« TÝch 	Chñ ®éng hç trî c«ng kÝch	140
 		adddefense_v={{{1,-150},{20,-1100}},{{1,18*40},{20,18*120}}},
 		skill_cost_v={{{1,25},{20,25}}}
 	},
-	liehuo_qingtian={ --ÁÒ»ðÇéÌì
+	liehuo_qingtian={ --LiÖt Háa T×nh Thiªn 	C«ng kÝch néi c«ng 	141
 		seriesdamage_p={{{1,5},{20,30}}},
 		physicsenhance_p={{{1,15},{20,75}}},
 		firedamage_v={
@@ -88,7 +89,7 @@ SKILLS={
 		skill_attackradius={{{1,384},{20,448}}},
 		skill_cost_v={{{1,25},{20,25}}}
 	},
-	toutian_huanri={ --ÍµÌì»»ÈÕ
+	toutian_huanri={ --Th©u Thiªn Ho¸n NhËt	C«ng kÝch ngo¹i c«ng  	142
 		seriesdamage_p={{{1,10},{20,50},{21,52}}},
 		physicsenhance_p={{{1,25},{20,231}}},
 		deadlystrike_p={{{1,4},{20,55}}},
@@ -111,11 +112,11 @@ SKILLS={
 		skill_attackradius={{{1,78},{20,78}}},
 		skill_cost_v={{{1,12},{20,20}}}
 	},
-	limo_duopo={ --À÷Ä§¶áÆÇ
+	limo_duopo={ --LÞch Ma §o¹t Hån	Hç trî phßng ngù - chñ ®éng	143
 		addphysicsdamage_p={{{1,-25},{20,-215}},{{1,18*40},{20,18*120}},{{1,6},{20,6}}},
 		skill_cost_v={{{1,30},{20,30}}}
 	},
-	tanzhi_lieyan={ --µ¯Ö¸ÁÒÑæ
+	tanzhi_lieyan={ --§¬n ChØ LiÖt DiÖm	C«ng kÝch néi c«ng 	145
 		firedamage_v={
 			[1]={{1,30},{20,225}},
 			[3]={{1,30},{20,225}}
@@ -137,10 +138,10 @@ SKILLS={
 		skill_attackradius={{{1,320},{20,384}}},
 		skill_cost_v={{{1,20},{20,30}}}
 	},
-	wuxing_zhen={ --ÎåÐÐÕó
+	wuxing_zhen={ --Ngò hµnh trËn	Vßng trßn  hç trî phßng ngù 	146
 		adddefense_v={{{1,75},{20,550}},{{1,18},{20,18}}},
 	},
-	moyan_qisha={ --Ä§Ñ×ÆßÉ±
+	moyan_qisha={ --Ma DiÖm ThÊt S¸t	C«ng kÝch ngo¹i c«ng  	148
 		seriesdamage_p={{{1,10},{20,50},{21,52}}},
 		firedamage_v={
 			[1]={{1,35},{20,637}},
@@ -159,7 +160,7 @@ SKILLS={
 		skill_attackradius={{{1,320},{20,384}}},
 		skill_cost_v={{{1,20},{20,30}}}
 	},
-	tianmo_jieti={ --ÌìÄ§½âÌå
+	tianmo_jieti={ --Thiªn Ma Gi¶i ThÓ 	Chñ ®éng hç trî c«ng kÝch	150
 		adddefense_v={{{1,75},{30,850}},{{1,18*120},{30,18*360}}},
 		attackratingenhance_p={{{1,65},{30,600}},{{1,18*120},{30,18*360}}},
 		fasthitrecover_v={{{1,5},{20,40}},{{1,18*120},{20,18*360}}},
@@ -173,12 +174,12 @@ SKILLS={
 		lifemax_p={{{1,21},{35,20},{36,20}},{{1,18*45},{30,18*180}}},
 		skill_cost_v={{{1,100},{20,100}}}
 	},
-	beisu_qingfeng={ --±¯ËÖÇå·ç
+	beisu_qingfeng={ --Bi T« Thanh Phong 	Chñ ®éng hç trî c«ng kÝch	364
 		fasthitrecover_v={{{1,-6},{20,-30},{23,-34},{28,-34},{29,-35}},{{1,18*40},{20,18*120}}},
 	 --fasthitrecover_yan_v={{{1,-6},{28,-18},{29,-18}},{{1,18*40},{20,18*120}}},
 		skill_cost_v={{{1,20},{20,20}}}
 	},
-	yunlong_ji={ --ÔÆÁú»÷ van long kich
+	yunlong_ji={ --V©n Long KÝch	C«ng kÝch ngo¹i c«ng  	361
 		-- physicsenhance_p={{{1,45},{20,445}}}, -- fix dame 2.2 > 2.4
 		physicsenhance_p={{{1,108},{20,1068}}},
 		seriesdamage_p={{{1,20},{15,20},{20,60},{21,62}}},
@@ -228,7 +229,7 @@ SKILLS={
 							{20,SkillExpFunc(11600,1.15,20,1,1)},
 							}},
 	},
-	zhanren150={ --Õ½ÈÌ150
+	zhanren150={ --Giang H¶i Né Lan	C«ng kÝch ngo¹i c«ng  	1075
 		physicsenhance_p={{{1,55},{20,535},{23,686},{26,762}}},
 		seriesdamage_p={{{1,40},{15,40},{20,80},{21,82}}},
 		deadlystrike_p={{{1,6},{20,80},{23,103},{26,115}}},
@@ -278,14 +279,14 @@ SKILLS={
 												{20,21000},
 												}},	
 	},
-	fenghuo_liantian={ --·é»ðÁ¬Ìì
+	fenghuo_liantian={ --Phong Háa Liªn Thiªn 	C«ng kÝch néi c«ng 	378
 		seriesdamage_p={{{1,20},{20,60}}},
 		firedamage_v={
 			[1]={{1,5},{20,40}},
 			[3]={{1,5},{20,40}}
 		},
 	},
-	tianwai_liuxing={ -- thien ngoai luu tinh tang 1
+	tianwai_liuxing={ -- Thiªn Ngo¹i L­u Tinh	C«ng kÝch ngo¹i c«ng  	362
 		seriesdamage_p={{{1,20},{15,20},{20,60},{21,62}}},
 		firedamage_v={
 			-- [1]={{1,11},{15,200},{20,462}}, -- fix dame 1.3 > 1.5
@@ -328,7 +329,7 @@ SKILLS={
 							{20,SkillExpFunc(4085,1.15,20,3,1)},
 						}},
 	},
-	moren150={ --Ä§ÈÌ150
+	moren150={ --TËt Háa LiÖu Nguyªn	C«ng kÝch néi c«ng 	1076
 		seriesdamage_p={{{1,40},{15,40},{20,80},{21,82}}},
 		firedamage_v={
 			[1]={{1,45},{20,760},{23,985},{26,1098}},
@@ -360,7 +361,7 @@ SKILLS={
 												{20,21000},
 												}},	
 	},
-	yehuo_fencheng={ -- thien ngoai luu tinh tang 2
+	yehuo_fencheng={ -- NghiÖp Háa Phµn Thµnh 	C«ng kÝch ngo¹i c«ng  	363
 		seriesdamage_p={{{1,20},{20,60},{21,62}}},
 		firedamage_v={
 			[1]={{1,21},{20,320}},
@@ -373,14 +374,14 @@ SKILLS={
 --		},
 --		skill_showevent={{{1,0},{15,0},{15,1},{20,1}}},
 	},
---	moyan_zaitian={ --Ä§Ñ×ÔÚÌì
---		seriesdamage_p={{{1,20},{20,60}}},
---		firedamage_v={
---			[1]={{1,10},{20,80}},
---			[3]={{1,10},{20,80}}
---		},
---	},
-	shehun_luanxin={ --Éã»êÂÒÐÄ
+	moyan_zaitian={ --Ma Viªm T¹i Thiªn  	C«ng kÝch néi c«ng 	379
+		seriesdamage_p={{{1,20},{20,60}}},
+		firedamage_v={
+			[1]={{1,10},{20,80}},
+			[3]={{1,10},{20,80}}
+		},
+	},
+	shehun_luanxin={ --NhiÕp Hån Lo¹n T©m 	Chñ ®éng hç trî chiÕn ®Êu	391
 		attackratingenhance_p={{{1,-12},{20,-128}},{{1,18*40},{20,18*120}}},
 		adddefense_v={{{1,-80},{20,-800}},{{1,18*40},{20,18*120}}},
 		addphysicsdamage_p={{{1,-15},{20,-215}},{{1,18*40},{20,18*120}},{{1,6},{20,6}}},
@@ -390,7 +391,7 @@ SKILLS={
 		deadlystrikeenhance_p={{{1,-6},{20,-35}},{{1,18*40},{20,18*120}}},
 		skill_cost_v={{{1,60},{20,120}}},
 	},
-	tianren120={ --ÌìÈÌ120¼¶¼¼ÄÜ
+	tianren120={ --Ma ¢m PhÖ Ph¸ch	Hç trî chñ ®éng	715
 		skill_cost_v={{{1,25},{20,80},{21,80}}},
 		skill_mintimepercastonhorse_v={{{1,45*18},{15,25*18},{20,20*18},{21,20*18}}},
 		skill_mintimepercast_v={{{1,45*18},{15,25*18},{20,20*18},{21,20*18}}},
@@ -431,7 +432,7 @@ SKILLS={
 							{20,620738181},
 							}},	
 	},
-	quntisuijizoudong={ --ÈºÌåËæ»ú×ß¶¯
+	quntisuijizoudong={ --Ma ¢m PhÖ Ph¸ch - Ho¶ng lo¹n	Chó thuËt	723	
 		randmove={{{1,1},{20,1}},{{1,1*18},{15,3*18},{20,4*18},{21,4*18},{40,4*18},{41,1*18},{55,3*18},{60,4*18},{61,4*18}}},
 		missle_missrate={{{1,65},{15,20},{20,15},{21,15},{40,15},{41,0},{60,0}}},
 		missle_hitcount={{{1,6},{20,6}}},

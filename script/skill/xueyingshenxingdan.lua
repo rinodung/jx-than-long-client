@@ -1,6 +1,12 @@
+-------------------------------------------------------------------------
+-- FileName		:	xuezhangongxun.lua - HuyÕt Dôc - ChiÕn Thiªn - Th­¬ng Hång - Lang H¹o - TriÖu M·nh
+-- Author		:	jxdocs.com
+-- CreateTime	:	2005-04-06 23:17:18
+-- Desc			:	/jxser/server1/script/skill/xuezhangongxun.lua
+-------------------------------------------------------------------------
 SKILLS={
-	--ÑªÓ°ÉñÐÐµ¤
-	xueyingshenxing={ --ÑªÓ°ÉñÐÐµ¤
+	
+	xueyingshenxing={ --HuyÕt ¶nh ThÇn Hµnh §¬n	hç trî bÞ ®éng 	1011
 		fastwalkrun_p={{{1,100},{2,100}},{{1,-1},{20,-1}}},
 		allresmax_p={
 				{{1,-20},{2,-20}},

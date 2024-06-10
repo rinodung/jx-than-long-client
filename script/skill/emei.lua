@@ -1,15 +1,17 @@
---µü´úº¯Êı£¬ÓÃÓÚ¼ÆËã¼¼ÄÜÊìÁ·¶È
---¾ßÌå·½·¨£º
---¸ù¾İ1¼¶ÊìÁ·¶È£¬Éı¼¶¼ÓËÙ¶È£¬¼¶Êı£¬ÖØ¸´ÉËº¦´ÎÊı£¬·¶Î§£¬¼ÆËã³öÏàÓ¦µÈ¼¶ÊìÁ·¶È
+-------------------------------------------------------------------------
+-- FileName		:	emei.lua - Nga My
+-- Author		:	jxdocs.com
+-- CreateTime	:	2005-04-06 23:17:18
+-- Desc			:	/jxser/server1/script/skill/emei.lua
+-------------------------------------------------------------------------
 -- SkillExp(i) = Exp1*a^(i-1)*time*range
 function SkillExpFunc(Exp0,a,Level,Time,Range)
 	return floor(Exp0*(a^(Level-1))*Time*Range/10)
 end
 
 
-SKILLS={
-	--¶ëáÒ
-	piaoyun_chuanxue={ --Æ®ÔÆ´©Ñ©
+SKILLS={	
+	piaoyun_chuanxue={ --Phiªu TuyÕt Xuyªn V©n 	C«ng kİch néi c«ng 80
 		physicsdamage_v={
 			[1]={{1,10},{20,120}},
 			[3]={{1,10},{20,120}},
@@ -35,14 +37,14 @@ SKILLS={
 		skill_attackradius={{{1,320},{20,384}}},
 		skill_cost_v={{{1,10},{20,10}}}
 	},
-	emei_jianfa={ --¶ëáÒ½£·¨
+	emei_jianfa={ --Nga Mi KiÕm ph¸p	Hç trî bŞ ®éng	77
 		addphysicsdamage_p={{{1,15},{20,215}},{{1,-1},{2,-1}},{{1,0},{2,0}}},
 		deadlystrikeenhance_p={{{1,6},{20,36}},{{1,-1},{2,-1}}}
 	},
-	emei_zhangfa={ --¶ëáÒÕÆ·¨
+	emei_zhangfa={ --Nga Mi Ch­ëng ph¸p	Hç trî bŞ ®éng	79
 		addcoldmagic_v={{{1,15},{20,515}},{{1,-1},{2,-1}}}
 	},
-	sixiang_tonggui={ --ËÄÏàÍ¬¹é
+	sixiang_tonggui={ --Tø T­îng §ång Quy	C«ng kİch néi c«ng 	82
 		seriesdamage_p={{{1,5},{20,30}}},
 		colddamage_v={
 			[1]={{1,35},{20,315}},
@@ -59,7 +61,7 @@ SKILLS={
 		skill_attackradius={{{1,384},{20,416}}},
 		skill_cost_v={{{1,25},{20,35}}}
 	},
-	yiye_zhiqiu={ --Ò»Ò¶ÖªÇï
+	yiye_zhiqiu={ --NhÊt DiÖp Tri Thu	C«ng kİch néi c«ng 	85
 		seriesdamage_p={{{1,1},{20,10}}},
 		physicsenhance_p={{{1,30},{20,75}}},
 		colddamage_v={
@@ -87,10 +89,10 @@ SKILLS={
 		skill_attackradius={{{1,320},{20,384}}},
 		skill_cost_v={{{1,25},{20,25}}}
 	},
-	liushui={--Á÷Ë®
+	liushui={--L­u Thñy 	Vßng trßn  håi phôc thuéc tİnh	86
 		fastwalkrun_p={{{1,9},{20,66}},{{1,18},{2,18}}}
 	},
-	bumie_bujue={ --²»Ãğ²»¾ø
+	bumie_bujue={ --BÊt DiÖt BÊt TuyÖt	C«ng kİch ngo¹i c«ng  	88
 		physicsenhance_p={{{1,80},{20,385}}},
 		seriesdamage_p={{{1,10},{20,50},{21,52}}},
 		colddamage_v={
@@ -110,11 +112,11 @@ SKILLS={
 		skill_attackradius={{{1,448},{20,512},{21,512}}},
 		skill_cost_v={{{1,30},{20,35}}}
 	},
-	mengdie={ --ÃÎµû
+	mengdie={ --Méng §iÖp 	Vßng trßn  håi phôc thuéc tİnh	89
 		lifereplenish_v={{{1,1},{20,15}},{{1,18},{2,18}}},
 		manareplenish_v={{{1,1},{20,10}},{{1,18},{2,18}}},
 	},
-	foguang_puzhao={ --·ğ¹âÆÕÕÕ
+	foguang_puzhao={ --PhËt Quang Phæ ChiÕu	C«ng kİch néi c«ng 	91
 		colddamage_v={
 			[1]={{1,70},{20,787}},
 			[3]={{1,80},{20,1287}}
@@ -130,11 +132,11 @@ SKILLS={
 		},
 		skill_cost_v={{{1,30},{20,60}}}
 	},
-	cihang_pudu={ --´Èº½ÆÕ¶É
+	cihang_pudu={ --Tõ Hµng Phæ §é	chñ ®éng håi phôc thuéc tİnh	93
 		lifereplenish_v={{{1,275},{20,750}},{{1,36},{2,36}}},
 		skill_cost_v={{{1,100},{20,100}}}
 	},
-	fofa_wubian={ --·ğ·¨ÎŞ±ß
+	fofa_wubian={ --PhËt Ph¸p V« Biªn  252
 		addcoldmagic_v={{{1,30},{30,315}},{{1,-1},{2,-1}}},
 		addcolddamage_v={{{1,70},{30,315}},{{1,-1},{2,-1}}},
 		attackspeed_v={{{1,12},{30,65},{33,70},{35,90},{38,95},{41,100}},{{1,-1},{2,-1}}},
@@ -142,11 +144,11 @@ SKILLS={
 		coldenhance_p={{{1,8},{30,37}},{{1,-1},{2,-1}}},
 		lifemax_p={{{1,21},{35,50},{36,50}},{{1,-1},{30,-1}}}
 	},
-	foxin_ciyou={ --·ğĞÄ´ÈÓÓ
+	foxin_ciyou={ --PhËt T©m Tõ H÷u	Vßng trßn  t¨ng c­êng thuéc tİnh	92
 		lifemax_p={{{1,30},{20,125}},{{1,18*8},{2,18*8}}},
 		--lifemax_yan_p={{{1,30},{25,100},{26,100}},{{1,18*8},{2,18*8}}}
 	},
-	tuichuang_wangyue={ --ÍÆ´°ÍûÔÂ
+	tuichuang_wangyue={ --Th«i Song Väng NguyÖt	C«ng kİch ngo¹i c«ng  	385
 		physicsenhance_p={{{1,40},{20,175}}},
 		seriesdamage_p={{{1,5},{20,30}}},
 		colddamage_v={
@@ -166,20 +168,20 @@ SKILLS={
 		skill_attackradius={{{1,384},{20,448}}},
 		skill_cost_v={{{1,20},{20,20}}}
 	},
-	qingyin_fanchang={ --ÇåÒôèó³ª
+	qingyin_fanchang={ --Thanh ¢m Ph¹n X­íng	Vßng trßn  håi phôc thuéc tİnh	282	
 		fasthitrecover_v={{{1,1},{20,20},{31,31},{32,31}},{{1,18},{2,18}}},
 		fatallystrikeres_p={{{1,1},{20,20}},{{1,18},{2,18}}},
 		freezetimereduce_p={{{1,1},{20,30}},{{1,18},{2,18}}},
 		poisontimereduce_p={{{1,1},{20,30}},{{1,18},{2,18}}},
 		stuntimereduce_p={{{1,1},{20,30}},{{1,18},{2,18}}}
 	},
-	pudu_zhongsheng={ --pho do chung sinh
+	pudu_zhongsheng={ --Phæ §é Chóng Sinh 	Vßng trßn  håi phôc thuéc tİnh	332
 		lifereplenish_v={{{1,1},{20,15}},{{1,18},{2,18}}},
 		manareplenish_v={{{1,1},{20,10}},{{1,18},{2,18}}},
 		fasthitrecover_v={{{1,1},{20,10},{21,10}},{{1,18},{2,18}}},
 		allres_p={{{1,1},{20,40}},{{1,18},{2,18}}}
 	},
-	sane_jixue={ -- NMK tang 1
+	sane_jixue={ -- Tam Nga TÒ TuyÕt 	C«ng kİch ngo¹i c«ng  	328
 		-- physicsenhance_p={{{1,10},{15,100},{20,237}}}, fix dame 1.8 > 2.0
 		physicsenhance_p={{{1,20},{15,200},{20,474}}},
 		seriesdamage_p={{{1,20},{15,20},{20,60},{21,62}}},
@@ -225,13 +227,13 @@ SKILLS={
 							{20,SkillExpFunc(5000,1.15,20,3,1)},
 							}},
 	},
-	yuquan_xichen={ --ÓñÈªÏ´³¾ NMK tang 2
+	yuquan_xichen={ --Ngäc TuyÒn TÈy TrÇn 	C«ng kİch ngo¹i c«ng  	329
 		-- physicsenhance_p={{{1,30},{20,148}}},
 		physicsenhance_p={{{1,40},{20,208}}},
 		seriesdamage_p={{{1,20},{20,60},{21,62}}},
 		deadlystrike_p={{{1,10},{20,30}}},
 	},
-	jianemei150={ --½£¶ëÃ¼150
+	jianemei150={ --KiÕm Hoa V·n Tinh	C«ng kİch ngo¹i c«ng  	1061
 		physicsenhance_p={{{1,12},{15,120},{20,285},{23,483},{26,582}}},
 		seriesdamage_p={{{1,40},{15,40},{20,80},{21,82}}},
 		colddamage_v={
@@ -270,7 +272,7 @@ SKILLS={
 												{20,21000},
 												}},	
 	},
-	jianemei150_2={ --½£¶ëÃ¼150µÚ2Ê½
+	jianemei150_2={ --KiÕm T©m TÜnh §iÓn	C«ng kİch ngo¹i c«ng  	1089
 		physicsenhance_p={{{1,36},{20,175},{23,218},{26,240}}},
 		seriesdamage_p={{{1,40},{20,80},{21,82}}},
 		deadlystrike_p={{{1,12},{20,24},{23,27}}},
@@ -279,7 +281,7 @@ SKILLS={
 			[3]={{1,10},{20,110},{23,141},{26,157}}
 		},
 	},
-	qianfo_qianye={ --Ç§·ğÇ§Ò¶
+	qianfo_qianye={ --Thiªn PhËt Thiªn DiÖp 	C«ng kİch néi c«ng 	330
 		colddamage_v={
 			[1]={{1,45},{20,100}},
 			[3]={{1,45},{20,100}}
@@ -296,7 +298,7 @@ SKILLS={
 		addskillexp1={{{1,0},{2,0}},{{1,1},{20,10}},{{1,0},{2,0}}},
 		skill_skillexp_v={{{1,20000},{20,100000000,Conic}}},
 	},
-	fengshuang_suiying={ -- NMC tang 1
+	fengshuang_suiying={ -- Phong S­¬ng To¸i ¶nh 	C«ng kİch néi c«ng 	380
 		seriesdamage_p={{{1,20},{15,20},{20,60},{21,62}}},
 		colddamage_v={
 			-- [1]={{1,20},{15,350},{20,770}}, -- 1.4 > 1.6
@@ -338,7 +340,7 @@ SKILLS={
 							{20,SkillExpFunc(6260,1.15,20,3,1)},
 							}},
 	},
-	jinding_foguang={ --½ğ¶¥·ğ¹â NMC tang 2
+	jinding_foguang={ --Kim §Ønh PhËt Quang 	C«ng kİch néi c«ng 	331
 		colddamage_v={
 			-- [1]={{1,10},{20,420}}, -- fix dame 1.1 > 1.3
 			-- [3]={{1,10},{20,420}},
@@ -349,7 +351,7 @@ SKILLS={
 		missle_speed_v={{{1,24},{20,28},{21,28}}},
 		skill_misslenum_v={{{1,1},{10,1},{20,3},{21,3}}},
 	},
-	zhangemei150={ --ÕÆ¶ëÃ¼150
+	zhangemei150={ --C«ng kİch néi c«ng 	1062
 		seriesdamage_p={{{1,40},{15,40},{20,80},{21,82}}},
 		colddamage_v={
 			[1]={{1,24},{15,420},{20,930},{23,1542},{26,1848}},
@@ -378,7 +380,7 @@ SKILLS={
 												{20,21000},
 												}},	
 	},
-	zhangemei150_2={ --ÕÆ¶ëÃ¼150µÚ2Ê½
+	zhangemei150_2={ --×ÏÎ¢±ù»ªÉËº¦	C«ng kİch néi c«ng 	1090
 		colddamage_v={
 			[1]={{1,10},{20,585},{21,600}},
 			[3]={{1,10},{20,585},{21,600}},
@@ -387,7 +389,7 @@ SKILLS={
 		missle_speed_v={{{1,24},{20,28},{21,28}}},
 		skill_misslenum_v={{{1,1},{10,1},{20,3},{21,3}}},
 	},
-	emei120={ --¶ëáÒ120¼¶¼¼ÄÜ
+	emei120={ --BÕ NguyÖt PhÊt TrÇn	Vßng trßn  håi phôc thuéc tİnh	712	
 		skill_appendskill={{{1,86},{20,86}},{{1,1},{19,19},{20,40},{21,40}}},
 		skill_desc=
 			function(level)
@@ -415,19 +417,19 @@ SKILLS={
 							{20,620738181},
 							}},	
 	},
-	emei120_1={ --¶ëáÒ120¼¶¼¼ÄÜ
+	emei120_1={ --Kü n¨ng phô - BÕ NguyÖt PhÊt TrÇn	Vßng s¸ng	718	
 		skill_appendskill={{{1,89},{20,89}},{{1,1},{19,19},{20,40},{21,40}}},
 	},
-	emei120_2={ --¶ëáÒ120¼¶¼¼ÄÜ
+	emei120_2={ --Kü n¨ng phô - BÕ NguyÖt PhÊt TrÇn	Vßng s¸ng	718
 		skill_appendskill={{{1,92},{20,92}},{{1,1},{19,19},{20,40},{21,40}}},
 	},
-	emei120_3={ --¶ëáÒ120¼¶¼¼ÄÜ
+	emei120_3={ --Kü n¨ng phô - BÕ NguyÖt PhÊt TrÇn	Vßng s¸ng	718
 		skill_appendskill={{{1,282},{20,282}},{{1,1},{19,19},{20,40},{21,40}}},
 	},
-	emei120_4={ --¶ëáÒ120¼¶¼¼ÄÜ
+	emei120_4={ --Kü n¨ng phô - BÕ NguyÖt PhÊt TrÇn	Vßng s¸ng	718
 		skill_appendskill={{{1,332},{20,332}},{{1,1},{19,19},{20,40},{21,40}}},
 	},
-	fuzhuemei150={ --¸¨Öú150
+	fuzhuemei150={ --Ngäc TuyÒn T©m Kinh	C«ng kİch néi c«ng 	1114	
 		seriesdamage_p={{{1,20},{15,20},{20,60},{21,62}}},
 		colddamage_v={
 			[1]={{1,20},{15,200},{20,400},{23,640},{26,760}},

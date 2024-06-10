@@ -1,11 +1,16 @@
-
+-------------------------------------------------------------------------
+-- FileName		:	gmskills.lua - Game Master 
+-- Author		:	jxdocs.com
+-- CreateTime	:	2005-04-06 23:17:18
+-- Desc			:	/jxser/server1/script/skill/gmskills.lua
+-------------------------------------------------------------------------
 Include("\\script\\skill\\head.lua");
 function SkillExpFunc(Exp0,a,Level,Time,Range)
 	return floor(Exp0*(a^(Level-1))*Time*Range/2)
 end
 
 SKILLS={
-	gmhide={ --GMÒþÉí
+	gmhide={ --GM Èn th©n	Hç trî chñ ®éng	733
 		hide = {
 			{{1,-1},{20,-1}},
 			{{1,3600*18},{2,7200*18}}
@@ -14,9 +19,8 @@ SKILLS={
 			{{1,300},{20,300}},
 			{{1,10*18},{2,20*18}}
 		},
-	},
-	--Îäµ±
-	nulei_zhi={ --Å­À×Ö¸
+	},	
+	nulei_zhi={ --Né L«i ChØ 	C«ng kÝch néi c«ng 	153	902
 		lightingdamage_v={
 			[1]={{1,1},{20,5}},
 			[3]={{1,1},{20,75}}
@@ -38,16 +42,16 @@ SKILLS={
 		skill_attackradius={{{1,320},{20,384}}},
 		skill_cost_v={{{1,15},{20,20}}}
 	},
-	wudang_jianfa ={ --Îäµ±½£·¨
+	wudang_jianfa ={ --Vâ §ang KiÕm ph¸p	Hç trî bÞ ®éng	151
 		addphysicsdamage_p={{{1,25},{20,215}},{{1,-1},{2,-1}},{{1,0},{2,0}}},
 		attackratingenhance_p={{{1,15},{20,72}},{{1,-1},{2,-1}}},
 		deadlystrikeenhance_p={{{1,6},{20,25,Conic}},{{1,-1},{2,-1}}}
 	},
-	wudang_quanfa={ --Îäµ±È­·¨
+	wudang_quanfa={ --Vâ §ang QuyÒn Ph¸p	Hç trî bÞ ®éng	152
 		manashield_p={{{1,-5},{15,-15},{19,-20},{20,-25},{21,-25}},{{1,-1},{20,-1}}},
 		addlightingmagic_v={{{1,20},{15,250},{20,915},{25,1115},{26,1248}},{{1,-1},{2,-1}}}
 	},
-	canghai_mingyue={ --²×º£Ã÷ÔÂ
+	canghai_mingyue={ --Th­¬ng H¶i Minh NguyÖt	C«ng kÝch néi c«ng 	155
 		physicsenhance_p={{{1,5},{20,75}}},
 		seriesdamage_p={{{1,1},{20,10}}},
 		lightingdamage_v={
@@ -70,11 +74,11 @@ SKILLS={
 		skill_attackradius={{{1,320},{20,384}}},
 		skill_cost_v={{{1,10},{20,15}}}
 	},
-	zuowang_wuwo={ --×øÍûÎÞÎÒ
+	zuowang_wuwo={ --Täa Väng V« Ng· 	Hç trî phßng ngù - chñ ®éng	157
 		manashield_p={{{1,25},{5,75},{20,99},{21,100},{22,100}},{{1,18*120},{20,18*180}}},
 		skill_cost_v={{{1,60},{20,160}}}
 	},
-	jianfei_jingtian={ --½£·É¾ªÌì
+	jianfei_jingtian={ --KiÕm Phi Kinh Thiªn	C«ng kÝch néi c«ng 	158
 		seriesdamage_p={{{1,5},{20,30}}},
 		physicsenhance_p={{{1,20},{20,115}}},
 		lightingdamage_v={
@@ -92,14 +96,14 @@ SKILLS={
 		skill_attackradius={{{1,384},{20,416}}},
 		skill_cost_v={{{1,10},{20,25}}}
 	},
-	qingxing_zhen={ --ÆßÐÇÕó
+	qingxing_zhen={ --ThÊt Tinh TrËn	Vßng trßn  hç trî c«ng kÝch	159
 		attackratingenhance_p={{{1,24},{20,450}},{{1,18},{2,18}}},
 		adddefense_v={{{1,97},{20,800}},{{1,18},{20,18}}},
 	},
-	tiyun_zong={ --ÌÝÔÆ×Ý
+	tiyun_zong={ --ThÕ V©n Tung	hç trî chiÕn ®Êu- bÞ ®éng	160
 		fastwalkrun_p={{{1,18},{20,60}},{{1,-1},{20,-1}}},
 	},
-	boji_erfu={ --°þ¼°¶ø¸´
+	boji_erfu={ --B¸c CÊp Nhi Phôc	C«ng kÝch néi c«ng 	164
 		seriesdamage_p={{{1,5},{20,30}}},
 		lightingdamage_v={
 			[1]={{1,5},{20,8}},
@@ -117,7 +121,7 @@ SKILLS={
 		skill_attackradius={{{1,384},{20,416}}},
 		skill_cost_v={{{1,60},{20,70}}}
 	},
-	wuwo_wujian={ --ÎÞÎÒÎÞ½£
+	wuwo_wujian={ --V« Ng· V« KiÕm  	C«ng kÝch néi c«ng 	165
 		lightingdamage_v={
 			[1]={{1,1},{20,5}},
 			[3]={{1,5},{20,752}}
@@ -137,7 +141,7 @@ SKILLS={
 		skill_attackradius={{{1,448},{20,512},{21,512}}},
 		skill_cost_v={{{1,70},{20,130}}}
 	},
-	taiji_shengong={ --Ì«¼«Éñ¹¦
+	taiji_shengong={ --Th¸i Cùc ThÇn C«ng 	Hç trî bÞ ®éng	166	
 		attackspeed_v={{{1,21},{30,65},{33,69},{35,90},{38,94},{41,98}},{{1,-1},{30,-1}}},
 		castspeed_v={{{1,21},{30,65},{33,69},{35,81},{41,90},{44,94}},{{1,-1},{30,-1}}},
 		addlightingdamage_v={{{1,20},{20,275}},{{1,-1},{2,-1}}},
@@ -147,7 +151,7 @@ SKILLS={
 		lightingenhance_p={{{1,16},{30,100},{33,108},{38,108},{41,116}},{{1,-1},{2,-1}}},
 		manamax_yan_p={{{1,35},{35,200},{36,200}},{{1,-1},{2,-1}}},
 	},
-	sanhuan_taoyue={ --Èý»·Ì×ÔÂ
+	sanhuan_taoyue={ --Tam Hoµn Thao NguyÖt	C«ng kÝch ngo¹i c«ng  	267
 		seriesdamage_p={{{1,10},{20,50},{21,52}}},
 		physicsenhance_p={{{1,20},{20,231}}},
 		attackrating_p={{{1,65},{20,345}}},
@@ -171,7 +175,7 @@ SKILLS={
 		skill_attackradius={{{1,78},{20,78}}},
 		skill_cost_v={{{1,15},{20,40}}}
 	},
-	tiandi_wuji={ --ÌìµØÎÞ¼«
+	tiandi_wuji={ --Thiªn §Þa V« Cùc 	C«ng kÝch néi c«ng 	365
 		seriesdamage_p={{{1,20},{15,20},{20,60},{21,62}}},
 		lightingdamage_v={
 			[1]={{1,5},{20,8}},
@@ -185,12 +189,12 @@ SKILLS={
 		missle_lifetime_v={{{1,8},{20,20},{21,20}}},
 		stun_p={{{1,10},{20,20},{25,30},{26,30}},{{1,1},{20,6},{21,6}}},
 		skill_cost_v={{{1,60},{20,150}}},
---		skill_eventskilllevel={{{1,1},{20,20}}},
---		skill_flyevent={
---			[1]={{1,0},{5,0},{5,1},{20,1}},
---			[3]={{1,367},{20,367}}
---		},
---		skill_showevent={{{1,0},{5,0},{5,2},{20,2}}},
+		skill_eventskilllevel={{{1,1},{20,20}}},
+		skill_flyevent={
+			[1]={{1,0},{5,0},{5,1},{20,1}},
+			[3]={{1,367},{20,367}}
+		},
+		skill_showevent={{{1,0},{5,0},{5,2},{20,2}}},
 		addskillexp1={{{1,0},{2,0}},{{1,1},{20,1}},{{1,0},{2,0}}},
 		skill_skillexp_v={{	{1,SkillExpFunc(5880,1.15,1,5,1)},
 							{2,SkillExpFunc(5880,1.15,2,5,1)},
@@ -214,7 +218,7 @@ SKILLS={
 							{20,SkillExpFunc(8000,1.15,20,5,1)},
 							}},
 	},
-	qiwudang150={ --ÆøÎäµ±150
+	qiwudang150={ --T¹o Hãa Th¸i Thanh	C«ng kÝch néi c«ng
 		seriesdamage_p={{{1,40},{15,40},{20,80},{21,82}}},
 		lightingdamage_v={
 			[1]={{1,6},{20,10},{23,11}},
@@ -246,7 +250,7 @@ SKILLS={
 												{20,21000},
 												}},	
 	},
-	jianqi_zongheng={ --½£Æø×Ýºá
+	jianqi_zongheng={ --KiÕm KhÝ Tung Hoµnh 	C«ng kÝch néi c«ng 	367	
 		seriesdamage_p={{{1,20},{20,60}}},
 		lightingdamage_v={
 			[1]={{1,12},{20,60}},
@@ -259,7 +263,7 @@ SKILLS={
 		},
 		skill_showevent={{{1,0},{10,0},{10,4},{20,4}}},
 	},
-	taiji_wuyi={ --Ì«¼«ÎÞÒâ
+	taiji_wuyi={ --Th¸i Cùc V« ý npc	C«ng kÝch néi c«ng 	438	
 		seriesdamage_p={{{1,20},{20,60}}},
 		stun_p={{{1,10},{20,20}},{{1,1},{20,10}}},
 		skill_eventskilllevel={{{1,1},{20,20}}},
@@ -269,14 +273,14 @@ SKILLS={
 		},
 		skill_showevent={{{1,0},{15,0},{15,8},{20,8}}},
 	},
-	nulei_lianhuanji={ --Å­À×Á¬»·»÷
+	nulei_lianhuanji={ --Né L«i Liªn Hoµn kÝch npc	C«ng kÝch néi c«ng 	439
 		seriesdamage_p={{{1,20},{20,60}}},
 		lightingdamage_v={
 			[1]={{1,12},{20,60}},
 			[3]={{1,58},{20,610}}
 		},
 	},
-	renjian_heyi={ --ÈË½£ºÏÒ»
+	renjian_heyi={ --Nh©n KiÕm Hîp NhÊt  	C«ng kÝch ngo¹i c«ng  	368
 		physicsenhance_p={{{1,8},{15,80},{20,194}}},
 		seriesdamage_p={{{1,20},{15,20},{20,60},{21,62}}},
 		lightingdamage_v={
@@ -327,7 +331,7 @@ SKILLS={
 							{20,SkillExpFunc(7200,1.15,20,3,1)},
 							}},
 	},
-	jianwudang150={ --½£Îäµ±150
+	jianwudang150={ --KiÕm Thïy Tinh Hµ	C«ng kÝch ngo¹i c«ng  	1079
 		physicsenhance_p={{{1,12},{15,115},{20,280},{23,478},{26,577}}},
 		seriesdamage_p={{{1,40},{15,40},{20,80},{21,82}}},
 		lightingdamage_v={
@@ -373,14 +377,14 @@ SKILLS={
 												{20,21000},
 												}},	
 	},
-	xuanyi_wuxiang={ --ÐþÒ»ÎÞÏó
+	xuanyi_wuxiang={ --HuyÒn NhÊt V« T­îng	C«ng kÝch néi c«ng 	162
 		seriesdamage_p={{{1,20},{20,60},{21,62}}},
 		lightingdamage_v={
 			[1]={{1,1},{20,10}},
 			[3]={{1,10},{20,100}}
 		},
 	},
-	jianwudang150_2={ --½£Îäµ±150µÚ2Ê½
+	jianwudang150_2={ --KiÕm Minh Th­¬ng Khung	C«ng kÝch néi c«ng 	1107
 		seriesdamage_p={{{1,40},{20,80},{21,82}}},
 		stun_p={{{1,1},{20,24},{23,31},{26,34}},{{1,1},{19,9},{20,10}}},
 		lightingdamage_v={
@@ -388,12 +392,12 @@ SKILLS={
 			[3]={{1,12},{20,120},{23,154},{26,171}}
 		},
 	},
-	taiji_jianyi={ --Ì«¼«½£Òâ
+	taiji_jianyi={ --Th¸i Cùc KiÕm ý 	C«ng kÝch néi c«ng 	371
 		stun_p={{{1,1},{20,20}},{{1,1},{19,9},{20,10}}},
---		seriesdamage_p={{{1,20},{20,60}}},
---		physicsenhance_p={{{1,15},{20,180}}},
+		seriesdamage_p={{{1,20},{20,60}}},
+		physicsenhance_p={{{1,15},{20,180}}},
 	},	
-	jianwudang150_3={ --½£Îäµ±150µÚ3Ê½
+	jianwudang150_3={ --KiÕm Vò DiÖu NguyÖt	C«ng kÝch néi c«ng 	1105
 		stun_p={{{1,1},{20,24},{23,31},{26,34}},{{1,1},{19,9},{20,10}}},
 		lightingdamage_v={
 			[1]={{1,20},{20,60},{23,72},{26,78}},
@@ -403,10 +407,10 @@ SKILLS={
 		seriesdamage_p={{{1,40},{15,40},{20,80},{21,82}}},
 		stealmana_p={{{1,1},{20,5},{23,6}}},
 		deadlystrike_p={{{1,20},{20,30},{23,33},{26,34}}},
---		seriesdamage_p={{{1,20},{20,60}}},
---		physicsenhance_p={{{1,15},{20,180}}},
+		seriesdamage_p={{{1,20},{20,60}}},
+		physicsenhance_p={{{1,15},{20,180}}},
 	},
-	wudang120={ --Îäµ±120¼¶¼¼ÄÜ
+	wudang120={ --XuÊt ø BÊt NhiÔm	chñ ®éng hç trî 	716
 		skill_cost_v={{{1,15},{20,50},{21,50}}},
 		--clearnegativestate={{{1,15},{15,75},{20,85},{21,85}}},
 		missle_missrate={{{1,85},{15,25},{20,15},{21,15}}},
@@ -446,7 +450,7 @@ SKILLS={
 							{20,620738181},
 							}},	
 	},
-	wudang120_child={ --Îäµ±120¼¶¼¼ÄÜ×Ó¼¼ÄÜ
+	wudang120_child={ --Kü n¨ng phô - XuÊt ø BÊt NhiÔm	chñ ®éng hç trî 	738
 		missle_missrate={{{1,85},{15,20},{20,15},{21,15}}},
 		ignorenegativestate_p={
 			{{1,100},{15,100},{20,100},{21,100}},
@@ -454,7 +458,7 @@ SKILLS={
 		},
 	},
 	
-	tianchixianjin={ --Ìì³ØÏÝÚå
+	tianchixianjin={ --	Vßng trßn  hç trî c«ng kÝch	1003
 		fastwalkrun_p={{{1,-50},{25,-50},{26,-50}},{{1,18*2},{20,18*2}}},
 		colddamage_v={
 			[1]={{1,250},{20,250}},
@@ -470,13 +474,14 @@ SKILLS={
 			[3]={{1,250},{20,250}}
 		}
 	},
-	npchide={ --ÒþÉíÇÒÎÞµÐ
+	npchide={ --	Hç trî chñ ®éng	1005
 		hide = {
 			{{1,-1},{20,-1}},
 			{{1,-1},{2,-1}}
 		},
 		block_rate={{{1,100},{2,100} },{{1,-1},{20,-1}}},
-	}
+	},
+	
 }
 -----------------------------------------------
 --Create by yfeng 2004-05-20

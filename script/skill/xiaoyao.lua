@@ -1,6 +1,9 @@
---迭代函数，用于计算技能熟练度
---具体方法：
---根据1级熟练度，升级加速度，级数，重复伤害次数，范围，计算出相应等级熟练度
+-------------------------------------------------------------------------
+-- FileName		:	xiaoyao.lua - Ti猽 Dao
+-- Author		:	jxdocs.com
+-- CreateTime	:	2005-04-06 23:17:18
+-- Desc			:	/jxser/server1/script/skill/xiaoyao.lua
+-------------------------------------------------------------------------
 -- SkillExp(i) = Exp1*a^(i-1)*time*range
 
 function SkillExpFunc(Exp0,a,Level,Time,Range)

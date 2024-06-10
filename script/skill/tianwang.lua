@@ -1,15 +1,17 @@
---µü´úº¯Êý£¬ÓÃÓÚ¼ÆËã¼¼ÄÜÊìÁ·¶È
---¾ßÌå·½·¨£º
---¸ù¾Ý1¼¶ÊìÁ·¶È£¬Éý¼¶¼ÓËÙ¶È£¬¼¶Êý£¬ÖØ¸´ÉËº¦´ÎÊý£¬·¶Î§£¬¼ÆËã³öÏàÓ¦µÈ¼¶ÊìÁ·¶È
+-------------------------------------------------------------------------
+-- FileName		:	tianwang.lua - Thiªn V­¬ng
+-- Author		:	jxdocs.com
+-- CreateTime	:	2005-04-06 23:17:18
+-- Desc			:	/jxser/server1/script/skill/tianwang.lua
+-------------------------------------------------------------------------
 -- SkillExp(i) = Exp1*a^(i-1)*time*range
 function SkillExpFunc(Exp0,a,Level,Time,Range)
 	return floor(Exp0*(a^(Level-1))*Time*Range/10)
 end
 
 
-SKILLS={
-	---ÌìÍõ°ï
-	zhanlong_jue={ --Õ¶Áú¾÷
+SKILLS={	
+	zhanlong_jue={ --Tr¶m Long quyÕt	C«ng kÝch ngo¹i c«ng  	29
 		physicsenhance_p={{{1,80},{20,185}}},
 		ignoredefense_p={{{1,5},{20,20}}},
 		seriesdamage_p={{{1,1},{20,10}}},
@@ -47,22 +49,22 @@ SKILLS={
 		skill_attackradius={{{1,54},{20,54}}},
 		skill_cost_v={{{1,2},{20,6}}}
 	},
-	tianwang_qiangfa={ --ÌìÍõÇ¹·¨
+	tianwang_qiangfa={ --Thiªn V­¬ng  Th­¬ng ph¸p	Hç trî bÞ ®éng	23
 		addphysicsdamage_p={{{1,25},{20,315}},{{1,-1},{2,-1}},{{1,3},{2,3}}},
 		attackratingenhance_p={{{1,75},{20,270}},{{1,-1},{2,-1}}},
 		deadlystrikeenhance_p={{{1,2},{20,15}},{{1,-1},{2,-1}}}
 	},
-	tianwang_daofa={ --ÌìÍõµ¶·¨
+	tianwang_daofa={ --Thiªn V­¬ng  §ao ph¸p	Hç trî bÞ ®éng	24
 		addphysicsdamage_p={{{1,50},{20,300}},{{1,-1},{2,-1}},{{1,1},{2,1}}},
 		attackratingenhance_p={{{1,15},{20,72}},{{1,-1},{2,-1}}},
 		deadlystrikeenhance_p={{{1,2},{20,15}},{{1,-1},{2,-1}}}
 	},
-	tianwang_chuifa={ --ÌìÍõ´¸·¨
+	tianwang_chuifa={ --Thiªn V­¬ng  Chïy Ph¸p	Hç trî bÞ ®éng	26
 		addphysicsdamage_p={{{1,25},{20,275}},{{1,-1},{2,-1}},{{1,4},{2,4}}},
 		attackratingenhance_p={{{1,15},{20,72}},{{1,-1},{2,-1}}},
 		deadlystrikeenhance_p={{{1,2},{20,15}},{{1,-1},{2,-1}}}
 	},
-	huifeng_luoyan={ --»Ø·çÂäÑã
+	huifeng_luoyan={ --Håi Phong L¹c Nh¹n	C«ng kÝch ngo¹i c«ng  	30
 		seriesdamage_p={{{1,1},{20,10}}},
 		physicsenhance_p={{{1,80},{20,215}}},
 		attackrating_p={{{1,10},{20,147}}},
@@ -95,7 +97,7 @@ SKILLS={
 		skill_attackradius={{{1,54},{20,54}}},
 		skill_cost_v={{{1,4},{20,10}}}
 	},
-	xingyun_jue={ --ÐÐÔÆ¾÷
+	xingyun_jue={ --Hµng V©n QuyÕt	C«ng kÝch néi c«ng 	31
 		physicsenhance_p={{{1,30},{20,255}}},
 		ignoredefense_p={{{1,10},{20,35}}},
 		seriesdamage_p={{{1,5},{20,30}}},
@@ -125,7 +127,7 @@ SKILLS={
 		skill_attackradius={{{1,66},{20,66}}},
 		skill_cost_v={{{1,3},{20,7}}}
 	},
-	wuxin_zhan={ --ÎÞÐÄÕ¶
+	wuxin_zhan={ --V« T©m Tr¶m 	C«ng kÝch ngo¹i c«ng  	32
 		physicsenhance_p={{{1,65},{20,453}}},
 		seriesdamage_p={{{1,10},{20,50},{21,52}}},
 		deadlystrike_p={{{1,4},{20,25}}},
@@ -154,11 +156,11 @@ SKILLS={
 		skill_attackradius={{{1,78},{20,78}}},
 		skill_cost_v={{{1,10},{20,20}}}
 	},
-	jingxin_jue={ --¾²ÐÄ¾÷
+	jingxin_jue={ --TÜnh T©m QuyÕt	Chñ ®éng hç trî c«ng kÝch	33	
 		attackratingenhance_p={{{1,45},{20,400}},{{1,18*120},{20,18*180}}},
 		skill_cost_v={{{1,5},{20,20}}}
 	},
-	jinglei_zhan={ --¾ªÀ×Õ¶
+	jinglei_zhan={ --Kinh L«i Tr¶m 	C«ng kÝch ngo¹i c«ng  	34
 		physicsenhance_p={{{1,40},{20,200}}},
 		seriesdamage_p={{{1,1},{20,10}}},
 		addskilldamage1={
@@ -194,7 +196,7 @@ SKILLS={
 		skill_attackradius={{{1,54},{20,54}}},
 		skill_cost_v={{{1,5},{20,10}}}
 	},
-	yangguan_sandie={ --Ñô¹ØÈýµþ
+	yangguan_sandie={ --D­¬ng Quan Tam §iÖp	C«ng kÝch ngo¹i c«ng  	35
 		physicsenhance_p={{{1,130},{20,375}}},
 		seriesdamage_p={{{1,5},{20,30}}},
 		attackrating_p={{{1,10},{20,180}}},
@@ -219,14 +221,14 @@ SKILLS={
 		skill_attackradius={{{1,66},{20,66}}},
 		skill_cost_v={{{1,9},{20,16}}}
 	},
-	tianwang_zhanyi={ --thien vuong chien y
+	tianwang_zhanyi={ --Thiªn V­¬ng ChiÕn ý 	Chñ ®éng gia t¨ng thuéc tÝnh	36
 		lifemax_p={{{1,21},{30,185}},{{1,-1},{30,-1}}},
 		--lifemax_yan_p={{{1,21},{35,160},{36,160}},{{1,-1},{30,-1}}},
 		deadlystrikeenhance_p={{{1,5},{30,45}},{{1,-1},{30,-1}}},
 		attackspeed_v={{{1,5},{30,65}},{{1,-1},{30,-1}}},
 		skill_cost_v={{{1,10},{30,50}}}
 	},
-	pofeng_zhan={ --ÆÃ·çÕ¶
+	pofeng_zhan={ --B¸t Phong Tr¶m	C«ng kÝch ngo¹i c«ng  	37
 		physicsenhance_p={{{1,120},{20,275}}},
 		seriesdamage_p={{{1,5},{20,30}}},
 		addskilldamage1={
@@ -254,7 +256,7 @@ SKILLS={
 		skill_attackradius={{{1,66},{20,66}}},
 		skill_cost_v={{{1,8},{20,12}}}
 	},
-	duanhun_ci={ --¶Ï»ê´Ì
+	duanhun_ci={ --§o¹n Hån ThÝch	C«ng kÝch ngo¹i c«ng  	40
 		physicsenhance_p={{{1,25},{20,215}}},
 		seriesdamage_p={{{1,1},{20,50}}},
 		stun_p={{{1,16},{20,35}},{{1,5},{20,18},{25,28},{26,29}}},
@@ -265,7 +267,7 @@ SKILLS={
 		skill_attackradius={{{1,22*16},{20,30*16},{21,30*16}}},
 		skill_cost_v={{{1,10},{20,20}}}
 	},
-	xuezhan_bafang={ --ÑªÕ½°Ë·½
+	xuezhan_bafang={ --HuyÕt ChiÕn B¸t Ph­¬ng	C«ng kÝch ngo¹i c«ng  	41
 		physicsenhance_p={{{1,60},{20,723}}},
 		seriesdamage_p={{{1,10},{20,50},{21,52}}},
 		attackrating_p={{{1,75},{20,320}}},
@@ -291,14 +293,14 @@ SKILLS={
 		skill_attackradius={{{1,78},{20,78}}},
 		skill_cost_v={{{1,11},{20,45}}}
 	},
-	jinzhong_zhao={ --½ðÖÓÕÖ
+	jinzhong_zhao={ --Kim Chung Tr¸o	Hç trî phßng ngù - chñ ®éng	42
 		physicsres_p={{{1,12},{20,50}},{{1,18*120},{20,18*180}}},
 		poisonres_p={{{1,12},{20,49}},{{1,18*120},{20,18*180}}},
 		coldres_p={{{1,7},{20,45}},{{1,18*120},{20,18*180}}},
 		fireres_p={{{1,-5},{20,-15},{21,-15}},{{1,18*120},{20,18*180}}},
 		skill_cost_v={{{1,12},{20,40}}}
 	},
-	chenglong_jue={ --³ËÁú¾÷
+	chenglong_jue={ --Thõa Long QuyÕt 	C«ng kÝch néi c«ng 	324
 		physicsenhance_p={{{1,40},{20,495}}},
 		ignoredefense_p={{{1,38},{20,80},{21,82}}},
 		seriesdamage_p={{{1,10},{20,50},{21,52}}},
@@ -328,7 +330,7 @@ SKILLS={
 		skill_attackradius={{{1,78},{20,78}}},
 		skill_cost_v={{{1,10},{20,16}}}
 	},
-	potian_zhan={ -- TVD
+	potian_zhan={ -- Ph¸ Thiªn Tr¶m 		326
 		-- physicsenhance_p={{{1,35},{15,150},{20,338}}}, fix dame 1.7 > 1.8
 		physicsenhance_p={{{1,63},{15,270},{20,608}}},
 		seriesdamage_p={{{1,20},{15,20},{20,60},{21,62}}},
@@ -373,7 +375,7 @@ SKILLS={
 			[3]={{1,1},{20,35}}
 		},
 	},
-	daotianwang150={ --µ¶Ìì150
+	daotianwang150={ --Hµo Hïng Tr¶m	C«ng kÝch ngo¹i c«ng  	1058
 		physicsenhance_p={{{1,45},{15,180},{20,405},{23,675},{26,810}}},
 		seriesdamage_p={{{1,40},{15,40},{20,80},{21,82}}},
 		deadlystrike_p={{{1,5},{20,30},{23,37},{26,41}}},
@@ -410,7 +412,7 @@ SKILLS={
 												{20,21000},
 												}},	
 	},
-	zhuixing_zhuyue={ --×·ÐÇÖðÔÂ TVT
+	zhuixing_zhuyue={ --Truy Tinh Trôc NguyÖt 	C«ng kÝch ngo¹i c«ng  	323
 		-- physicsenhance_p={{{1,50},{15,200},{20,381}}}, -- fix dame 1.5
 		physicsenhance_p={{{1,75},{15,300},{20,570}}},
 		seriesdamage_p={{{1,20},{15,20},{20,60},{21,62}}},
@@ -451,7 +453,7 @@ SKILLS={
 			[3]={{1,1},{20,45}}
 		},
 	},
-	qiangtianwang150={ --Ç¹Ìì150
+	qiangtianwang150={ --B¸ V­¬ng T¹m Kim	C«ng kÝch ngo¹i c«ng  	1060
 		physicsenhance_p={{{1,60},{15,240},{20,460},{23,724},{26,856}}},
 		seriesdamage_p={{{1,40},{15,40},{20,80},{21,82}}},
 		attackrating_p={{{1,95},{20,360},{23,443},{26,485}}},
@@ -482,7 +484,7 @@ SKILLS={
 												{20,21000},
 												}},	
 	},
-	zhuifeng_jue={ --×··ç¾÷ TVC
+	zhuifeng_jue={ --Truy Phong QuyÕt 	C«ng kÝch néi c«ng 	325
 		-- physicsenhance_p={{{1,25},{15,140},{20,380}}}, -- fix dame 1.5
 		physicsenhance_p={{{1,37},{15,210},{20,570}}},
 		seriesdamage_p={{{1,20},{15,20},{20,60},{21,62}}},
@@ -527,7 +529,7 @@ SKILLS={
 		},
 		skill_cost_v={{{1,10},{20,30}}}
 	},
-	chuitianwang150={ --´¸ÌìÍõ150
+	chuitianwang150={ --Tung Hoµnh B¸t Hoang	C«ng kÝch néi c«ng 	1059
 		physicsenhance_p={{{1,30},{15,210},{20,455},{23,749},{26,896}}},
 		seriesdamage_p={{{1,40},{15,40},{20,80},{21,82}}},
 		ignoredefense_p={{{1,12},{20,90},{21,94},{22,98},{23,99},{24,99}}},
@@ -562,7 +564,7 @@ SKILLS={
 												{20,21000},
 												}},	
 	},
-	daoxutian={ --µ¹ÐéÌì
+	daoxutian={ --§¶o H­ Thiªn	hç trî bÞ ®éng 	708
 		allres_p={{{1,1},{20,10},{21,10}},{{1,-1},{2,-1}}},
 		allresmax_p={{{1,1},{20,5},{21,5}},{{1,-1},{2,-1}}},
 		lifereplenish_p={{{1,1},{15,30},{20,35},{21,36}},{{1,-1},{2,-1}}},

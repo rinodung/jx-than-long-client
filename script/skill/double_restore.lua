@@ -1,4 +1,9 @@
-
+-------------------------------------------------------------------------
+-- FileName		:	double_restore.lua - Kü n¨ng håi phôc nhanh
+-- Author		:	jxdocs.com
+-- CreateTime	:	2005-04-06 23:17:18
+-- Desc			:	/jxser/server1/script/skill/double_restore.lua
+-------------------------------------------------------------------------
 SKILLS=
 {
 	

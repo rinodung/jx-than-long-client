@@ -1,23 +1,24 @@
---µü´úº¯Êý£¬ÓÃÓÚ¼ÆËã¼¼ÄÜÊìÁ·¶È
---¾ßÌå·½·¨£º
---¸ù¾Ý1¼¶ÊìÁ·¶È£¬Éý¼¶¼ÓËÙ¶È£¬¼¶Êý£¬ÖØ¸´ÉËº¦´ÎÊý£¬·¶Î§£¬¼ÆËã³öÏàÓ¦µÈ¼¶ÊìÁ·¶È
--- SkillExp(i) = Exp1*a^(i-1)*time*range
+-------------------------------------------------------------------------
+-- FileName		:	gaibang.lua - C¸i Bang
+-- Author		:	jxdocs.com
+-- CreateTime	:	2005-04-06 23:17:18
+-- Desc			:	/jxser/server1/script/skill/gaibang.lua
+-------------------------------------------------------------------------
 
 function SkillExpFunc(Exp0,a,Level,Time,Range)
 	return floor(Exp0*(a^(Level-1))*Time*Range/10)
 end
 
 
-SKILLS={
-	--Ø¤°ï
-	gaibang_bangfa={ --Ø¤°ï°ô·¨
+SKILLS={	
+	gaibang_bangfa={ --C¸i Bang Bæng ph¸p	Hç trî bÞ ®éng	115
 		addphysicsdamage_p={{{1,10},{20,150}},{{1,-1},{2,-1}},{{1,2},{2,2}}},
 		deadlystrikeenhance_p={{{1,2},{20,25,Conic}},{{1,-1},{2,-1}}}
 	},
-	gaibang_zhangfa={ --Ø¤°ïÕÆ·¨
+	gaibang_zhangfa={ --C¸i Bang Ch­ëng Ph¸p	Hç trî bÞ ®éng	116
 		addfiremagic_v={{{1,25},{20,275}},{{1,-1},{2,-1}}}
 	},
-	yanmen_tuobo={ --ÑØÃÅÍÐ²§
+	yanmen_tuobo={ --Diªn M«n Th¸c B¸t	C«ng kÝch ngo¹i c«ng  	119
 		seriesdamage_p={{{1,1},{20,10}}},
 		physicsenhance_p={{{1,10},{20,55}}},
 		firedamage_v={
@@ -40,7 +41,7 @@ SKILLS={
 		skill_attackradius={{{1,320},{20,384}}},
 		skill_cost_v={{{1,10},{20,10}}}
 	},
-	jianren_shenshou={ --¼ûÈËÉìÊÖ
+	jianren_shenshou={ --KiÕn Nh©n ThÇn Thñ 	C«ng kÝch néi c«ng 	122
 		seriesdamage_p={{{1,1},{20,10}}},
 		firedamage_v={
 			[1]={{1,15},{20,75}},
@@ -66,20 +67,20 @@ SKILLS={
 		skill_attackradius={{{1,320},{20,384}}},
 		skill_cost_v={{{1,25},{20,25}}}
 	},
-	huabu_liushou={ --»¬²»ÁôÊÖ
+	huabu_liushou={ --Ho¹t BÊt L­u Thñ 11	Chñ ®éng hç trî chiÕn ®Êu	127
 		fastwalkrun_p={{{1,9},{20,66}},{{1,18*120},{20,18*180}}},
 		skill_cost_v={{{1,24},{20,50}}}
 	},
-	dagou_zhen={ --´ò¹·Õó
+	dagou_zhen={ --§¶ CÈu bæng	Vßng trßn  hç trî c«ng kÝch	124
 		addphysicsdamage_p={{{1,10},{20,175}},{{1,-1},{30,-1}},{{1,2},{2,2}}},
 		--skill_cost_v={{{1,24},{20,50}}}
 	},
-	xianglong_zhang={ ------
+	xianglong_zhang={ --Gi¸ng Long Ch­ëng 	hç trî chiÕn ®Êu- bÞ ®éng	274
 		lifemax_p={{{1,-0},{20,-0},{25,-0},{26,-0}},{{1,-1},{2,-1}}}, 
 		manamax_p={{{1,12},{20,50}},{{1,-1},{2,-1}}},
 		addfiremagic_v={{{1,35},{15,250},{20,750}},{{1,-1},{2,-1}}},
 	},
-	bangda_egou={ --°ô´ò¶ñ¹·
+	bangda_egou={ --Bæng §¶ ¸c CÈu	C«ng kÝch ngo¹i c«ng  	125	
 		physicsenhance_p={{{1,10},{20,179}}},
 		seriesdamage_p={{{1,10},{20,50},{21,52}}},
 		firedamage_v={
@@ -98,7 +99,7 @@ SKILLS={
 		skill_attackradius={{{1,448},{20,512}}},
 		skill_cost_v={{{1,28},{20,48}}}
 	},
-	zuidie_kuangwu={ --×íµú¿ñÎè
+	zuidie_kuangwu={ --Tóy §iÖp Cuång Vò 	Hç trî phßng ngù - chñ ®éng	130
 		allres_p={{{1,1},{30,30}},{{1,18*120},{30,18*180}}},
 		addfiremagic_v={{{1,10},{30,215}},{{1,18*120},{30,18*180}}},
 		addfiredamage_v={{{1,10},{30,175}},{{1,18*120},{30,18*180}}},
@@ -106,7 +107,7 @@ SKILLS={
 		lifemax_p={{{1,21},{35,20},{36,20}},{{1,-1},{30,-1}}},
 		skill_cost_v={{{1,50},{20,100}}}
 	},
-	kanglong_youhui={ --¿ºÁúÓÐ»Ú//Î´Íê£¬´ýÐø
+	kanglong_youhui={ --Kh¸ng Long H÷u Hèi	C«ng kÝch néi c«ng 	128
 		seriesdamage_p={{{1,10},{20,50},{21,52}}},
 		firedamage_v={
 			[1]={{1,10},{20,536}},
@@ -131,18 +132,18 @@ SKILLS={
 		skill_attackradius={{{1,448},{20,512}}},
 		skill_cost_v={{{1,10},{20,50}}}
 	},
-	huaxian_weiyi={ --»¯ÏÕÎªÒÄ
+	huaxian_weiyi={ --Hãa HiÓm Vi Di	Hç trî phßng ngù - chñ ®éng	129	
 		meleedamagereturn_p={{{1,4},{20,46}},{{1,-1},{20,-1}}},
 		adddefense_v={{{1,48},{20,800}},{{1,-1},{20,-1}}},
 	},
-	xiaoyao_gong={ --tieu dieu cong
+	xiaoyao_gong={ --Tiªu Diªu C«ng 	Chñ ®éng hç trî c«ng kÝch	360
 		attackspeed_v={{{1,6},{20,65},{25,90},{31,108},{32,118},{33,121}},{{1,-1},{20,-1}}},
 		castspeed_v={{{1,6},{20,65},{25,90},{31,108},{32,118},{33,121}},{{1,-1},{2,-1}}},
 		--bo sung stvl phien ban 15x
 		addphysicsdamage_p={{{1,10},{20,120}},{{1,-1},{2,-1}},{{1,2},{2,2}}},
 		deadlystrikeenhance_p={{{1,1},{20,20,Conic}},{{1,18*120},{20,18*180}}},
 	},
-	feilong_zaitian={ --phi long t¹i thiªn CBR tang 1
+	feilong_zaitian={ --Phi Long T¹i Thiªn 	C«ng kÝch néi c«ng 	357
 		seriesdamage_p={{{1,20},{15,20},{20,60},{21,62}}},
 		firedamage_v={
 			-- [1]={{1,10},{15,300},{20,950}}, -- fix dame 1.3 > 1.4
@@ -197,7 +198,7 @@ SKILLS={
 							{20,SkillExpFunc(8600,1.15,20,4,1)},
 						}},
 	},
-	zhanggaibang150={ --ÕÆØ¤°ï150
+	zhanggaibang150={ --Thêi ThÆng Lôc Long	C«ng kÝch néi c«ng 	1073
 		seriesdamage_p={{{1,40},{15,40},{20,80},{21,82}}},
 		firedamage_v={
 			[1]={{1,24},{15,720},{20,1800},{23,3096},{26,3744}},
@@ -240,14 +241,14 @@ SKILLS={
 												{20,21000},
 												}},	
 	},
---	qianlong_zaiyuan={ --Ç±ÁúÔÚÔ¨
---		seriesdamage_p={{{1,20},{20,60}}},
---		firedamage_v={
---			[1]={{1,17},{20,171}},
---			[3]={{1,17},{20,171}}
---		},
---	},
-	longzhan_yuye={ --ÁúÕ½ÓÚÒ° CBR tang 2
+	qianlong_zaiyuan={ --TiÒm Long T¹i Uyªn	C«ng kÝch ngo¹i c«ng  	358	
+		seriesdamage_p={{{1,20},{20,60}}},
+		firedamage_v={
+			[1]={{1,17},{20,171}},
+			[3]={{1,17},{20,171}}
+		},
+	},
+	longzhan_yuye={ --Long ChiÕn ¦ D· 	C«ng kÝch ngo¹i c«ng  	389
 		seriesdamage_p={{{1,20},{20,60},{21,62}}},
 		firedamage_v={
 			-- [1]={{1,17},{20,471}}, -- fix dame 1.1 > 1.3
@@ -262,7 +263,7 @@ SKILLS={
 --		},
 --		skill_showevent={{{1,0},{15,0},{15,4},{20,4}}},
 	},
-	zhanggaibang150_2={ --ÕÆØ¤°ï150µÚ2Ê½
+	zhanggaibang150_2={ --Ngò DiÖu Cµn Kh«n	C«ng kÝch néi c«ng 	1072
 		seriesdamage_p={{{1,40},{20,80},{21,82}}},
 		firedamage_v={
 			[1]={{1,20},{20,450},{23,585},{26,653}},
@@ -275,7 +276,7 @@ SKILLS={
 --		},
 --		skill_showevent={{{1,0},{15,0},{15,4},{20,4}}},
 	},
-	tianxia_wugou={ --thiªn h¹ v« cÈu CBB
+	tianxia_wugou={ --Thiªn H¹ V« CÈu 	C«ng kÝch ngo¹i c«ng  	359
 		seriesdamage_p={{{1,20},{15,20},{20,60},{21,62}}},
 		skill_misslenum_v={{{1,1},{20,3},{21,3}}},
 		-- physicsenhance_p={{{1,12},{15,100},{20,206}}}, fix dame 1.2 > 1.4
@@ -316,7 +317,7 @@ SKILLS={
 							{20,SkillExpFunc(7000,1.15,20,3,1)},
 						}},
 	},
-	gungaibang150={ --¹÷Ø¤°ï150
+	gungaibang150={ --Bæng Huýnh L­îc §Þa	C«ng kÝch ngo¹i c«ng  	1074
 		seriesdamage_p={{{1,40},{15,40},{20,80},{21,82}}},
 		skill_misslenum_v={{{1,1},{20,5},{21,5}}},
 		physicsenhance_p={{{1,10},{15,80},{20,165},{23,267},{26,318}}},
@@ -349,7 +350,7 @@ SKILLS={
 												{20,21000},
 												}},	
 	},
-	gaibang120={ --Ø¤°ï120¼¶¼¼ÄÜ
+	gaibang120={ --Hçn Thiªn KhÝ C«ng	hç trî bÞ ®éng 	714
 		autoattackskill={{{1,720*256 + 1},{20,720*256 + 20},{21,720*256 + 21}},{{1,-1},{20,-1}},{{1,12*18*256 + 1},{15,12*18*256 + 5},{20,12*18*256 + 6},{21,12*18*256 + 6}}},
 		skill_desc=
 			function(level)
@@ -384,7 +385,7 @@ SKILLS={
 							{20,620738181},
 							}},	
 	},
-	gaibang120zuzhou={ --Ø¤°ï120¼¶¼¼ÄÜ×çÖä
+	gaibang120zuzhou={ --Hçn Thiªn KhÝ C«ng_QuyÕt Chó	Chó thuËt	720
 		physicsres_p={{{1,-2},{15,-8},{20,-10},{21,-10}},{{1,3*18},{15,8*18},{20,9*18},{21,9*18}}},
 		fireres_p={{{1,-3},{15,-12},{20,-15},{21,-15}},{{1,3*18},{15,8*18},{20,9*18},{21,9*18}}},
 		physicsresmax_p={{{1,-1},{15,-1},{20,-4},{21,-4}},{{1,3*18},{15,8*18},{20,9*18},{21,9*18}}},

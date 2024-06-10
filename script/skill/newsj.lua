@@ -1,6 +1,9 @@
---µü´úº¯Êı£¬ÓÃÓÚ¼ÆËã¼¼ÄÜÊìÁ·¶È
---¾ßÌå·½·¨£º
---¸ù¾İ1¼¶ÊìÁ·¶È£¬Éı¼¶¼ÓËÙ¶È£¬¼¶Êı£¬ÖØ¸´ÉËº¦´ÎÊı£¬·¶Î§£¬¼ÆËã³öÏàÓ¦µÈ¼¶ÊìÁ·¶È
+-------------------------------------------------------------------------
+-- FileName		:	newsj.lua - Kü N¨ng Bæ Trî
+-- Author		:	jxdocs.com
+-- CreateTime	:	2005-04-06 23:17:18
+-- Desc			:	/jxser/server1/script/skill/newsj.lua
+-------------------------------------------------------------------------
 -- SkillExp(i) = Exp1*a^(i-1)*time*range
 function SkillExpFunc(Exp0,a,Level,Time,Range)
 	return floor(Exp0*(a^(Level-1))*Time*Range/2)
@@ -8,27 +11,27 @@ end
 
 
 SKILLS={
-	--°ÁÈ»Õ½Òâ
-	aoranzhanyi={--°ÁÈ»Õ½Òâ
+	--Tù hµo ı chİ chiÕn ®Êu	Vßng trßn  håi phôc thuéc tİnh	1296
+	aoranzhanyi={
 		fastwalkrun_p={{{1,10},{2,15}},{{1,18},{2,18}}},
 		skill_enhance={{{1,10},{2,15}},{{1,18},{2,18}}},
 		lifemax_yan_p={{{1,10},{2,15}},{{1,18},{2,18}}},
 	},
-	--Ğ£Î¾³ÆºÅ
+	--Chiªu hç trî
 	xiaowei={
 		lifemax_yan_p={{{1,10},{2,15}},{{1,-1},{2,-1}}},
 	},
-		--Í³Áì³ÆºÅ
+	--Í³ÁìChiªu hç trî³ÆºÅ
 	tongling={
 		allres_yan_p={{{1,5},{2,10}},{{1,-1},{2,-1}}},
 		lifemax_yan_p={{{1,10},{2,15}},{{1,-1},{2,-1}}},
 	},
-		--¸±½«³ÆºÅ
+	--Chiªu hç trî
 	fujiang={
 		allres_yan_p={{{1,10},{2,15}},{{1,-1},{2,-1}}},
 		lifemax_yan_p={{{1,15},{2,20}},{{1,-1},{2,-1}}},
 	},
-		--´ó½«³ÆºÅ
+	--Chiªu hç trî
 	dajiang={
 		allres_yan_p={{{1,10},{2,15}},{{1,-1},{2,-1}}},
 		lifemax_yan_p={{{1,15},{2,20}},{{1,-1},{2,-1}}},

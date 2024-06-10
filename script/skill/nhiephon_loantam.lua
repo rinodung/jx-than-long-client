@@ -1,4 +1,9 @@
-
+-------------------------------------------------------------------------
+-- FileName		:	nhiephon_loantam.lua 
+-- Author		:	jxdocs.com
+-- CreateTime	:	2005-04-06 23:17:18
+-- Desc			:	/jxser/server1/script/skill/nhiephon_loantam.lua
+-------------------------------------------------------------------------
 MESSAGES= "V× c¨n b¶n [%s] cña b¹n qu¸ thÊp, [%s] h¹n chÕ t¨ng cÊp.";
 
 function main()

@@ -1,6 +1,12 @@
+-------------------------------------------------------------------------
+-- FileName		:	advancedskill.lua - Kü n¨ng n©ng cao
+-- Author		:	jxdocs.com
+-- CreateTime	:	2005-04-06 23:17:18
+-- Desc			:	/jxser/server1/script/skill/advancedskill.lua
+-------------------------------------------------------------------------
 SKILLS=
 {
-	sl_adskill={ --ÉÙÁÖ½ø½×¼¼ÄÜ
+	sl_adskill={ --ThiÕu L©m
 		skill_desc=
 			function(level)
 				return format("Dïng <color=water>[Minh Kİnh V« Di]<color> t¨ng khi b¶n th©n bŞ c«ng kİch gÇn vµ xa <color=orange>%d%%<color> håi phôc s¸t th­¬ng, duy tr× <color=orange>%d gi©y <color>\n", floor(Link(level,SKILLS.sl_adskill.meleedamagereturn_p[1])), floor(Link(level,SKILLS.sl_adskill.meleedamagereturn_p[2]) / 18))
@@ -14,7 +20,7 @@ SKILLS=
 		meleedamagereturn_p={{{1,10},{20,50},{21,50}},{{1,10*18},{20,15*18}}},
 		rangedamagereturn_p={{{1,10},{20,50},{21,50}},{{1,10*18},{20,15*18}}},
 							},
-	tw_adskill={ --ÌìÍõ½ø½×¼¼ÄÜ
+		tw_adskill={ --Thiªn V­¬ng
 		skill_desc=
 			function(level)
 				return format("Dïng <color=water>[Du Long Ch©n Khİ]<color> cã <color=orange>%d%%<color> tØ lÖ lµm cho b¶n th©n miÔn dŞch víi tr¹ng th¸i tiªu cùc, duy tr× <color=orange>%d gi©y <color>\n",floor(100 - Link(level,SKILLS.tw_adskill.missle_missrate[1])), floor(Link(level,SKILLS.tw_adskill.ignorenegativestate_p[2]) / 18))
@@ -25,12 +31,12 @@ SKILLS=
 			{{1,-1 },{20,-1 }},
 			{{1,30*18*256 + 1},{19,10*18*256 + 3},{20,10*18*256 + 3}}
 		},
---		autoattackskill=
---		{
---			{{1,738*256 + 1},{20,738*256 + 20}},
---			{{1,10},{20,40}},
---			{{1,10*18*256 + 10},{20,4*18*256 + 50}}
---		},
+		autoattackskill=
+		{
+			{{1,738*256 + 1},{20,738*256 + 20}},
+			{{1,10},{20,40}},
+			{{1,10*18*256 + 10},{20,4*18*256 + 50}}
+		},
 		missle_missrate={{{1,80},{20,20},{21,20}}},
 		ignorenegativestate_p=
 		{
@@ -38,7 +44,7 @@ SKILLS=
 			{{1,1*18},{20,3*18},{21,3*18}},
 		},
 							},
-	wu_adskill ={ --Îå¶¾½ø½×¼¼ÄÜ
+	wu_adskill ={ --Ngò §éc
 		skill_desc=
 			function(level)
 				return format("Môc tiªu cã <color=orange>%d%%<color> tØ lÖ kİch ho¹t cÊp ®é t­¬ng øng cña <color=water>[Hån NhËt Tïng Sinh]<color>\n sau mçi lÇn kİch ho¹t trong <color=orange>%d gi©y <color> kh«ng thÓ kİch ho¹t n÷a\n",floor(Link(level,SKILLS.wu_adskill.autoattackskill[3]) - 1*18*256), floor((Link(level,SKILLS.wu_adskill.autoattackskill[3]) / (18*256))))
@@ -50,7 +56,7 @@ SKILLS=
 			{{1,1*18*256 + 20},{20,1*18*256 + 60}}
 		},
 							},
-	tm_adskill ={ --ÌÆÃÅ½ø½×¼¼ÄÜ
+	tm_adskill ={ --§­êng M«n
 		skill_desc=
 			function(level)
 				return format("Khi sinh lùc thÊp h¬n 25%% cã <color=orange>%d%%<color> tØ lÖ ng¨n chÆn kİch ho¹t 100%%\n sau mçi lÇn kİch ho¹t trong <color=orange>%d gi©y <color> kh«ng thÓ kİch ho¹t n÷a\n ", floor(Link(level,SKILLS.tm_adskill.autorescueskill[3]) - 10*18*256), floor((Link(level,SKILLS.tm_adskill.autorescueskill[3]) / (18*256))))
@@ -70,7 +76,7 @@ SKILLS=
 			}
 		},
 								},
-	em_adskill ={ --¶ëÃ¼½ø½×¼¼ÄÜ
+	em_adskill ={ --Nga My
 		skill_desc=
 			function(level)
 				return format("Môc tiªu cã <color=orange>%d%%<color> tØ lÖ thi triÓn cÊp ®é t­¬ng øng cña <color=water>[Tõ Hµng Phæ §é]<color>\n sau mçi lÇn kİch ho¹t trong <color=orange>%d gi©y <color> kh«ng thÓ kİch ho¹t n÷a\n",floor(Link(level,SKILLS.em_adskill.autoattackskill[3]) - 3*18*256),floor((Link(level,SKILLS.em_adskill.autoattackskill[3]) / (18*256))))
@@ -82,7 +88,7 @@ SKILLS=
 			{{1,3*18*256 + 10},{20,3*18*256 + 30}}
 		},
 							},
-	cy_adskill ={ --´äÑÌ½ø½×¼¼ÄÜ
+	cy_adskill ={ --Thóy Yªn
 		skill_desc=
 			function(level)
 				return format("Dïng <color=water>[Dung TuyÕt V« Tung]<color> lµm cho b¶n th©n tµng h×nh, mçi lÇn tµng h×nh duy tr× <color=orange>%d gi©y <color>\n", floor(Link(level,SKILLS.cy_adskill.hide[2]) / 18))
@@ -99,7 +105,7 @@ SKILLS=
 			{{1,2*18},{20,5*18}}
 		},
 								},				
-	tr_adskill ={ --ÌìÈÌ½ø½×¼¼ÄÜ
+	tr_adskill ={ --Thiªn NhÉn
 		autoreplyskill=
 		{
 			{{1,1236 * 256 + 1},{20,1236 * 256 + 20}},
@@ -107,7 +113,7 @@ SKILLS=
 			{{1,30*18*256 + 1},{19,20*18*256 + 3},{20,20*18*256 + 3}}
 		},
 								},
-	gb_adskill={ --Ø¤°ï½ø½×¼¼ÄÜ
+	gb_adskill={ --C¸i Bang
 		skill_desc=
 			function(level)
 				return format("Khi dïng <color=water>[Thiªn Hµnh Khİ C«ng]<color> cã thÓ n©ng cao[Hçn Thiªn Khİ C«ng]tØ lÖ kİch ho¹t <color=orange>%d%%<color>, \n vµ bá qua háa phßng cña ®èi ph­¬ng: <color=orange>%d%% (d­¬ng) <color>, duy tr× hiÖu øng <color=orange>%d gi©y <color>\n ",floor(Link(level,SKILLS.gb_adskill.enhance_714_auto[1])),floor(Link(level,SKILLS.gb_adskill.anti_fireres_yan_p[1])),floor(Link(level,SKILLS.gb_adskill.enhance_714_auto[2])/18))
@@ -129,7 +135,7 @@ SKILLS=
 			{{1,5*18 },{20,15*18}}
 		},
 								},
-	wd_adskill ={ --Îäµ±½ø½×¼¼ÄÜ
+	wd_adskill ={ --Vâ §ang
 		skill_desc=
 			function(level)
 				return format("Khi dïng <color=water>[¢m D­¬ng Khİ QuyÕt]<color> cã thÓ lµm cho <color=orange>%d%%<color> s¸t th­¬ng chuyÓn hãa thµnh néi lùc, duy tr× hiÖu øng <color=orange>%d gi©y <color>\n",floor(Link(level,SKILLS.wd_adskill.damage2addmana_p[1])),floor(Link(level,SKILLS.wd_adskill.damage2addmana_p[2])/18))
@@ -146,7 +152,7 @@ SKILLS=
 			{{1,5*18 },{20,15*18}}
 		}
 								},
-	kl_adskill ={ --À¥ÂØ½ø½×¼¼ÄÜ
+	kl_adskill ={ --C«n L«n
 		skill_desc=
 			function(level)
 				return format("Khi dïng <color=water>[Tiªn Thiªn C­¬ng Khİ]<color> cã thÓ n©ng cao?L­ìng Nghi Ch©n Khİ]tØ lÖ kİch ho¹t <color=orange>%d%%<color>, \n vµ bá qua l«i phßng cña ®èi ph­¬ng: <color=orange>%d%% (d­¬ng) <color>, duy tr× hiÖu øng <color=orange>%d gi©y <color>\n ",floor(Link(level,SKILLS.kl_adskill.enhance_717_auto[1])), floor(Link(level,SKILLS.kl_adskill.anti_lightingres_yan_p[1])),floor(Link(level,SKILLS.gb_adskill.enhance_714_auto[2])/18))

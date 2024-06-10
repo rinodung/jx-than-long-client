@@ -1,3 +1,9 @@
+-------------------------------------------------------------------------
+-- FileName		:	cuiyan.lua - Thóy Yªn
+-- Author		:	jxdocs.com
+-- CreateTime	:	2005-04-06 23:17:18
+-- Desc			:	/jxser/server1/script/skill/cuiyan.lua
+-------------------------------------------------------------------------
 Include("\\script\\skill\\cuiyan.lua");
 Include("\\script\\activitysys\\playerfunlib.lua")
 function OnMagicAttrib(nCallState, nTargetNpcIndex, nLauncherNpcIndex)

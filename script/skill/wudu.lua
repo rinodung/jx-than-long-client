@@ -9,8 +9,8 @@ function SkillExpFunc(Exp0,a,Level,Time,Range)
 end
 
 SKILLS={
-	--Îå¶¾
-	dusha_zhang={ --¶¾É°ÕÆ
+	
+	dusha_zhang={ --§éc Sa ch­ëng	C«ng kÝch néi c«ng 63
 		poisondamage_v={{{1,2},{20,26}},{{1,60},{20,60}},{{1,10},{20,10}}},
 		seriesdamage_p={{{1,1},{20,10}}},
 		addskilldamage1={
@@ -37,20 +37,20 @@ SKILLS={
 		skill_attackradius={{{1,320},{20,384}}},
 		skill_cost_v={{{1,10},{20,10}}}
 	},
-	wudu_daofa={ --Îå¶¾µ¶·¨ ngu doc dao phap
+	wudu_daofa={ --Ngò §éc §ao ph¸p	Hç trî bÞ ®éng 60
 		-- addphysicsdamage_p={{{1,20},{20,180}},{{1,-1},{20,-1}},{{1,1},{2,1}}}, -- fix dame
 		addphysicsdamage_p={{{1,20},{20,360},{21,370}},{{1,-1},{20,-1}},{{1,1},{2,1}}},
 		deadlystrikeenhance_p={{{1,6},{20,25}},{{1,-1},{2,-1}}}
 	},
-	wudu_zhangfa={ --Îå¶¾ÕÆ·¨
+	wudu_zhangfa={ --Ngò §éc Ch­ëng Ph¸p	Hç trî bÞ ®éng 62
 		addpoisonmagic_v={{{1,15},{20,45}},{{1,-1},{2,-1}},{{1,10},{2,10}}},
 	},
-	binglan_xuanjing={ --±ùÀ¼Ðþ¾§
+	binglan_xuanjing={ --B¨ng Lam HuyÒn Tinh	Chñ ®éng hç trî c«ng kÝch 64
 		coldres_p={{{1,-9},{20,-49}},{{1,18*20},{20,18*90}}},
 		--coldresmax_p={{{1,-1},{25,-15},{26,-15}},{{1,18*20},{20,18*90}}},
 		skill_cost_v={{{1,10},{20,60}}}
 	},
-	xuedao_dusha={ --Ñªµ¶¶¾É±
+	xuedao_dusha={ --HuyÕt §ao §éc S¸t	C«ng kÝch néi c«ng 65
 		physicsenhance_p={{{1,15},{20,65}}},
 		seriesdamage_p={{{1,1},{20,10}}},
 		poisondamage_v={{{1,4},{20,11}},{{1,60},{20,60}},{{1,10},{20,10}}},
@@ -70,15 +70,15 @@ SKILLS={
 		skill_attackradius={{{1,320},{20,384}}},
 		skill_cost_v={{{1,20},{20,20}}}
 	},
-	zanan_yaojing={ --ÔÓÄÑÒ©¾­
+	zanan_yaojing={ --T¹p Nan D­îc Kinh	Hç trî phßng ngù - bÞ  ®éng 66
 		poisonres_p={{{1,9},{20,39}},{{1,-1},{2,-1}}}
 	},
-	jiutian_kuanglei={ --¾ÅÌì¿ñÀ×
+	jiutian_kuanglei={ --Cöu Thiªn Cuång L«i 	Chñ ®éng hç trî c«ng kÝch 67
 		lightingres_p={{{1,-9},{20,-49}},{{1,18*20},{20,18*90}}},
 		--lightingresmax_p={{{1,-1},{25,-15},{26,-15}},{{1,18*20},{20,18*90}}},
 		skill_cost_v={{{1,10},{20,60}}}
 	},
-	youming_kulou={ --ÓÄÚ¤÷¼÷Ã
+	youming_kulou={ --U Minh Kh« L©u	C«ng kÝch néi c«ng 68
 		poisondamage_v={{{1,11},{20,40}},{{1,60},{20,60}},{{1,10},{20,10}}},
 		seriesdamage_p={{{1,5},{20,30}}},
 		addskilldamage1={
@@ -101,7 +101,7 @@ SKILLS={
 		skill_attackradius={{{1,384},{20,448}}},
 		skill_cost_v={{{1,40},{20,40}}}
 	},
-	wuxing_gu={ --ÎÞÐÎ¹Æ vo hinh doc
+	wuxing_gu={ --V« H×nh §éc	Vßng trßn  hç trî c«ng kÝch	69
 		fastwalkrun_p={{{1,-10},{25,-50},{26,-50}},{{1,18*2},{20,18*2}}},
 		poisondamage_v={
 			[1]={{1,5},{20,25}},
@@ -111,21 +111,21 @@ SKILLS={
 		skill_attackradius={{{1,484},{20,548}}},
 		
 	},
-	chiyan_shitian={ --³àÑ×Ê´Ìì
+	chiyan_shitian={ --XÝch DiÖm Thùc Thiªn	Chñ ®éng hç trî c«ng kÝch	70
 		fireres_p={{{1,-9},{20,-49}},{{1,18*20},{20,18*90}}},
 		--fireresmax_p={{{1,-1},{25,-15},{26,-15}},{{1,18*20},{20,18*90}}},
 		skill_cost_v={{{1,10},{20,60}}}
 	},
-	chuanxin_duci={ --´©ÐÄ¶¾´Ì
+	chuanxin_duci={ --Xuyªn T©m §éc ThÝch	Chñ ®éng hç trî chiÕn ®Êu	72
 		poisonres_p={{{1,-29},{20,-49}},{{1,18*20},{20,18*90}}},
 		--poisonresmax_p={{{1,-1},{25,-15},{26,-15}},{{1,18*20},{20,18*90}}},
 		skill_cost_v={{{1,10},{20,60}}}
 	},
-	wangu_shixin={ --V¹n ®éc thùc t©m
+	wangu_shixin={ --V¹n §éc Thùc T©m	Chñ ®éng hç trî c«ng kÝch	73
 		poisontimereduce_p={{{1,-100},{20,-400}},{{1,18*45},{20,18*120}}},
 		skill_cost_v={{{1,40},{20,40}}}
 	},
-	tiangang_disha={ --Ììî¸µØÉ±
+	tiangang_disha={ --Thiªn C­¬ng §Þa S¸t	C«ng kÝch néi c«ng 	71
 		seriesdamage_p={{{1,10},{20,50},{21,52}}},
 		poisondamage_v={{{1,50},{20,135}},{{1,60},{20,60}},{{1,10},{20,10}}},
 		addskilldamage1={
@@ -147,7 +147,7 @@ SKILLS={
 		skill_attackradius={{{1,448},{20,480}}},
 		skill_cost_v={{{1,60},{20,60}}}
 	},
-	zhuha_qingming={ --Öì¸òÇàÚ¤
+	zhuha_qingming={ --Chu C¸p Thanh Minh	C«ng kÝch ngo¹i c«ng  	74
 		seriesdamage_p={{{1,10},{20,50},{21,52}}},
 		physicsenhance_p={{{1,30},{20,392}}},
 		poisondamage_v={{{1,16},{20,53}},{{1,60},{20,60}},{{1,10},{20,10}}},
@@ -163,7 +163,7 @@ SKILLS={
 		skill_attackradius={{{1,448},{20,512},{21,512}}},
 		skill_cost_v={{{1,17},{20,55}}}
 	},
-	wudu_qijing={ --Ngò §éc Kú Kinh TrÊn Ph¸i
+	wudu_qijing={ --Ngò §éc Kú Kinh TrÊn Ph¸i Hç trî phßng ngù - chñ ®éng	75
 		addpoisonmagic_v={{{1,5},{30,100}},{{1,-1},{20,-1}},{{1,11},{2,11}}},
 		addpoisondamage_v={{{1,5},{30,45}},{{1,-1},{20,-1}},{{1,11},{2,11}}},
 		--addpoisondamage_v={{{1,5},{30,100}},{{1,-1},{20,-1}},{{1,11},{2,11}}},
@@ -172,7 +172,7 @@ SKILLS={
 		lifemax_p={{{1,10},{35,10},{36,10}},{{1,-1},{30,-1}}},
 		castspeed_v={{{1,1},{38,20},{39,21}},{{1,-1},{30,-1}}},
 	},
-	baidu_chuanxin={ --°Ù¶¾´©ÐÄ bach doc xuyen tam
+	baidu_chuanxin={ --B¸ch §éc Xuyªn T©m 	C«ng kÝch néi c«ng 	384
 		physicsenhance_p={{{1,10},{20,95}}}, 
 		seriesdamage_p={{{1,5},{20,30}}},
 		-- poisondamage_v={{{1,4},{20,20}},{{1,60},{20,60}},{{1,10},{20,10}}}, -- fix dame 1.3
@@ -189,7 +189,7 @@ SKILLS={
 		skill_attackradius={{{1,384},{20,448}}},
 		skill_cost_v={{{1,10},{20,32}}}
 	},
-	yinfeng_shigu={ --Òõ·çÊ´¹Ç am phong thuc cot tang 1
+	yinfeng_shigu={ --¢m Phong Thùc Cèt 	C«ng kÝch néi c«ng 	353
 		seriesdamage_p={{{1,20},{15,20},{20,60},{21,62}}},
 		-- poisondamage_v={{{1,20},{15,50},{20,121}},{{1,60},{20,60}},{{1,10},{20,10}}}, -- fix dame 1.9 > 2.0
 		poisondamage_v={{{1,40},{15,100},{20,242}},{{1,60},{20,60}},{{1,10},{20,10}}},
@@ -241,11 +241,11 @@ SKILLS={
 							{20,SkillExpFunc(3540,1.15,20,1,5)},
 							}},
 	},
-	zhuifeng_duji={ --×··ç¶¾¼¬
+	zhuifeng_duji={ --Truy Phong §éc C¸t 	C«ng kÝch néi c«ng 	388	
 		seriesdamage_p={{{1,20},{20,60},{21,62}}},
 		poisondamage_v={{{1,1},{20,15}},{{1,60},{20,60}},{{1,10},{20,10}}},
 	},
-	zhangwudu150={ --ÕÆÎå¶¾150
+	zhangwudu150={ --H×nh Tiªu Cèt LËp	C«ng kÝch néi c«ng 	1066
 		seriesdamage_p={{{1,40},{15,40},{20,80},{21,82}}},
 		--poisondamage_v={{{1,20},{15,50},{20,121}},{{1,60},{20,60}},{{1,10},{20,10}}},
 		poisondamage_v={{{1,25},{15,100},{20,215},{23,353},{26,422}},{{1,60},{20,60}},{{1,10},{20,10}}},
@@ -274,16 +274,16 @@ SKILLS={
 												{20,21000},
 												}},	
 	},
-	zhangwudu150_2={ --ÕÆÎå¶¾150µÚ2Ê½
+	zhangwudu150_2={ --H×nh Tiªu Cèt LËp 2	C«ng kÝch néi c«ng 	1094
 		seriesdamage_p={{{1,40},{20,80},{21,82}}},
 		poisondamage_v={{{1,1},{20,25}},{{1,60},{20,60}},{{1,10},{20,10}}},
 	},
-	tiangang_dushou={ --Ììî¸¶¾ÊÖ am phong thuc cot tang 2
+	tiangang_dushou={ --Thiªn C­¬ng §éc Thñ 	C«ng kÝch néi c«ng 	354	 am phong thuc cot tang 2
 		seriesdamage_p={{{1,20},{20,60},{21,62}}},
 		-- poisondamage_v={{{1,1},{20,15}},{{1,80},{20,60}},{{1,10},{20,10}}}, fix dame 20 > 25
 		poisondamage_v={{{1,1},{20,25}},{{1,80},{20,60}},{{1,10},{20,10}}},
 	},
-	xuanyin_zhan={ --ÐþÒõÕ¶ huyen am tram tang 1
+	xuanyin_zhan={ --HuyÒn ¢m Tr¶m 	C«ng kÝch néi c«ng 	355 tang 1
 		seriesdamage_p={{{1,20},{15,20},{20,60},{21,62}}},
 		physicsenhance_p={{{1,15},{15,80},{20,173}}},
 		-- poisondamage_v={{{1,20},{15,60},{20,120}},{{1,60},{20,60}},{{1,10},{20,10}}}, -- fix dame 1.3
@@ -329,12 +329,12 @@ SKILLS={
 		},
 		skill_showevent={{{1,0},{10,0},{10,4},{20,4}}},
 	},
-	xingkong_po={ --ÐÇ¿ÕÆÆ huyen am tram tang 2
+	xingkong_po={ --Tinh Kh«ng Ph¸ 	C«ng kÝch néi c«ng 	383
 		seriesdamage_p={{{1,20},{20,60},{21,62}}},
 		-- poisondamage_v={{{1,1},{20,10}},{{1,60},{20,60}},{{1,10},{20,10}}}, -- fix dame 1.3
 		poisondamage_v={{{1,1},{20,15}},{{1,60},{20,60}},{{1,10},{20,10}}},
 	},
-	daowudu150={ --µ¶Îå¶¾150
+	daowudu150={ --U Hån PhÖ ¶nh	C«ng kÝch néi c«ng 	1067
 		seriesdamage_p={{{1,40},{15,40},{20,80},{21,82}}},
 		physicsenhance_p={{{1,18},{15,95},{20,208},{23,343},{26,411}}},
 		--poisondamage_v={{{1,20},{15,30},{20,60}},{{1,60},{20,60}},{{1,10},{20,10}}},
@@ -375,21 +375,21 @@ SKILLS={
 												{20,21000},
 												}},	
 	},
-	daowudu150_2={ --µ¶Îå¶¾150µÚ2Ê½
+	daowudu150_2={ --Hån ¶nh Tïng Sanh	C«ng kÝch néi c«ng 	1232
 		seriesdamage_p={{{1,40},{20,80},{21,82}}},
 		poisondamage_v={{{1,1},{20,12},{23,15}},{{1,60},{20,60}},{{1,10},{20,10}}},
 	},
-	duanjin_fugu={ --¶Ï½î¸¯¹Ç
+	duanjin_fugu={ --§o¹n C©n Hñ Cèt 	Chñ ®éng hç trî chiÕn ®Êu	390
 		allres_p={{{1,-1},{20,-40}},{{1,18*20},{20,18*90}}},
 		--allresmax_p={{{1,-1},{20,-10},{21,-10}},{{1,18*20},{20,18*90}}},
 		skill_cost_v={{{1,60},{20,120}}}
 	},
-	chuanyi_pojia={ --´©ÒÂÆÆ¼×
+	chuanyi_pojia={ --Xuyªn Y Ph¸ Gi¸p 	Chñ ®éng hç trî c«ng kÝch	356
 		physicsres_p={{{1,-9},{20,-49}},{{1,18*20},{20,18*90}}},
 		--physicsresmax_p={{{1,-1},{20,-15},{20,-15}},{{1,18*20},{20,18*90}}},
 		skill_cost_v={{{1,10},{20,60}}}
 	},
-	wudu120={ --Îå¶¾120¼¼ÄÜ
+	wudu120={ --HÊp Tinh YÓm	hç trî bÞ ®éng 	711
 		autoattackskill={{{1,719*256 + 1},{20,719*256 + 20},{21,719*256 + 21}},{{1,-1},{20,-1}},{{1,10*18*256 + 1},{15,10*18*256 + 12},{20,10*18*256 + 15},{21,10*18*256 + 15}}},
 		skill_desc=
 			function(level)
@@ -420,7 +420,7 @@ SKILLS={
 							{20,620738181},
 							}},	
 	},
-	wudu120zuzhou={ --Îå¶¾120¼¼ÄÜ×çÖä
+	wudu120zuzhou={ --HÊp Tinh YÓm_QuyÕt Chó	Chó thuËt	719
 		poison2decmana_p={{{1,30},{15,80},{20,85},{21,85}},{{1,3*18},{15,5*18},{20,6*18},{21,6*18}}},
 	},
 }
@@ -428,13 +428,6 @@ SKILLS={
 --Create by yfeng 2004-05-20
 -----------------------------------------------
 
------------------------------------------------
---¸ù¾Ý2¸öµã£¬ÇóÏßÐÎº¯Êýf(x)=k*x+b
---y= (y2-y1)*(x-x1)/(x2-x1)+y1
---µ±x2=x1, ÓÐx=c,¸ÃÖ±ÏßÊÇÒ»Ìõ´¹Ö±ÓÚxÖáµÄÖ±Ïß
---ÕâÊÇ¿ÉÒÔÈ¡µÃy=ÈÎÒâÖµ
---Òò´Ë£¬Èç¹ûÒÑÖªÁ½µã(x1,y1),(x2,y2)¿ÉÇóµÃ¹ý´Ë2µãµÄ
---º¯ÊýÎª£º
 function Line(x,x1,y1,x2,y2)
 	if(x2==x1) then
 		return y2
@@ -442,14 +435,6 @@ function Line(x,x1,y1,x2,y2)
 	return (y2-y1)*(x-x1)/(x2-x1)+y1
 end
 
------------------------------------------------
---¸ù¾Ý2¸öµã£¬Çó2´ÎÐÎº¯Êýf(x)=a*x2+c
---y= (y2-y1)*x*x/(x2*x2-x1*x1)-(y2-y1)*x1*x1/(x2*x2-x1*x1)+y1
---µ±x1»òÕßx2 < 0 ,y =0
---µ±x2=x1, ÓÐx=c,ÊÇÒ»Ìõ´¹Ö±ÓÚxÖáµÄÖ±Ïß
---ÕâÊÇ¿ÉÒÔÈ¡µÃy=ÈÎÒâÖµ
---Òò´Ë£¬Èç¹ûÒÑÖªÁ½µã(x1,y1),(x2,y2)¿ÉÇóµÃ¹ý´Ë2µãµÄ
---º¯ÊýÎª£ºextrac
 function Conic(x,x1,y1,x2,y2)
 	if((x1 < 0) or (x2<0))then 
 		return 0
@@ -460,14 +445,6 @@ function Conic(x,x1,y1,x2,y2)
 	return (y2-y1)*x*x/(x2*x2-x1*x1)-(y2-y1)*x1*x1/(x2*x2-x1*x1)+y1
 end
 
------------------------------------------------
---¸ù¾Ý2¸öµã£¬Çó-2´ÎÐÎº¯Êýf(x)=a*sqrt(x2)+c
---y=(y2-y1)*x/(sqrt(x2)-sqrt(x1))+y1-(y2-y1)/((sqrt(x2)-sqrt(x1))
---µ±x2»òÕßx1<0, y=0,
---µ±x1=x2,ÓÐx=c,ÊÇÒ»Ìõ´¹Ö±ÓÚxÖáµÄÖ±Ïß
---ÕâÊÇ¿ÉÒÔÈ¡µÃy=ÈÎÒâÖµ
---Òò´Ë£¬Èç¹ûÒÑÖªÁ½µã(x1,y1),(x2,y2)¿ÉÇóµÃ¹ý´Ë2µãµÄ
---º¯ÊýÎª£ºextrac
 function Extrac(x,x1,y1,x2,y2)
 	if((x1 < 0) or (x2<0))then 
 		return 0
@@ -478,13 +455,6 @@ function Extrac(x,x1,y1,x2,y2)
 	return (y2-y1)*(x-x1)/(x2-x1)+y1
 end
 
------------------------------------------------
---Ãè»æÁ¬½ÓÏß:Link(x,points)
---¸ù¾ÝpointsÌá¹©µÄÒ»ÏµÁÐµã£¬ÓÃÏàÁÚµÄÁ½¸öµãÃè»æÇúÏß
---return yÖµ
---x ÊäÈëÖµ
---points µã¼¯ºÏ
---ÐÎÈç£ºpointsÊÇÐÎÈç{{x1,y1,func=xxx},{x2,y2,func=xxx},...{xn,yn,func=xxx}}µÄÓ³Éä
 function Link(x,points)
 	num = getn(points)
 	if(num<2) then
@@ -512,51 +482,6 @@ function Link(x,points)
 	return points[c][3](x,points[c-1][1],points[c-1][2],points[c][1],points[c][2])
 end
 
-------------------------------------------------------
---¼¼ÄÜÉè¶¨¸ñÊ½ÈçÏÂ£º
---SKILLS={
---	¼¼ÄÜÃû³Æ=	{
---		Ä§·¨ÊôÐÔ=	{
---			[1]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬
---			[2]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬
---			[3]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬	
---		}£¬
---		Ä§·¨ÊôÐÔ=	{
---			[1]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬
---			[2]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬
---			[3]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬	
---		}£¬
---		¡£¡£¡£¡£¡£
---	}£¬
---	¼¼ÄÜÃû³Æ=	{
---		Ä§·¨ÊôÐÔ=	{
---			[1]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬
---			[2]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬
---			[3]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬	
---		}£¬
---		Ä§·¨ÊôÐÔ=	{
---			[1]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬
---			[2]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬
---			[3]={{¼¶±ð,ÊýÖµ£¬ÇúÏß}£¬{¼¶±ð£¬ÊýÖµ£¬ÇúÏß}£¬¡£¡£¡£¡£}£¬	
---		}£¬
---		¡£¡£¡£¡£¡£
---	}£¬
---	¡£¡£¡£¡£¡£
---}
---Èç£º
---SKILLS={
---	Sanhuan-taoyue={
---		physicsenhance_p={
---			[1]={{1,50},{20,335}},--Ä§·¨ÊôÐÔphysicsenhance_p²ÎÊý1£¬1¼¶Ê±Îª35£¬20¼¶Ê±Îª335£¬ÇúÏß²»Ìî£¬Ä¬ÈÏÏßÐÎ
---			[2]={{1,0},{20,0}},
---		},--Ã»ÓÐ[3]£¬±íÊ¾Ä§·¨ÊôÐÔphysicsenhance_p²ÎÊý2£¬Ä¬ÈÏÎªÈÎºÎÊ±ºò¶¼ÊÇ0
---		lightingdamage_v={
---			[1]={{1,65},{20,350}},
---			[3]={{1,65},{20,350}},
---		}
---	}
---}
---ÒÔÉÏÃèÊö¼¼ÄÜ¡°Èý»·Ì×ÔÂ¡±µÄÄ§·¨ÊôÐÔºÍÊýÖµ
 -----------------------------------------------------------
 --º¯ÊýGetSkillLevelData(levelname, data, level)
 --levelname£ºÄ§·¨ÊôÐÔÃû³Æ

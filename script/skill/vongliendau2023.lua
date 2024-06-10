@@ -1,3 +1,9 @@
+-------------------------------------------------------------------------
+-- FileName		:	vongliendau2023.lua - Kü N¨ng Thªm Liªn §Êu
+-- Author		:	jxdocs.com
+-- CreateTime	:	2005-04-06 23:17:18
+-- Desc			:	/jxser/server1/script/skill/vongliendau2023.lua
+-------------------------------------------------------------------------
 TAB_SKILL = {
 	top1=
 	{	
@@ -28,15 +34,15 @@ TAB_SKILL = {
 		},	
 hotrotk=
 {	
-fasthitrecover_v = {20, -1, 0},  --Thêi gian phôc håi
-fatallystrikeres_p = {20, -1, 0}, --Kh¸ng ®ßn chÝ m¹ng
-freezetimereduce_p = {20, -1, 0}, --Thêi gian lµm chËm
-poisontimereduce_p = {20, -1, 0}, --Thêi gian tróng ®éc
-stuntimereduce_p = {20, -1, 0}, --Thêi gian cho¸ng
+	fasthitrecover_v = {20, -1, 0},  --Thêi gian phôc håi
+	fatallystrikeres_p = {20, -1, 0}, --Kh¸ng ®ßn chÝ m¹ng
+	freezetimereduce_p = {20, -1, 0}, --Thêi gian lµm chËm
+	poisontimereduce_p = {20, -1, 0}, --Thêi gian tróng ®éc
+	stuntimereduce_p = {20, -1, 0}, --Thêi gian cho¸ng
 },		
 hotrotvbtk=
 {	
-fastwalkrun_p = {20, -1, 0},
+	fastwalkrun_p = {20, -1, 0},
 },	
 	
 }

@@ -1,6 +1,9 @@
-
-
-
+-------------------------------------------------------------------------
+-- FileName		:	jiankang.lua - C«n L«n
+-- Author		:	jxdocs.com
+-- CreateTime	:	2005-04-06 23:17:18
+-- Desc			:	/jxser/server1/script/skill/jiankang.lua
+-------------------------------------------------------------------------
 SKILLS=
 {
 	jiankang = 
