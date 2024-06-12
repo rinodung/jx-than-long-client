@@ -14,13 +14,16 @@ function OnMagicAttrib(nCallState, nTargetNpcIndex, nLauncherNpcIndex)
 		return
 	end	
 	PlayerIndex = nPlayerIndex;
-	--day la skill tuyet anh 109, neu co 713 remove 713
 	if (GetSkillState(713) ~= -1 ) then		
-		RemoveSkillState(713);
-		local msg = format("HiÖu øng Ngù TuyÕt Èn cßn tån t¹i, sö dông tuyÖt ¶nh v« hiÖu ");
-		Msg2Player(msg);
-		return 0;
-		
+		--RemoveSkillState(713);
+		--RemoveSkillState(109);
+		--local msg = format("HiÖu øng Ngù TuyÕt Èn cßn tån t¹i, sö dông tuyÖt ¶nh v« hiÖu ");
+		--Msg2Player(msg);
+		--KickOutSelf();
+		--return 0;
+	else
+		--local msg = format("HiÖu øng Ngù TuyÕt Èn cßn tån t¹i, sö dông tuyÖt ¶nh v« hiÖu " .. GetSkillState(713));
+		--Msg2Player(msg);	
 	end
 	
 end
