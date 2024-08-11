@@ -88,7 +88,7 @@ SKILLS={
 			[1]={{1,1055},{2,1055}},
 			[3]={{1,1},{20,125}}
 		},
-		skill_cost_v={{{1,120},{20,300}}}
+		skill_cost_v={{{1,20},{20,100}}}
 	},
 	longzhao_huzhua={ --Long Tr¶o Hæ Tr¶o (##) 	C«ng kÝch ngo¹i c«ng  	17
 		physicsenhance_p={{{1,120},{20,1242}}},
