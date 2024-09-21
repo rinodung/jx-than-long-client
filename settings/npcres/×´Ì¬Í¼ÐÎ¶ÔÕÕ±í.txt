@@ -41,7 +41,7 @@ Status39	\spr\skill\¶ëáÒ\mag_em_08_Á÷Ë®.spr	Foot	Loop	0	0	16	1	16	1	L­u Thñy
 Status40	\spr\skill\¶ëáÒ\mag_em_09_ÃÎµû.spr	Foot	Loop	0	0	16	1	16	1	Méng §iÖp 
 Status41	\spr\skill\¶ëáÒ\mag_em_10_·ğĞÄ´ÈÓÓ.spr	Foot	Loop	0	0	15	1	15	1	PhËt T©m T?H÷u
 Status42	\spr\skill\¶ëáÒ\mag_em_11_·çÓêÆ®Ïã.spr	Head	Loop	0	0	4	1	6	1	Phong V?Phiªu H­¬ng
-Status43	\spr\skill\Ø¤°ï\mag_gb_11_×íµû¿ñÎè.spr	Body	Loop	4	12	16	1	19	1	Tóy §iÖp Cuång V?
+Status43	\spr\skill\Ø¤°ï\mag_gb_11_×íµû¿ñÎè.spr	Body	Loop	4	12	16	1	19	1	Tóy §iÖp Cuång Vò
 Status44	\spr\skill\Ø¤°ï\mag_gb_12_´ò¹·Õó.spr	Foot	Loop	0	0	8	1	19	1	§¶ CÈu bæng
 Status45	\spr\skill\ÉÙÁÖ\sl_07_ÂŞººÕó.spr	Foot	Loop	0	0	10	1	8	1	La H¸n TrËn
 Status46	\spr\skill\ÌìÍõ\tw_01_»ğÑÛ½ğ¾¦.spr	Head	Loop	0	0	10	1	16	1	Háa Nh·n Kim T×nh
@@ -76,15 +76,15 @@ Status74	\spr\skill\zhongqiu\zq_sl_002.spr	Head	Loop	0	0	10	1	15	1	Qu?Hoa Töu
 Status75	\spr\skill\christmas\star1.spr	Head	Loop	0	0	10	1	100	1	Hoa ®¨ng 
 Status76	\spr\skill\christmas\star2.spr	Head	Loop	0	0	10	1	100	1	Hoa ®¨ng 
 Status77	\spr\skill\christmas\star2.spr	MiniMap	Loop	0	0	10	1	100	1	phãng to b¶n ®å nh?
-Status78	\spr\skill\task\taskfinish.spr	Foot	Loop	0	0	27	1	50	1	Hoµn thµnh nhiÖm v?
-Status79	\spr\skill\special\skill_heart.spr	Body	Loop	0	0	20	1	40	1	Tr¹ng th¸i k?n¨ng
-Status80	\spr\skill\²¹³ä\mag_spe_µÇÂ¼.spr	Foot	Loop	0	0	20	1	50	1	Hoµn thµnh nhiÖm v? S¸t th? 
-Status81	\spr\skill\others\title_yl.spr	Foot	Loop	0	0	10	1	30	1	Vßng trßn V?L©m §¹i Héi 1
-Status82	\spr\skill\others\title_bj.spr	Foot	Loop	0	0	10	1	30	1	Vßng trßn V?L©m §¹i Héi 2
-Status83	\spr\skill\others\title_zw.spr	Foot	Loop	0	0	11	1	30	1	Vßng trßn V?L©m §¹i Héi 3
-Status84	\spr\skill\others\title_dg.spr	Foot	Loop	0	0	10	1	30	1	Vßng trßn V?L©m §¹i Héi 4
-Status85	\spr\skill\others\title_ab.spr	Foot	Loop	0	0	10	1	30	1	Vßng trßn V?L©m §¹i Héi 5
-Status86	\spr\skill\kl\Ò»ÆøÈıÇå·û.spr	Head	Loop	0	0	15	1	30	1	HuyÒn Thiªn V?Cùc
+Status78	\spr\skill\task\taskfinish.spr	Foot	Loop	0	0	27	1	50	1	Hoµn thµnh nhiÖm vô
+Status79	\spr\skill\special\skill_heart.spr	Body	Loop	0	0	20	1	40	1	Tr¹ng th¸i kü n¨ng
+Status80	\spr\skill\²¹³ä\mag_spe_µÇÂ¼.spr	Foot	Loop	0	0	20	1	50	1	Hoµn thµnh nhiÖm vô S¸t thñ
+Status81	\spr\skill\others\title_yl.spr	Foot	Loop	0	0	10	1	30	1	Vßng trßn Vâ L©m §¹i Héi 1
+Status82	\spr\skill\others\title_bj.spr	Foot	Loop	0	0	10	1	30	1	Vßng trßn Vâ L©m §¹i Héi 2
+Status83	\spr\skill\others\title_zw.spr	Foot	Loop	0	0	11	1	30	1	Vßng trßn Vâ L©m §¹i Héi 3
+Status84	\spr\skill\others\title_dg.spr	Foot	Loop	0	0	10	1	30	1	Vßng trßn Vâ L©m §¹i Héi 4
+Status85	\spr\skill\others\title_ab.spr	Foot	Loop	0	0	10	1	30	1	Vßng trßn Vâ L©m §¹i Héi 5
+Status86	\spr\skill\kl\Ò»ÆøÈıÇå·û.spr	Head	Loop	0	0	15	1	30	1	HuyÒn Thiªn V« Cùc
 Status87	\spr\skill\partner\Í¬°éÆÕ·À.spr	Head	Loop	0	0	1	1	1	1	K?n¨ng §ång hµnh 
 Status88	\spr\skill\partner\Í¬°é¶¾·À.spr	Head	Loop	0	0	1	1	1	1	K?n¨ng §ång hµnh 
 Status89	\spr\skill\partner\Í¬°é±ù·À.spr	Head	Loop	0	0	1	1	1	1	K?n¨ng §ång hµnh 
@@ -105,8 +105,8 @@ Status103	\spr\skill\task\skill_jinpai.spr	Foot	Loop	0	0	10	1	30	1	Tİn s?lÖnh - 
 Status104	\spr\skill\task\em_90_fssy_a.spr	Foot	Loop	0	0	10	1	30	1	Ng?T?lÖnh bµi - vµng 
 Status105	\spr\skill\task\randomtask.spr	Head	Loop	0	0	20	1	37	1	tr¹ng th¸i nhiÖm v?ngÉu nhiªn 
 Status106	\spr\skill\²¹³ä\mag_spe_Ñ£ÔÎ.spr	Head	Loop	0	0	10	1	10	1	cho¸ng (Gi¸ng Sinh) 
-Status107	\spr\skill\top_tong\bangzhu.spr	Foot	Loop	0	0	16	1	35	1	Bang ch?V?L©m §Ö NhÊt Bang
-Status108	\spr\skill\top_tong\bangzhong.spr	Foot	Loop	0	0	16	1	35	1	Bang chóng V?L©m §Ö NhÊt Bang
+Status107	\spr\skill\top_tong\bangzhu.spr	Foot	Loop	0	0	16	1	35	1	Bang ch?Vâ L©m §Ö NhÊt Bang
+Status108	\spr\skill\top_tong\bangzhong.spr	Foot	Loop	0	0	16	1	35	1	Bang chóng Vâ L©m §Ö NhÊt Bang
 Status109	\spr\skill\special\Õ¨µ¯ÈË±êÊ¾.spr	Head	Loop	0	0	18	1	50	1	HiÓn th?ng­êi nĞm ph¸o
 Status110	\spr\skill\tw\µ¹ĞéÌì.spr	Body	Loop	0	0	28	1	15	1	§¶o H?Thiªn_Kh¸ng bïa ch?
 Status111	\spr\skill\sl\´ó³ËÈçÀ´Öä.spr	Body	Loop	0	0	25	1	25	1	§¹i Thõa Nh?Lai Chó_Ph¶n ®ßn bïa ch?
@@ -135,7 +135,7 @@ Status133	\spr\skill\task\wenhao.spr	Head	Loop	0	0	16	1	37	1	C©u hái L?t×nh nh©n
 Status134	\spr\skill\task\process_000.spr	Foot	Loop	0	0	20	1	60	1	Thanh diÔn tiÕn L?T×nh Nh©n
 Status135	\spr\skill\others\ib_citymaster.spr	Foot	Loop	0	0	10	1	30	1	Trang b?B¹ch Kim
 Status136	\spr\skill\others\title_new_zw.spr	Foot	Loop	0	0	15	1	15	1	Tèng Kim Chiªu V?HiÖu óy
-Status137	\spr\skill\others\title_new_yl.spr	Foot	Loop	0	0	11	1	18	1	Tèng Kim V?L©m Trung Lang T­íng
+Status137	\spr\skill\others\title_new_yl.spr	Foot	Loop	0	0	11	1	18	1	Tèng Kim Vâ L©m Trung Lang T­íng
 Status138	\spr\skill\others\title_new_bj.spr	Foot	Loop	0	0	20	1	23	1	Tèng Kim Phiªu K?§¹i T­íng Qu©n
 Status139	\spr\skill\others\title_new_ab.spr	Foot	Loop	0	0	15	1	30	1	Tèng Kim An Bang §¹i T­íng Qu©n
 Status140	\spr\skill\others\title_new_dg.spr	Foot	Loop	0	0	15	1	15	1	Tèng Kim §Şnh Quèc Nguyªn So¸i
@@ -176,12 +176,12 @@ Status174	\spr\skill\others\jianxiazhizun.spr	Foot	Loop	0	0	15	1	60	1	VIPÕÊºÅ¹â»
 Status175	\spr\skill\others\dubutianxia.spr	Foot	Loop	0	0	15	1	60	1	VIPÕÊºÅ¹â»·¶À²½ÌìÏÂ
 Status176	\spr\skill\others\xiridaxia.spr	Foot	Loop	0	0	15	1	15	1	ÎôÈÕ´óÏÀ»î¶¯
 Status177	\spr\skill\others\¶À¹ÂÇó°Ü.spr	Head	Loop	0	0	20	1	40	1	§éc C?CÇu B¹i
-Status178	\spr\skill\others\ÎäÁÖÖÁ×ğ.spr	Head	Loop	0	0	20	1	40	1	V?L©m Ch?T«n
+Status178	\spr\skill\others\ÎäÁÖÖÁ×ğ.spr	Head	Loop	0	0	20	1	40	1	Vâ L©m Ch?T«n
 Status179	\spr\skill\others\Ò»´ú×ÚÊ¦.spr	Head	Loop	0	0	20	1	40	1	NhÊt §¹i T«ng s?
 Status180	\spr\skill\others\¾øÊÀ¸ßÊÖ.spr	Head	Loop	0	0	20	1	40	1	TuyÖt Th?Cao Th?
 Status181	\spr\skill\others\ÃûÂú½­ºş.spr	Head	Loop	0	0	20	1	40	1	Vang Danh Giang H?
 Status182	\spr\skill\others\ÏÀÃûÔ¶²¥.spr	Head	Loop	0	0	20	1	40	1	HiÖp Danh ViÔn B?
-Status183	\spr\skill\others\ÎäÁÖĞÂĞã.spr	Head	Loop	0	0	20	1	40	1	V?L©m T©n T?
+Status183	\spr\skill\others\ÎäÁÖĞÂĞã.spr	Head	Loop	0	0	20	1	40	1	Vâ L©m T©n T?
 Status184	\spr\skill\others\³õÈë½­ºş.spr	Head	Loop	0	0	20	1	40	1	Míi nhËp giang h?
 Status185	\spr\skill\others\ÈëÃÅµÜ×Ó.spr	Head	Loop	0	0	20	1	40	1	NhËp M«n §Ö T?
 Status186	\spr\skill\others\longzhidui2.spr	Foot	Loop	0	0	15	1	83	1	2012ÁúÖ®¶Ó¹â»·

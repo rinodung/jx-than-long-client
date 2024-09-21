@@ -418,7 +418,29 @@ SKILLS={
 				" vµ t®ng <color=orange>"..floor((Link(level,SKILLS.kunlun120jiasu.fastwalkrun_p[1]))).."%<color> tËc ÆÈ di chuy”n trong <color=orange>"
 				..floor(Link(level,SKILLS.kunlun120jiasu.fastwalkrun_p[2]) / 18).." gi©y<color>\n"..
 				"Trong vﬂng <color=orange>"..floor((Link(level,SKILLS.kunlun120.autorescueskill[3]) / (18*256))).." gi©y<color> sau mÌi c„ th” thi tri”n ti’p"
-			end,	
+			end,
+		skill_skillexp_v={{	
+			{1,2000000000},
+			{2,2000000000},
+			{3,2000000000},
+			{4,2000000000},
+			{5,2000000000},
+			{6,2000000000},
+			{7,2000000000},
+			{8,2000000000},
+			{9,2000000000},
+			{10,2000000000},
+			{11,2000000000},
+			{12,2000000000},
+			{13,2000000000},
+			{14,2000000000},
+			{15,2000000000},
+			{16,2000000000},
+			{17,2000000000},
+			{18,2000000000},
+			{19,2000000000},
+			{20,2000000000},
+		}},		
 		--skill_skillexp_v={{	
 		--	{1,17851239},
 		--	{2,19487603},

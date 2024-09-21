@@ -422,6 +422,28 @@ SKILLS={
 				"X∏c su t <color=orange>"..floor(100 - Link(level,SKILLS.wudang120_child.missle_missrate[1])).."%<color> <color>t˘ loπi b· vµ mi‘n dﬁch trπng th∏i dﬁ th≠Íng trong <color=orange>"..
 				floor(Link(level,SKILLS.wudang120_child.ignorenegativestate_p[2]) / 18).." gi©y<color>\n"
 			end,
+		skill_skillexp_v={{	
+			{1,2000000000},
+			{2,2000000000},
+			{3,2000000000},
+			{4,2000000000},
+			{5,2000000000},
+			{6,2000000000},
+			{7,2000000000},
+			{8,2000000000},
+			{9,2000000000},
+			{10,2000000000},
+			{11,2000000000},
+			{12,2000000000},
+			{13,2000000000},
+			{14,2000000000},
+			{15,2000000000},
+			{16,2000000000},
+			{17,2000000000},
+			{18,2000000000},
+			{19,2000000000},
+			{20,2000000000},
+		}},	
 		--skill_skillexp_v={{	
 		--	{1,17851239},
 		--	{2,19487603},
