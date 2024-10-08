@@ -157,15 +157,15 @@ V« Danh Giíi ChØ 	0	3	0	\spr\item\equip\ring\obj-ring10.spr	37	1	1	Vinh quang ch
 §Þnh Quèc Hé uyÓn	0	8	1	\spr\item\equip\bangle\obj-bangle19.spr	34	1	2	Trang bÞ Hoµng Kim	1	49999	10	0	30	135	135	31																		36	99																	32									
 §Þnh Quèc ChiÕn ngoa	0	5	1	\spr\item\equip\boots\obj-shoes09.spr	26	2	2	Trang bÞ Hoµng Kim	2	49999	10	0	30	160	160	31																		36	99																	32									
 §Þnh Quèc Ban chØ 	0	3	0	\spr\item\equip\ring\obj-ring09.spr	37	1	1	Trang bÞ Hoµng Kim	2	49999	10	0	31																					36	99																	32									
- §å phæ Hoµng Kim - §Þnh Quèc Thanh Sa Tr­êng Sam	0	2	3	\Spr\item\equip\armor\obj-ma-cloth11-3.spr	22	2	3	Trang bÞ Hoµng Kim	0	49999	8	0	30	630	630	31																		36	85											306	2					33									
- §å phæ Hoµng Kim - §Þnh Quèc ¤ Sa Ph¸t Qu¸n	0	7	3	\Spr\item\equip\cap\obj-ma-cap12-1.spr	28	2	2	Trang bÞ Hoµng Kim	2	49999	9	0	30	260	260	31																		36	75											1	307					33									
- §å phæ Hoµng Kim - §Þnh Quèc XÝch Quyªn NhuyÔn Ngoa	0	5	1	\Spr\item\equip\boots\obj-shoes06.spr	26	2	2	Trang bÞ Hoµng Kim	1	49999	8	0	30	140	140	31																		36	80											308	2					33									
- §å phæ Hoµng Kim - §Þnh Quèc Tö §»ng Hé uyÓn	0	8	1	\Spr\item\equip\bangle\obj-bangle13.spr	34	1	2	Trang bÞ Hoµng Kim	3	49999	8	0	30	111	111	31																		36	75											1	309					33									
- §å phæ Hoµng Kim - §Þnh Quèc Ng©n Tµm Yªu ®¸i	0	6	1	\Spr\item\equip\sash\obj-sash17.spr	33	2	1	Trang bÞ Hoµng Kim	4	49999	8	0	30	140	140	31																		36	75											1	28					33									
- §å phæ Hoµng Kim - An Bang B¨ng Tinh Th¹ch H¹ng Liªn	0	4	0	\Spr\item\equip\nick\obj-neck07.spr	36	2	1	Trang bÞ Hoµng Kim	4	49999	10	0																						36	85											310						34									
- §å phæ Hoµng Kim - An Bang Cóc Hoa Th¹ch ChØ hoµn	0	3	0	\Spr\item\equip\ring\obj-ring07.spr	37	1	1	Trang bÞ Hoµng Kim	2	49999	8	0																						36	80											6	312					34									
- §å phæ Hoµng Kim - An Bang §iÒn Hoµng Th¹ch Ngäc Béi	0	9	1	\Spr\item\equip\waist\obj-waist18.spr	36	1	2	Trang bÞ Hoµng Kim	1	49999	8	0																						36	75											6	313					34									
- §å phæ Hoµng Kim - An Bang Kª HuyÕt Th¹ch Giíi ChØ 	0	3	0	\Spr\item\equip\ring\obj-ring06.spr	37	1	1	Trang bÞ Hoµng Kim	3	49999	8	0																						36	80											6	311					34									
+§å phæ Hoµng Kim - §Þnh Quèc Thanh Sa Tr­êng Sam	0	2	3	\Spr\item\equip\armor\obj-ma-cloth11-3.spr	22	2	3	Trang bÞ Hoµng Kim	0	49999	8	0	30	630	630	31																		36	85											306	2					33									
+§å phæ Hoµng Kim - §Þnh Quèc ¤ Sa Ph¸t Qu¸n	0	7	3	\Spr\item\equip\cap\obj-ma-cap12-1.spr	28	2	2	Trang bÞ Hoµng Kim	2	49999	9	0	30	260	260	31																		36	75											1	307					33									
+§å phæ Hoµng Kim - §Þnh Quèc XÝch Quyªn NhuyÔn Ngoa	0	5	1	\Spr\item\equip\boots\obj-shoes06.spr	26	2	2	Trang bÞ Hoµng Kim	1	49999	8	0	30	140	140	31																		36	80											308	2					33									
+§å phæ Hoµng Kim - §Þnh Quèc Tö §»ng Hé uyÓn	0	8	1	\Spr\item\equip\bangle\obj-bangle13.spr	34	1	2	Trang bÞ Hoµng Kim	3	49999	8	0	30	111	111	31																		36	75											1	309					33									
+§å phæ Hoµng Kim - §Þnh Quèc Ng©n Tµm Yªu ®¸i	0	6	1	\Spr\item\equip\sash\obj-sash17.spr	33	2	1	Trang bÞ Hoµng Kim	4	49999	8	0	30	140	140	31																		36	75											1	28					33									
+§å phæ Hoµng Kim - An Bang B¨ng Tinh Th¹ch H¹ng Liªn	0	4	0	\Spr\item\equip\nick\obj-neck07.spr	36	2	1	Trang bÞ Hoµng Kim	4	49999	10	0																						36	85											310						34									
+§å phæ Hoµng Kim - An Bang Cóc Hoa Th¹ch ChØ hoµn	0	3	0	\Spr\item\equip\ring\obj-ring07.spr	37	1	1	Trang bÞ Hoµng Kim	2	49999	8	0																						36	80											6	312					34									
+§å phæ Hoµng Kim - An Bang §iÒn Hoµng Th¹ch Ngäc Béi	0	9	1	\Spr\item\equip\waist\obj-waist18.spr	36	1	2	Trang bÞ Hoµng Kim	1	49999	8	0																						36	75											6	313					34									
+§å phæ Hoµng Kim - An Bang Kª HuyÕt Th¹ch Giíi ChØ 	0	3	0	\Spr\item\equip\ring\obj-ring06.spr	37	1	1	Trang bÞ Hoµng Kim	3	49999	8	0																						36	80											6	311					34									
 Thiªn Hoµng Long Long §µi	0	7	4	\spr\item\equip\cap\obj-ma-cap08-3.spr	28	2	2	Trang bÞ Hoµng Kim	2	49999	6	0	30	315	315	31																		36	60											2	316					35									
 Thiªn Hoµng Long B¹ch Long Tøc	0	2	18	\spr\item\equip\armor\obj-ma-cloth13-3.spr	22	2	3	Trang bÞ Hoµng Kim	0	49999	6	0	30	630	630	31																		36	60											2	316					35									
 Thiªn Hoµng Long TrÊn Minh Liªn	0	4	1	\spr\item\equip\nick\obj-neck13.spr	36	2	1	Trang bÞ Hoµng Kim	1	49999	6	0																						36	60											6	316					35									
@@ -387,7 +387,7 @@ L¨ng Nh¹c Né L«i Giíi (kú h¹n)	0	3	0	\spr\item\equip\ring\obj-ring09.spr	37	1	1	
 [§Þnh thêi] An Bang Cóc Hoa Th¹ch ChØ Hoµn	0	3	0	\Spr\item\equip\ring\obj-ring07.spr	37	1	1	Trang bÞ Hoµng Kim	2	1000	8	0																						36	80											536	537					34									
 [§Þnh thêi] An Bang §iÒn Hoµng Th¹ch Ngäc Béi	0	9	1	\Spr\item\equip\waist\obj-waist18.spr	36	1	2	Trang bÞ Hoµng Kim	1	1000	8	0																						36	75											536	538					34									
 [§Þnh thêi] An Bang Kª HuyÕt Th¹ch Giíi ChØ	0	3	0	\Spr\item\equip\ring\obj-ring06.spr	37	1	1	Trang bÞ Hoµng Kim	3	1000	8	0																						36	80											536	539					34									
-[Liªn ®Êu] §Þnh Quèc Thanh sa Tr­êng sam	0	2	3	\Spr\item\equip\armor\obj-ma-cloth11-3.spr	22	2	3	§©y lµ bé <color=Yellow>V« Danh Giíi ChØ<color> do §éc C« KiÕm dµnh tÆng Vâ l©m liªn ®Êu 	0	49999	8	0	30	630	630	31																		36	85											371	532					33									
+[Liªn ®Êu] §Þnh Quèc Thanh Sa Tr­êng sam	0	2	3	\Spr\item\equip\armor\obj-ma-cloth11-3.spr	22	2	3	§©y lµ bé <color=Yellow>V« Danh Giíi ChØ<color> do §éc C« KiÕm dµnh tÆng Vâ l©m liªn ®Êu 	0	49999	8	0	30	630	630	31																		36	85											371	532					33									
 [Liªn ®Êu] §Þnh Quèc ¤ Sa Ph¸t Qu¸n	0	7	3	\Spr\item\equip\cap\obj-ma-cap12-1.spr	28	2	2	§©y lµ bé <color=Yellow>V« Danh Giíi ChØ<color> do §éc C« KiÕm dµnh tÆng Vâ l©m liªn ®Êu 	2	49999	9	0	30	260	260	31																		36	75											533	370					33									
 [Liªn ®Êu] §Þnh Quèc XÝch Quyªn NhuyÔn Ngoa	0	5	1	\Spr\item\equip\boots\obj-shoes06.spr	26	2	2	§©y lµ bé <color=Yellow>V« Danh Giíi ChØ<color> do §éc C« KiÕm dµnh tÆng Vâ l©m liªn ®Êu 	1	49999	8	0	30	140	140	31																		36	80											506	532					33									
 [Liªn ®Êu] §Þnh Quèc Tö §»ng Hé UyÓn	0	8	1	\Spr\item\equip\bangle\obj-bangle13.spr	34	1	2	§©y lµ bé <color=Yellow>V« Danh Giíi ChØ<color> do §éc C« KiÕm dµnh tÆng Vâ l©m liªn ®Êu 	3	49999	8	0	30	111	111	31																		36	75											533	534					33									
@@ -427,7 +427,7 @@ L¨ng Nh¹c Né L«i Giíi (kú h¹n)	0	3	0	\spr\item\equip\ring\obj-ring09.spr	37	1	1	
 [Hoµn Mü] Cùc PhÈm An Bang §iÒn Hoµng Th¹ch Ngäc Béi	0	9	1	\Spr\item\equip\waist\obj-waist18.spr	36	1	2	Trang bÞ Hoµng Kim	1	49999	8	0																						36	75											563	565	570				34									
 [Hoµn Mü] Cùc PhÈm An Bang Kª HuyÕt Th¹ch Giíi ChØ	0	3	0	\Spr\item\equip\ring\obj-ring06.spr	37	1	1	Trang bÞ Hoµng Kim	3	49999	8	0																						36	80											563	566	451				34									
 Cµn Kh«n Giíi ChØ	0	3	0	\spr\item\equip\ring\obj-ring10.spr	37	1	1	UÈn Hµm C­êng §¹i ThÇn BÝ Lùc L­îng Giíi ChØ!<color>	0	49999	10	0																						36	60											129	131					44									
-[§Þnh thêi] ThÕ Tóc Toµn Giíi	0	3	0	\spr\item\equip\ring\obj-ring09.spr	37	1	1	Trang bÞ Hoµng Kim	2	1000	10	0																						36	0											489						43									
+[ThÇn Long] ThÕ Tóc Toµn Giíi	0	3	0	\spr\item\equip\ring\obj-ring09.spr	37	1	1	Trang bÞ Hoµng Kim <color=gold>ThÇn Long<color>	2	1000	10	0																						36	0											489						43									
 [Pháng chÕ] Hång ¶nh TrÇm Viªn V·n Tóy	0	4	1	\spr\item\equip\nick\obj-neck09.spr	26	2	1	B¶o vËt næi tiÕng thêi Tèng	1	49999	10	0																						36	0											671						40									
 [Pháng chÕ] Hång ¶nh KiÕm Qua T©y Ph­¬ng	0	3	0	\spr\item\equip\ring\obj-ring01.spr	37	1	1	1 trong 13 miÕng lÖnh bµi mËt s¸t Nh¹c Phi ngµy tr­íc	2	49999	10	0																						36	0											671						40									
 [Pháng chÕ] Hång ¶nh Môc Tóc T­¬ng Vong	0	3	0	\spr\item\equip\ring\obj-ring02.spr	37	1	1	VËt phÈm nhiÖm vô, bªn trong Èn chøa nhiÒu bÝ mËt	4	49999	10	0																						36	0											671						40									

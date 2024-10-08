@@ -991,3 +991,4 @@ passerby395	NormalNpc	spr\npcres\passerby\passerby395
 passerby397	NormalNpc	spr\npcres\passerby\passerby397																
 passerby399	NormalNpc	spr\npcres\passerby\passerby399																
 boss160	NormalNpc	spr\npcres\boss\boss160																
+boss161	NormalNpc	spr\npcres\boss\boss161																
