@@ -986,5 +986,5 @@ passerby394	passerby394_st01.spr	passerby394_st01.spr	passerby394_st01.spr
 passerby395	passerby395_st01.spr	passerby395_st01.spr	passerby395_st01.spr											
 passerby397	passerby397_st01.spr	passerby397_st01.spr	passerby397_st01.spr											
 passerby399	passerby399_st01.spr	passerby399_st01.spr	passerby399_st01.spr											
-boss160	boss160_st01.spr	boss160_st01.spr	boss160_st02.spr	boss160_wlk.spr	boss160_wlk.spr	boss160_wlk.spr	boss160_wlk.spr	boss160_bat.spr	boss160_die.spr	boss160_at01.spr	boss160_at02.spr	boss160_at02.spr	boss160_st02.spr	boss159_wlk.spr
+boss160	boss160_st01.spr	boss160_st01.spr	boss160_st02.spr	boss160_wlk.spr	boss160_wlk.spr	boss160_wlk.spr	boss160_wlk.spr	boss160_bat.spr	boss160_die.spr	boss160_at01.spr	boss160_at02.spr	boss160_at02.spr	boss160_st02.spr	boss60_wlk.spr
 boss161	boss161_st.spr	boss161_st.spr	boss161_st.spr	boss161_wlk.spr	boss161_wlk.spr	boss161_wlk.spr	boss161_wlk.spr	boss161_bat.spr	boss161_die.spr	boss161_at1.spr	boss161_at2.spr	boss161_at3.spr	boss161_st.spr	boss161_wlk.spr
