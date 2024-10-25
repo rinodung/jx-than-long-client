@@ -988,3 +988,6 @@ passerby397	passerby397_st01.spr	passerby397_st01.spr	passerby397_st01.spr
 passerby399	passerby399_st01.spr	passerby399_st01.spr	passerby399_st01.spr											
 boss160	boss160_st01.spr	boss160_st01.spr	boss160_st02.spr	boss160_wlk.spr	boss160_wlk.spr	boss160_wlk.spr	boss160_wlk.spr	boss160_bat.spr	boss160_die.spr	boss160_at01.spr	boss160_at02.spr	boss160_at02.spr	boss160_st02.spr	boss60_wlk.spr
 boss161	boss161_st.spr	boss161_st.spr	boss161_st.spr	boss161_wlk.spr	boss161_wlk.spr	boss161_wlk.spr	boss161_wlk.spr	boss161_bat.spr	boss161_die.spr	boss161_at1.spr	boss161_at2.spr	boss161_at3.spr	boss161_st.spr	boss161_wlk.spr
+boss162	boss162_st.spr	boss162_st.spr	boss162_st.spr	boss162_wlk.spr	boss162_wlk.spr	boss162_wlk.spr	boss162_wlk.spr	boss162_bat.spr	boss162_die.spr	boss162_at1.spr	boss162_at2.spr	boss162_at3.spr	boss162_st.spr	boss162_wlk.spr
+boss163	boss163_st.spr	boss163_st.spr	boss163_st.spr	boss163_wlk.spr	boss163_wlk.spr	boss163_wlk.spr	boss163_wlk.spr	boss163_bat.spr	boss163_die.spr	boss163_at1.spr	boss163_at2.spr	boss163_at3.spr	boss163_st.spr	boss163_wlk.spr
+boss164	boss164_st.spr	boss164_st.spr	boss164_st.spr	boss164_wlk.spr	boss164_wlk.spr	boss164_wlk.spr	boss164_wlk.spr	boss164_bat.spr	boss164_die.spr	boss164_at1.spr	boss164_at2.spr	boss164_at3.spr	boss164_st.spr	boss164_wlk.spr
