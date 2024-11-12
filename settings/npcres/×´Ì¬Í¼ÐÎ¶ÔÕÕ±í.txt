@@ -102,7 +102,7 @@ Status100	\spr\skill\task\skill_mupai.spr	Foot	Loop	0	0	10	1	30	1	T›n s?l÷nh ?mÈ
 Status101	\spr\skill\task\skill_tongpai.spr	Foot	Loop	0	0	10	1	30	1	T›n s?l÷nh ?ßÂng
 Status102	\spr\skill\task\skill_yinpai.spr	Foot	Loop	0	0	11	1	30	1	T›n s?l÷nh ?Bπc
 Status103	\spr\skill\task\skill_jinpai.spr	Foot	Loop	0	0	10	1	30	1	T›n s?l÷nh - Vµng
-Status104	\spr\skill\task\em_90_fssy_a.spr	Foot	Loop	0	0	10	1	30	1	Ng?T?l÷nh bµi - vµng 
+Status104	\spr\skill\task\skill_yucijinpai.spr	Foot	Loop	0	0	10	1	30	1	Ng?T?l÷nh bµi - vµng 
 Status105	\spr\skill\task\randomtask.spr	Head	Loop	0	0	20	1	37	1	trπng th∏i nhi÷m v?ng…u nhi™n 
 Status106	\spr\skill\≤π≥‰\mag_spe_—£‘Œ.spr	Head	Loop	0	0	10	1	10	1	cho∏ng (Gi∏ng Sinh) 
 Status107	\spr\skill\top_tong\bangzhu.spr	Foot	Loop	0	0	16	1	35	1	Bang ch?V‚ L©m ß÷ Nh t Bang

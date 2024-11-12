@@ -995,3 +995,7 @@ boss161	NormalNpc	spr\npcres\boss\boss161
 boss162	NormalNpc	spr\npcres\boss\boss162
 boss163	NormalNpc	spr\npcres\boss\boss163
 boss164	NormalNpc	spr\npcres\boss\boss164
+boss165	NormalNpc	spr\npcres\boss\boss165
+boss166	NormalNpc	spr\npcres\boss\boss166
+boss167	NormalNpc	spr\npcres\boss\boss167
+boss300	NormalNpc	spr\npcres\boss\boss300	
