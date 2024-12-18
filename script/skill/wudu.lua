@@ -122,7 +122,7 @@ SKILLS={
 		skill_cost_v={{{1,10},{20,60}}}
 	},
 	wangu_shixin={ --V¹n §éc Thùc T©m	Chñ ®éng hç trî c«ng kÝch	73
-		poisontimereduce_p={{{1,-100},{20,-300}},{{1,18*45},{20,18*120}}},
+		poisontimereduce_p={{{1,-100},{20,-400}},{{1,18*45},{20,18*120}}},
 		skill_cost_v={{{1,40},{20,40}}}
 	},
 	tiangang_disha={ --Thiªn C­¬ng §Þa S¸t	C«ng kÝch néi c«ng 	71

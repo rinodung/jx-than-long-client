@@ -91,7 +91,7 @@ SKILLS={
 		addcolddamage_v={{{1,10},{30,110}},{{1,-1},{2,-1}}},
 		addpoisondamage_v={{{1,1},{30,10}},{{1,-1},{2,-1}},{{1,10},{2,10}}},
 		addphysicsdamage_p={{{1,15},{20,115}},{{1,-1},{2,-1}},{{1,7},{2,7}}},
-		poisonenhance_p={{{1,1},{30,10}},{{1,-1},{2,-1}}},--thêi gian ®éc ph¸t
+		poisonenhance_p={{{1,0},{30,0}},{{1,-1},{2,-1}}},--thêi gian ®éc ph¸t
 		deadlystrikeenhance_p={{{1,8},{30,26}},{{1,-1},{2,-1}}},
 		attackspeed_v={{{1,29},{30,106},{33,113},{34,116},{35,149},{38,156},{39,159},{40,162}},{{1,-1},{2,-1}}},
 		lifemax_p={{{1,10},{35,10},{36,10}},{{1,-1},{30,-1}}},
@@ -235,7 +235,12 @@ SKILLS={
 			[3]={{1,100},{20,400}}
 		},
 		stun_p={{{1,1},{20,20}},{{1,1},{20,20}}},
-		skill_cost_v={{{1,60},{20,120}}}
+		skill_cost_v={{{1,60},{20,120}}},
+		skill_mintimepercast_v={{{1,3*18},{15,3*18},{20,3*18},{21,3*18}}},	
+		skill_desc=
+			function(level)
+				return "Thêi gian kh«i phôc chiªu thøc: <color=orange>"..floor(Link(level,SKILLS.luanhuan_ji.skill_mintimepercast_v[1]) / 18).." gi©y<color>\n"				
+			end,
 	},
 	nomovespeedatt = {
 		nomovespeed={
@@ -250,7 +255,7 @@ SKILLS={
 
 	shehun_yueying={ --NhiÕp Hån NguyÖt ¶nh	C«ng kÝch ngo¹i c«ng  	339
 		-- physicsenhance_p={{{1,25},{15,150},{20,601}}}, -- fix dame 1.7 > 1.5
-		physicsenhance_p={{{1,37},{15,225},{20,901}}},
+		physicsenhance_p={{{1,37},{15,200},{20,851}}},
 		seriesdamage_p={{{1,20},{15,20},{20,60},{21,62}}},
 		-- poisondamage_v={{{1,5},{20,61}},{{1,60},{20,60}},{{1,10},{20,10}}},
 		poisondamage_v={{{1,10},{20,122}},{{1,60},{20,60}},{{1,10},{20,10}}},
@@ -339,7 +344,7 @@ SKILLS={
 	baoyu_lihua={ -- B¹o Vò Lª Hoa	C«ng kÝch néi c«ng 	302
 		seriesdamage_p={{{1,20},{15,20},{20,60},{21,62}}},
 		-- physicsenhance_p={{{1,15},{15,200},{20,434}}}, -- fix dame 1.4 > 1.2 neft event
-		physicsenhance_p={{{1,18},{15,240},{20,520}}},
+		physicsenhance_p={{{1,18},{15,200},{20,470}}},
 		skill_cost_v={{{1,25},{20,80}}},
 		skill_attackradius={{{1,448},{20,480},{21,480}}},
 		poisondamage_v={{{1,1},{20,19}},{{1,60},{20,60}},{{1,10},{20,10}}},
@@ -426,7 +431,7 @@ SKILLS={
 	jiugong_feixing={ -- Cöu Cung Phi Tinh	C«ng kÝch ngo¹i c«ng  	342
 		seriesdamage_p={{{1,20},{15,20},{20,60},{21,62}}},
 		-- physicsenhance_p={{{1,10},{15,100},{20,394}}}, -- fix dame 2.6 > 2.5
-		physicsenhance_p={{{1,25},{15,220},{20,720}}},--S¸t th­¬ng vËt lý: #d1-%
+		physicsenhance_p={{{1,25},{15,200},{20,650}}},--S¸t th­¬ng vËt lý: #d1-%
 		deadlystrike_p={{{1,20},{20,79}}}, -- fix dame 69 > 79
 		-- poisondamage_v={{{1,1},{20,30}},{{1,60},{20,60}},{{1,10},{20,10}}}, -- fix dame 2.6 > 2.5
 		poisondamage_v={{{1,2},{20,75}},{{1,60},{20,60}},{{1,10},{20,10}}},
