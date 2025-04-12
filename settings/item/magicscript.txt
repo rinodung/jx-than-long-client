@@ -1,16 +1,16 @@
 Ãû³Æ	ItemGenre	DetailType	ParticularType	¶¯»­ÎÄ¼þÃû	¶ÔÓ¦Îï¼þË÷Òý	¿í¶È	¸ß¶È	ËµÃ÷ÎÄ×Ö	ÎåÐÐÊôÐÔ	¼Û¸ñ	µÈ¼¶	ÊÇ·ñµþ·Å	½Å±¾Ãû(²ÎÊý1)	¼¼ÄÜID£¨²ÎÊý1£©	²ÎÊý2(ÊÍ·¨ÀµÐÍ)	²ÎÊý3(ÊÇ·ñ¹ã²¥)	²ÎÊý4(ÊÇ·ñÓÐµÈ¼¶¸ÅÄî)	²ÎÊý5(ÊÇ·ñ¿É·Å¿ì½ÝÀ¸)	Target	ÎïÆ·×î´óµþ·ÅÖµ	ÒªÇóµÈ¼¶ÏµÍ¬	ÒªÇóÎåÐÐÏµÍ¬	ÒªÇóÐÒÔËÏµÍ¬	ÒªÇóMagicLevel1ÏµÍ¬	ÒªÇóMagicLevel2ÏµÍ¬	ÒªÇóMagicLevel3ÏµÍ¬	ÒªÇóMagicLevel4ÏµÍ¬	ÒªÇóMagicLevel5ÏµÍ¬	ÒªÇóMagicLevel6ÏµÍ¬
 VËt phÈm kü n¨ng	6	0	0	\spr\item\questkey\taskobj017.spr	9	1	1	Kü n¨ng ¬i! Kü n¨ng ¬i!		100	1	1	28	141	1	1	1	1		999	0	0	0	0	0	0	0	0	0
 B¶o r­¬ng	6	1	0	\spr\item\script\item_goldenbox.spr	367	2	2	Bªn trong chøa 1 b¶o vËt ngÉu nhiªn		2000	1	0	\script\item\baowubox.lua	0	1	1	0	0		999	0	0	0	0	0	0	0	0	0
-Tr­êng MÖnh hoµn	6	0	1	\spr\item\medecine\obj-potion15.spr	19	1	1	Néi 5 phót, sinh lùc t¨ng tèi ®a: 500 ®iÓm		50	1	0	0	256	1	1	0	1		999	0	0	0	0	0	0	0	0	0
-Gia Bµo hoµn	6	0	2	\spr\item\medecine\obj-potion15.spr	19	1	1	Néi 5 phót, tèc ®é di chuyÓn t¨ng: 20%		50	1	0	0	257	1	1	0	1		999	0	0	0	0	0	0	0	0	0
-§¹i Lùc hoµn	6	0	3	\spr\item\medecine\obj-potion15.spr	19	1	1	Néi 5 phót, c«ng kÝch vËt lý t¨ng: 100 ®iÓm		50	1	0	0	258	1	1	0	1		999	0	0	0	0	0	0	0	0	0
-Cao ThiÓm hoµn	6	0	4	\spr\item\medecine\obj-potion15.spr	19	1	1	Néi 5 phót, t¨ng ®é nÐ tr¸nh: 500 ®iÓm		50	1	0	0	259	1	1	0	1		999	0	0	0	0	0	0	0	0	0
-Cao Trung hoµn	6	0	5	\spr\item\medecine\obj-potion15.spr	19	1	1	Néi 5 phót, t¨ng ®é c«ng kÝch chÝnh x¸c: 500 ®iÓm		50	1	0	0	260	1	1	0	1		999	0	0	0	0	0	0	0	0	0
-Phi Tèc hoµn	6	0	6	\spr\item\medecine\obj-potion15.spr	19	1	1	Néi 5 phót, t¨ng tèc ®é c«ng kÝch: 50%		50	1	0	0	261	1	1	0	1		999	0	0	0	0	0	0	0	0	0
-B¨ng Phßng hoµn	6	0	7	\spr\item\medecine\obj-potion15.spr	19	1	1	Néi 5 phót, t¨ng phßng B¨ng: 50%		50	1	0	0	262	1	1	0	1		999	0	0	0	0	0	0	0	0	0
-L«i Phßng hoµn	6	0	8	\spr\item\medecine\obj-potion15.spr	19	1	1	Néi 5 phót, t¨ng phßng L«i: 50%		50	1	0	0	263	1	1	0	1		999	0	0	0	0	0	0	0	0	0
-Háa Phßng hoµn	6	0	9	\spr\item\medecine\obj-potion15.spr	19	1	1	Néi 5 phót, t¨ng phßng Háa: 50%		50	1	0	0	264	1	1	0	1		999	0	0	0	0	0	0	0	0	0
-§éc Phßng hoµn	6	0	10	\spr\item\medecine\obj-potion15.spr	19	1	1	Néi 5 phót, t¨ng phßng §éc: 50%		50	1	0	0	265	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+Tr­êng MÖnh hoµn	6	1	1	\spr\item\medecine\obj-potion15.spr	19	1	1	Néi trong 5 phót, <color=gold>sinh lùc t¨ng tèi ®a: 500 ®iÓm.<color>		100	1	1	\script\item\medicament\sj_changmingwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+Gia Bµo hoµn	6	1	2	\spr\item\medecine\obj-potion15.spr	19	1	1	Néi trong 5 phót, <color=gold>t¨ng tèc ®é di chuyÓn: 20%.<color>		100	1	1	\script\item\medicament\sj_jiapaowan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+§¹i lùc hoµn	6	1	3	\spr\item\medecine\obj-potion15.spr	19	1	1	Néi trong 5 phót, <color=gold>c«ng kÝch vËt lý t¨ng: 100 ®iÓm.<color>		100	1	1	\script\item\medicament\sj_feisuwan_7thanh1.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+Cao ThiÓm hoµn	6	1	4	\spr\item\medecine\obj-potion15.spr	19	1	1	Néi trong 5 phót, <color=gold>t¨ng nÐ tr¸nh : 500 ®iÓm.<color>		100	1	1	\script\item\medicament\sj_gaoshanwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+Cao Trung hoµn	6	1	5	\spr\item\medecine\obj-potion15.spr	19	1	1	Néi trong 5 phót, <color=gold>t¨ng ®é c«ng kÝch chÝnh x¸c: 500 ®iÓm.<color>		100	1	1	\script\item\medicament\sj_gaozhongwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+Phi Tèc hoµn	6	1	6	\spr\item\medecine\obj-potion15.spr	19	1	1	Néi trong 5 phót, <color=gold>t¨ng tèc ®é c«ng kÝch  50%.<color>		100	1	1	\script\item\medicament\sj_feisuwan_7thanh.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+B¨ng Phßng hoµn	6	1	7	\spr\item\medecine\obj-potion15.spr	19	1	1	Néi trong 5 phót, <color=gold>t¨ng phßng B¨ng: 50%.<color>		100	1	1	\script\item\medicament\sj_bingfangwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+L«i Phßng hoµn	6	1	8	\spr\item\medecine\obj-potion15.spr	19	1	1	Néi trong 5 phót, <color=gold>t¨ng phßng L«i: 50%.<color>		100	1	1	\script\item\medicament\sj_leifangwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+Háa Phßng hoµn	6	1	9	\spr\item\medecine\obj-potion15.spr	19	1	1	Néi trong 5 phót, <color=gold>t¨ng phßng Háa: 50%.<color>		100	1	1	\script\item\medicament\sj_huofangwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
+§éc Phßng hoµn	6	1	10	\spr\item\medecine\obj-potion15.spr	19	1	1	Néi trong 5 phót, <color=gold>t¨ng phßng §éc: 50%.<color>		100	1	1	\script\item\medicament\sj_dufangwan.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
 Ph¸o Hoa	6	0	11	\spr\item\magic\icon_item_baozhu.spr	334	1	1	VËt phÈm kh«ng thÓ thiÕu trong nh÷ng ngµy lÔ tiÕt		50	1	1	0	251	1	1	0	1		999	0	0	0	0	0	0	0	0	0
 Bµn Nh­îc T©m Kinh	6	1	12	\spr\item\questkey\obj_item_lection.spr	341	1	1	PhËt gia B¶o ®iÓn, th­êng xuyªn tông niÖm sÏ trõ ®­îc c¸c ®iÓm ©m kinh nghiÖm.		100	1	0	\script\item\sutra.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
 §¹i Hång Bao	6	1	13	\spr\item\questkey\obj_item_burseb.spr	342	1	1	VËt phÈm kh«ng thÓ thiÕu trong nh÷ng ngµy vui.		100000	1	0	\script\item\moremoneygift.lua	0	1	1	0	1		999	0	0	0	0	0	0	0	0	0
