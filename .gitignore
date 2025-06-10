@@ -17,3 +17,7 @@ Auto/KYTrain/Config/AllUser/Local0001.cfg
 Auto/KYTrain/Config/OfflineName.txt
 *.log
 /Auto/KYTrain/Config/AllUser/GameTest0001.cfg
+settings/npcres-dragon
+maps/dotamap
+spr/npcres/boss
+spr/npcres
