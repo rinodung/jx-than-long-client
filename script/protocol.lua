@@ -26,6 +26,7 @@ ScriptProtocol.KE_SCRIPT_PROTOCOL =
 	-- Begin custom protocol
 	"emSCRIPT_PROTOCOL_LUCKY_TURNTABLE",
 	"emSCRIPT_PROTOCOL_UPDATE_SONG_JIN_PLAYER",
+	"emSCRIPT_PROTOCOL_TASKTRACE",
 	-- End custom protocol
 }
 
@@ -170,6 +171,12 @@ if MODEL_GAMECLIENT == 1 then
 			"\\script\\ui\\battles\\battle_report_manager_c.lua",
 			"BattleReportManager:UpdateSongJinPlayer",
 			{OBJTYPE_NUMBER, OBJTYPE_NUMBER},
+		},
+		{
+			"emSCRIPT_PROTOCOL_TASKTRACE",
+			"\\script\\tasktrace\\ui.lua",
+			"TaskTrace:OpenUI",
+			{OBJTYPE_NUMBER},
 		},
 		-- End custom protocol
 	}
